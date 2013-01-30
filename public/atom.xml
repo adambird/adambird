@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://adambird.com/atom.xml" rel="self"/>
   <link href="http://adambird.com/"/>
-  <updated>2013-01-30T19:34:20+00:00</updated>
+  <updated>2013-01-30T20:51:55+00:00</updated>
   <id>http://adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Top 80s Films Your Children Must See]]></title>
+    <link href="http://adambird.com/top-80s-film-your-children-must-see"/>
+    <updated>2013-01-30T19:50:00+00:00</updated>
+    <id>http://adambird.com/top-80s-film-your-children-must-see</id>
+    <content type="html"><![CDATA[<p>We&#8217;re going through a bit of cultural education of my boys at the moment, Back To The Future I, II &amp; III, ET, Fawlty Towers have all been on the bill.</p>
+
+<p>So I put a call out on twitter last Saturday for film recommendations for 80s films that my children need to see. Here&#8217;s the list (in no particular order).</p>
+
+<ul>
+<li><a href="http://www.imdb.com/title/tt0088979/">D.A.R.Y.L.</a></li>
+<li><a href="http://www.imdb.com/title/tt0091059">Flight of the Navigator</a></li>
+<li><a href="http://www.imdb.com/title/tt0088763">Back to the Future</a></li>
+<li><a href="http://www.imdb.com/title/tt0091369">Labyrinth</a></li>
+<li><a href="http://www.imdb.com/title/tt0083791">The Dark Crystal</a></li>
+<li><a href="http://www.imdb.com/title/tt0080861">Herbie Goes Bananas</a></li>
+<li><a href="http://www.imdb.com/title/tt0091042">Ferris Bueller&#8217;s Day Off</a></li>
+<li><a href="http://www.imdb.com/title/tt0082971">Raiders of the Lost Ark</a></li>
+<li><a href="http://www.imdb.com/title/tt0089218">The Goonies</a></li>
+<li><a href="http://www.imdb.com/title/tt0093779">The Princess Bride</a></li>
+<li><a href="http://www.imdb.com/title/tt0093822">Raising Arizona</a></li>
+<li><a href="http://www.imdb.com/title/tt0090555">Crocodile Dundee</a></li>
+<li><a href="http://www.imdb.com/title/tt0084827">Tron</a></li>
+<li><a href="http://www.imdb.com/title/tt0083866">E.T. the Extra Terrestrial</a></li>
+<li><a href="http://www.imdb.com/title/tt0094737">Big</a></li>
+<li><a href="http://www.imdb.com/title/tt0087538">The Karate Kid</a></li>
+<li><a href="http://www.imdb.com/title/tt0088847">The Breakfast Club</a></li>
+<li><a href="http://www.imdb.com/title/tt0082477">Gregory&#8217;s Girl</a></li>
+<li><a href="http://www.imdb.com/title/tt0087332">Ghostbusters</a></li>
+<li><a href="http://www.imdb.com/title/tt0087597">The Last Starfighter</a></li>
+<li><a href="http://www.imdb.com/title/tt0091949">Short Circuit</a></li>
+<li><a href="http://www.imdb.com/title/tt0085255">Blue Thunder</a></li>
+<li><a href="http://www.imdb.com/title/tt0081633">Time Bandits</a></li>
+</ul>
+
+
+<p>Some I&#8217;m going to hold off for age and content reasons but I think our Saturday night viewing is sorted for a good while.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Code Club, a call to arms]]></title>
@@ -493,65 +533,6 @@ A long promised revolution in travel documentation may well be upon us.</p>
 <p>Which then allows me to reference the model in the master page and keep the logic for deciding the language to display centralised.</p>
 
 <p>Not sure I&#8217;m wholly happy with the inheritance as it adds a level of dependencies which smells a bit off but in the small application I&#8217;m working in it was easy to implement and does what I need.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[UI Integration Testing with CassiniDev and WatiN, not Selenium]]></title>
-    <link href="http://adambird.com/ui-integration-testing-with-cassinidev-and-wa"/>
-    <updated>2010-09-30T20:56:00+01:00</updated>
-    <id>http://adambird.com/ui-integration-testing-with-cassinidev-and-wa</id>
-    <content type="html"><![CDATA[<p>This was to be my first foray into UI integration testing. I&#8217;ve always been a sceptic, scare by the brittleness of any kind of recorded UI test. Luckily Gemma and Jonathan in the dev team persisted and showed me Selenium RC and WatiN. Both these solutions allow you to write the integration tests in code, a critical requirement for me.</p>
-
-<p>Also key for me was this had to work in Hudson, my chosen Continuous Integration server, so simple deployment and management was key. I love being able to check everything I need into source control and have it &#8216;miraculously&#8217; run on the CI server with little or no config.</p>
-
-<p>The first thing I needed was a deployable web server I could, ideally, run in process. Enter <a href="http://cassinidev.codeplex.com/" title="CassiniDev" target="_blank">CassiniDev</a>&nbsp;and specifically the CassiniDev4-Lib.dll. Now this was really tricky to get going ;).</p>
-
-<ol>
-<li><p>Add reference to CassiniDev4-Lib.dll</p></li>
-<li><p>Put following code in my TestFixtureSetup</p></li>
-</ol>
-
-
-<div class="CodeRay">
-  <div class="code"><pre>_hostServer = new CassiniDevServer();
-_hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
-</div>
-
-
-<p>&nbsp;</p>
-
-<p><a href="http://seleniumhq.org/" target="_blank">Selenium</a> wasn&#8217;t quite so simple.</p>
-
-<p>It failed the simple deploy requirement because you have to run the Selenium Server and then use the RC libraries to interact with it and send commands to then run on browsers.</p>
-
-<p>It also has/d a bug where it sends a HEAD before it sends a GET which breaks if your MVC Controller Action as an HttpGet attribute. It sends a 404 because HEAD isn&#8217;t acceptable.</p>
-
-<p>Sky from the CassiniDev team was &uuml;ber-helpful finding this out for me&nbsp;<a href="http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174" target="_blank">http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174</a>.</p>
-
-<p><a href="http://watin.sourceforge.net/" target="_self">WatiN</a> was a different story though. Very simple to use and all run in process. There were a couple of gotcha&#8217;s though.</p>
-
-<p>I had to make sure NUnit was properly running .net 4, stackoverflow helped me there&nbsp;<a href="http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available" target="_blank">http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available</a></p>
-
-<p>And I got a rather gruesome COM exception when I pushed it all up to my CI server.&nbsp;</p>
-
-<div class="CodeRay">
-  <div class="code"><pre>NSystem.UnauthorizedAccessException: Retrieving the COM class factory for component with
-        CLSID {0002DF01-0000-0000-C000-000000000046} failed due to the following error: 
-        80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
-    at WatiN.Core.IE.CreateNewIEAndGoToUri(Uri uri, IDialogHandler logonDialogHandler, 
-        Boolean createInNewProcess)
-    at WatiN.Core.IE..ctor(String url)</pre></div>
-</div>
-
-
-<p>Luckily I found this post that talks through setting the COM permissions correctly for this kind of issue. Specifically giving the correct permissions to the user account used by the Hudson server. <a href="http://www.stuffthatjustworks.com/How+To+Fix+UnauthorizedAccessException+Retrieving+The+COM+Class+Factory+For+Component+With+CLSID.aspx" target="_blank">How To Fix UnauthorizedAccessException Retrieving The COM Class Factory For Component With CLSID</a></p>
-
-<p>Early days, but I now have a green build that includes actually navigating to one of my forms and entering text within an integration test.</p>
-
-<p>Selenium seemed to be the obvious choice for UI testing. I read somewhere that Google is throwing loads of effort into developing it so it would be a good horse to back. However, when I look at my requirements I don&#8217;t need what Selenium offers.</p>
-
-<p>Multi, cross-browser testing is nice but I&#8217;m just looking to confirm stories are operational and routes through my application are valid. The simplicity of WatiN seems to satisfy that nicely.</p>
 ]]></content>
   </entry>
   

@@ -70,6 +70,48 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/beeston-centurions-u9s-sports-men-of-the-leag">Beeston Centurions U9s Sports Men of the League</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-12T23:54:32+01:00" pubdate data-updated="true">Jun 12<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><div class='p_embed p_image_embed'>
+<img alt="Media_httpaudioboofmb_tject" height="1" src="http://getfile3.posterous.com/getfile/files.posterous.com/adambird/ghBhsiaDuqrIusxlHqqorabzjmeIjjymazvHseDFqvytoduwrafFDwEfqDvG/media_httpaudioboofmb_tjeCt.jpg.scaled500.jpg" width="1" />
+</div>
+
+
+<br /><object type="application/x-shockwave-flash" height="129" width="400"><param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="bgColor" value="#FFFFFF" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="window" /><param name="FlashVars" value="mp3Time=03.51pm+12+Jun+2011&amp;rootID=boo_embed_383593&amp;mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league.mp3%3Fsource%3Dembed&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league&amp;mp3Title=Beeston+Centurions+U9s+sports+men+of+the+league" /><a href="http://audioboo.fm/boos/383593-beeston-centurions-u9s-sports-men-of-the-league.mp3?source=embed">Listen!</a></object>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/its-starting-esendexis10">It&#8217;s Starting #esendexis10</a></h1>
     
     
@@ -498,92 +540,6 @@ A long promised revolution in travel documentation may well be upon us.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/ui-integration-testing-with-cassinidev-and-wa">UI Integration Testing With CassiniDev and WatiN, Not Selenium</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-09-30T20:56:00+01:00" pubdate data-updated="true">Sep 30<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This was to be my first foray into UI integration testing. I&#8217;ve always been a sceptic, scare by the brittleness of any kind of recorded UI test. Luckily Gemma and Jonathan in the dev team persisted and showed me Selenium RC and WatiN. Both these solutions allow you to write the integration tests in code, a critical requirement for me.</p>
-
-<p>Also key for me was this had to work in Hudson, my chosen Continuous Integration server, so simple deployment and management was key. I love being able to check everything I need into source control and have it &#8216;miraculously&#8217; run on the CI server with little or no config.</p>
-
-<p>The first thing I needed was a deployable web server I could, ideally, run in process. Enter <a href="http://cassinidev.codeplex.com/" title="CassiniDev" target="_blank">CassiniDev</a>&nbsp;and specifically the CassiniDev4-Lib.dll. Now this was really tricky to get going ;).</p>
-
-<ol>
-<li><p>Add reference to CassiniDev4-Lib.dll</p></li>
-<li><p>Put following code in my TestFixtureSetup</p></li>
-</ol>
-
-
-<div class="CodeRay">
-  <div class="code"><pre>_hostServer = new CassiniDevServer();
-_hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
-</div>
-
-
-<p>&nbsp;</p>
-
-<p><a href="http://seleniumhq.org/" target="_blank">Selenium</a> wasn&#8217;t quite so simple.</p>
-
-<p>It failed the simple deploy requirement because you have to run the Selenium Server and then use the RC libraries to interact with it and send commands to then run on browsers.</p>
-
-<p>It also has/d a bug where it sends a HEAD before it sends a GET which breaks if your MVC Controller Action as an HttpGet attribute. It sends a 404 because HEAD isn&#8217;t acceptable.</p>
-
-<p>Sky from the CassiniDev team was &uuml;ber-helpful finding this out for me&nbsp;<a href="http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174" target="_blank">http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174</a>.</p>
-
-<p><a href="http://watin.sourceforge.net/" target="_self">WatiN</a> was a different story though. Very simple to use and all run in process. There were a couple of gotcha&#8217;s though.</p>
-
-<p>I had to make sure NUnit was properly running .net 4, stackoverflow helped me there&nbsp;<a href="http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available" target="_blank">http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available</a></p>
-
-<p>And I got a rather gruesome COM exception when I pushed it all up to my CI server.&nbsp;</p>
-
-<div class="CodeRay">
-  <div class="code"><pre>NSystem.UnauthorizedAccessException: Retrieving the COM class factory for component with
-        CLSID {0002DF01-0000-0000-C000-000000000046} failed due to the following error: 
-        80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
-    at WatiN.Core.IE.CreateNewIEAndGoToUri(Uri uri, IDialogHandler logonDialogHandler, 
-        Boolean createInNewProcess)
-    at WatiN.Core.IE..ctor(String url)</pre></div>
-</div>
-
-
-<p>Luckily I found this post that talks through setting the COM permissions correctly for this kind of issue. Specifically giving the correct permissions to the user account used by the Hudson server. <a href="http://www.stuffthatjustworks.com/How+To+Fix+UnauthorizedAccessException+Retrieving+The+COM+Class+Factory+For+Component+With+CLSID.aspx" target="_blank">How To Fix UnauthorizedAccessException Retrieving The COM Class Factory For Component With CLSID</a></p>
-
-<p>Early days, but I now have a green build that includes actually navigating to one of my forms and entering text within an integration test.</p>
-
-<p>Selenium seemed to be the obvious choice for UI testing. I read somewhere that Google is throwing loads of effort into developing it so it would be a good horse to back. However, when I look at my requirements I don&#8217;t need what Selenium offers.</p>
-
-<p>Multi, cross-browser testing is nice but I&#8217;m just looking to confirm stories are operational and routes through my application are valid. The simplicity of WatiN seems to satisfy that nicely.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -610,6 +566,10 @@ _hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/top-80s-film-your-children-must-see">Top 80s Films Your Children Must See</a>
+      </li>
+    
+      <li class="post">
         <a href="/code-club-a-call-to-arms">Code Club, a call to arms</a>
       </li>
     
@@ -623,10 +583,6 @@ _hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
     
       <li class="post">
         <a href="/delayedjob-syck-woes-when-deploying-to-heroku">Delayed_job Syck woes when deploying to Heroku Cedar</a>
-      </li>
-    
-      <li class="post">
-        <a href="/remain-friends-with-your-git-collaborators-by">Remain friends with your Git collaborators by auto remove whitespace in Textmate</a>
       </li>
     
   </ul>

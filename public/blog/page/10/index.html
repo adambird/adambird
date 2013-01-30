@@ -9,7 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="To access &nbsp;SQL Azure database, you will need SQL Server Management Studio 2008 R2 CTP. The standard SSMS version doesn&#8217;t cope with the &hellip;">
+  <meta name="description" content="So, I have myself a database in the cloud but it wasn&#8217;t plain sailing migrating from an existing database.I used SQL Server Management Studio &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +64,42 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/migrating-to-sql-azure">Migrating to SQL Azure</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-21T15:27:13+00:00" pubdate data-updated="true">Jan 21<span>st</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So, I have myself a database in the cloud but it wasn&#8217;t plain sailing migrating from an existing database.<p /><div>I used SQL Server Management Studio to generate the whole schema as a script and attempted to run this on the cloud DB. As expected it didn&#8217;t work.&nbsp;</div><p /><div>Here&#8217;s what I had to change:</div><p /><div><div>- Removed all Database creation and settings</div><div>- Removed all Schema and Role creations</div><div>- Stripped out the following index and table options: PAD INDEX,&nbsp;ALLOW_ROW_LOCKS,&nbsp;SORT_IN_TEMPDB, &nbsp;ALLOW_PAGE_LOCKS, TEXTIMAGE_ON</div><div>- Removed all references to the file groups, ie [PRIMARY]</div><div>- Removed all instances of [dbo] referencing. This was actually to resolve an error with some aspnet db views containing three-part column names</div><div>- Added WITH (NOLOCK) to all table references that just had (NOLOCK), again aspnet db views.</div><div>- Populated the aspnet_schemaversions table as follows:</div><p /><div><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;common&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;health monitoring&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;membership&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;personalization&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;profile&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;role manager&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div></div><p /><p /><p /></div></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -442,56 +478,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/first-thoughts-on-azure">First Thoughts on Azure</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-14T16:45:09+00:00" pubdate data-updated="true">Jan 14<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><object type="application/x-shockwave-flash" height="129" width="400">
-        <param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" />
-        <param name="scale" value="noscale" />
-        <param name="salign" value="lt" />
-        <param name="bgColor" value="#FFFFFF" />
-        <param name="wmode" value="window" />
-        <param name="FlashVars" value="mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F90848-first-thoughts-on-azure.mp3&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F90848-first-thoughts-on-azure&amp;mp3Title=first+thoughts+on+Azure&amp;mp3Time=04.44pm+14+Jan+2010" />
-        <a href="http://audioboo.fm/boos/90848-first-thoughts-on-azure.mp3">Listen!</a>
-      </object>
-
-
-
-
-<div class="posterous_quote_citation">via <a href="http://audioboo.fm/boos/90848-first-thoughts-on-azure">AudioBoo</a></div>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/11/">&larr; Older</a>
@@ -518,6 +504,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/top-80s-film-your-children-must-see">Top 80s Films Your Children Must See</a>
+      </li>
+    
+      <li class="post">
         <a href="/code-club-a-call-to-arms">Code Club, a call to arms</a>
       </li>
     
@@ -531,10 +521,6 @@
     
       <li class="post">
         <a href="/delayedjob-syck-woes-when-deploying-to-heroku">Delayed_job Syck woes when deploying to Heroku Cedar</a>
-      </li>
-    
-      <li class="post">
-        <a href="/remain-friends-with-your-git-collaborators-by">Remain friends with your Git collaborators by auto remove whitespace in Textmate</a>
       </li>
     
   </ul>
