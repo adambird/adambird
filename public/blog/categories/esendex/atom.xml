@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: esendex | Bird Stream]]></title>
+  <link href="http://adambird.com/blog/categories/esendex/atom.xml" rel="self"/>
+  <link href="http://adambird.com/"/>
+  <updated>2013-01-30T19:34:20+00:00</updated>
+  <id>http://adambird.com/</id>
+  <author>
+    <name><![CDATA[Adam]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[One of my favourite features of the new office]]></title>
+    <link href="http://adambird.com/one-of-my-favourite-features-of-the-new-offic"/>
+    <updated>2010-09-09T09:39:11+01:00</updated>
+    <id>http://adambird.com/one-of-my-favourite-features-of-the-new-offic</id>
+    <content type="html"><![CDATA[<p><img src="http://adambird.com/images/one-of-my-favourite-features-of-the-new-offic/photo.jpg"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How we laughed!!!]]></title>
+    <link href="http://adambird.com/how-we-laughed"/>
+    <updated>2010-09-08T12:08:29+01:00</updated>
+    <id>http://adambird.com/how-we-laughed</id>
+    <content type="html"><![CDATA[<p><img src="http://adambird.com/images/how-we-laughed/photo.jpg"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Development Team To Be Proud Of]]></title>
+    <link href="http://adambird.com/a-development-team-to-be-proud-of"/>
+    <updated>2010-08-11T21:36:00+01:00</updated>
+    <id>http://adambird.com/a-development-team-to-be-proud-of</id>
+    <content type="html"><![CDATA[<p>We are going through a period of major change at <a href="http://www.esendex.com" target="_blank">Esendex</a>. Not only are we moving to new headquarters, opening an office in San Francisco and rebranding, all in the first two weeks of September, but we're also hiring like mad.&nbsp;As result of this hiring, I'm spending a lot of my time at the moment explaining how the development team work to both people who join us and those that we interview.</p>
+
+<p>I've realised tonight that as I, and they, describe how the team work, I've become really proud of them</p>
+
+<p>We've embrace Agile development in a big way. We live and breathe TDD (Test Driven Development), BDD (Behaviour Driven Development), CI (Continuous Integration), Pair Programming and any other facets of the agile approach that help us deliver better solutions.&nbsp;</p>
+
+<p>The issue for many developers is that Agile can be bloody hard work. You have to review and critique what you're doing all the time, be it code or practice. It's about constantly striving for development bliss, knowing full well that true nirvana is a utopian dream.</p>
+
+<p>Agile is not just a methodology, it's a state of mind.</p>
+
+<p>The best developers are driven by this desire for self-improvement and I'm lucky enough to have a team of them working for me.</p>
+
+<p>It's been 10 years since my agile epiphany when a fellow contractor on a job suggested I read Extreme Programming Explained by Kent Beck. For the first time since then I truly believe I have an excellent agile team.&nbsp;Some have learnt the skills over their years with us others have joined us with a rich set of experiences, but all have an overwhelming desire to be the best they can be.</p>
+
+<p>The Esendex messaging platform is rock solid and has been the focus of our efforts and indeed the foundation of our success over the years. But to date, if I'm honest, we haven't really excelled in giving our customers the best web application experience.</p>
+
+<p>Our new Echo product is a huge step forward from our previous Web SMS tool and has improved the experience for many of our customers but it does bear some of the scars of legacy practices. Elements of it are not examples of how good the development team can be and they are desperate to resolve these.</p>
+
+<p>However, being agile is not about wholesale, sweeping and thus high risk changes. It's about incremental delivery and improvement. Targeting finite resources on those requirements that are most pressing.</p>
+
+<p>The great thing for me, and you if you're a customer, is that that is exactly what the team are doing. Improving the applications every day, and I mean every day.&nbsp;Always striving for quality, always improving our solutions and themselves, always moving forward.</p>
+
+<p>I'm truly proud of our development team, they know exactly where they are, where they want to be and have a damn good idea of how to get there.</p>
+
+<p>I'm lucky to have them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New @esendex office taking shape]]></title>
+    <link href="http://adambird.com/new-esendex-office-taking-shape"/>
+    <updated>2010-08-06T14:54:47+01:00</updated>
+    <id>http://adambird.com/new-esendex-office-taking-shape</id>
+    <content type="html"><![CDATA[<p><img src="http://adambird.com/images/new-esendex-office-taking-shape/IMG_0011.jpg"></p>
+]]></content>
+  </entry>
+  
+</feed>

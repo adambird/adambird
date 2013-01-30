@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rails | Bird Stream]]></title>
+  <link href="http://adambird.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://adambird.com/"/>
+  <updated>2013-01-30T19:34:20+00:00</updated>
+  <id>http://adambird.com/</id>
+  <author>
+    <name><![CDATA[Adam]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Delayed_job Syck woes when deploying to Heroku Cedar]]></title>
+    <link href="http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
+    <updated>2012-06-26T12:11:22+01:00</updated>
+    <id>http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
+    <content type="html"><![CDATA[<p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
+
+<p>I'd upgraded a Rails 2 app that used Delayed_Job to Rails 3 and was deploying the Heroku Cedar stack. Jobs were being queued but would fail immediately when trying to deserialise with</p>
+
+<pre><code>uninitialized constant Syck::Syck
+</code></pre>
+
+<p>when trying to parse and initialise the handler. Irritatingly the worker logs were showing the jobs as successful.</p>
+
+<p>After messing around with trying to explicitly set the YAML parser in <code>config/boot.rb</code> I found the solution.</p>
+
+<p><code>Syck</code> isn't available on the Heroku Cedar stack so you have to include the <code>Psych</code> gem.</p>
+
+<pre><code>gem 'pysch'
+</code></pre>
+
+<p>I then ran this on the console to resubmit the jobs and all was good</p>
+
+<pre><code>Delayed::Job.all.each do |job| job.invoke_job ; job.destroy end
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spork not reloading classes]]></title>
+    <link href="http://adambird.com/spork-not-reloading-classes"/>
+    <updated>2012-03-21T09:37:00+00:00</updated>
+    <id>http://adambird.com/spork-not-reloading-classes</id>
+    <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
+
+<p>Replace this line in test.rb</p>
+
+<pre><code>config.cache_classes = true
+</code></pre>
+
+<p>with this</p>
+
+<pre><code>config.cache_classes = !(ENV['DRB'] == 'true')
+</code></pre>
+
+<p>and development is back to full speed.</p>
+
+<p>More info here&nbsp;<a href="http://Spork not reloading classes">http://www.avenue80.com/tiny-tip-spork-not-reloading-classes/</a></p>
+]]></content>
+  </entry>
+  
+</feed>

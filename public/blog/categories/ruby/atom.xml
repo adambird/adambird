@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | Bird Stream]]></title>
+  <link href="http://adambird.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://adambird.com/"/>
+  <updated>2013-01-30T19:34:20+00:00</updated>
+  <id>http://adambird.com/</id>
+  <author>
+    <name><![CDATA[Adam]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Spork not reloading classes]]></title>
+    <link href="http://adambird.com/spork-not-reloading-classes"/>
+    <updated>2012-03-21T09:37:00+00:00</updated>
+    <id>http://adambird.com/spork-not-reloading-classes</id>
+    <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
+
+<p>Replace this line in test.rb</p>
+
+<pre><code>config.cache_classes = true
+</code></pre>
+
+<p>with this</p>
+
+<pre><code>config.cache_classes = !(ENV['DRB'] == 'true')
+</code></pre>
+
+<p>and development is back to full speed.</p>
+
+<p>More info here&nbsp;<a href="http://Spork not reloading classes">http://www.avenue80.com/tiny-tip-spork-not-reloading-classes/</a></p>
+]]></content>
+  </entry>
+  
+</feed>

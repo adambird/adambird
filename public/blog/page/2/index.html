@@ -1,0 +1,776 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Bird Stream</title>
+  <meta name="author" content="Adam">
+
+  
+  <meta name="description" content=" Listen! ">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adambird.com/blog/page/2/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Bird Stream" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Bird Stream</a></h1>
+  
+    <h2>Software development, entrepreneurship and cycling, often simultaneously</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:adambird.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/its-starting-esendexis10">It&#8217;s Starting #esendexis10</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-10T02:00:47+01:00" pubdate data-updated="true">Jun 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><div class='p_embed p_image_embed'>
+<img alt="Media_httpaudioboofmb_lbuth" height="1" src="http://getfile1.posterous.com/getfile/files.posterous.com/adambird/pdzeBvpyHmEbBHkyfmCxmAEaaBoHzsyAoilExsaFgEiFhGAwqFbIEGuAjqbx/media_httpaudioboofmb_lbutH.jpg.scaled500.jpg" width="1" />
+</div>
+
+
+<br /><object type="application/x-shockwave-flash" height="129" width="400"><param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="bgColor" value="#FFFFFF" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="window" /><param name="FlashVars" value="mp3Time=05.59pm+09+Jun+2011&amp;rootID=boo_embed_381068&amp;mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F381068-it-s-starting-esendexis10.mp3%3Fsource%3Dembed&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F381068-it-s-starting-esendexis10&amp;mp3Title=It%27s+starting+%23esendexis10" /><a href="http://audioboo.fm/boos/381068-it-s-starting-esendexis10.mp3?source=embed">Listen!</a></object>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/add-filters-to-views-using-named-scopes-in-ra">Add Filters to Views Using Named Scopes in Rails</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-05-25T23:18:00+01:00" pubdate data-updated="true">May 25<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This really helped me deliver a rather lovely solution to filtering records on Bunch Rides.</p>
+
+<p><a href="http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-to-views-using-named-scopes-in-rails">http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-&#8230;</a></p>
+
+<p>and here&#8217;s what I did: <a href="http://rides.bunch.cc/clubs/54">http://rides.bunch.cc/clubs/54</a></p>
+
+<p>and the helper code:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>def table_filter(filters, selected_scope)
+  content_tag(:div,
+    raw(filters.collect { |filter| 
+      content_tag(:a, filter[:label], :href =&gt; &quot;?show=#{filter[:scope]}&quot;, :class =&gt; ('selected' if filter[:scope] == selected_scope)) }),  
+    :class =&gt; 'table-filter')
+end</pre></div>
+</div>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/can-nottingham-make-the-most-of-its-own-creat">Can Nottingham Make the Most of Its Own Creative Class?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-04-19T11:07:22+01:00" pubdate data-updated="true">Apr 19<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was interviewed recently, along with Toby Reid (@tobyjbreid), by the Business Editor of the Nottingham Post. We both believe Nottingham as all the ingredients to become a creative and tech power house. <p /> <a href="http://www.thisisbusiness-eastmidlands.co.uk/nottinghamshire/Nottingham-make-creative-class/article-3461030-detail/article.html">http://www.thisisbusiness-eastmidlands.co.uk/nottinghamshire/Nottingham-make-&#8230;</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/my-interview-on-the-entrepreneur-show">My Interview on the Entrepreneur Show</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-25T11:36:00+00:00" pubdate data-updated="true">Mar 25<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><iframe src="http://get-embed.wistia.com/embed/medias/032c4b3dd8?width=500&amp;height=281&amp;autoplay=false&amp;playbutton=true&amp;controls_visible=false&amp;end_video_behavior=default" frameborder="0" height="281" width="500">Loading video &#8230;</iframe>
+
+
+<p>I was lucky enough to be interviewed by <a href="http://twitter.com/robwilmot">@robwilmot</a> on his <a href="http://rob.fibreca.mp">Entrepreneur Show</a> yesterday. It was a great opportunity to share my views on how Nottingham is going to harness some of the current successes in the creative and technology scene to really cement is position as a leading centre for the UK.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-big-m-went-bold-and-got-it-so-right">The Big M Went Bold and Got It So Right</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-23T11:25:00+00:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was at the Big M mobile conference (<a href="http://thebigm.mobi/)">http://thebigm.mobi/)</a> on Monday and am very glad I was. Chris (<a href="http://twitter.com/bookmeister">@bookmeister</a>) and Mike (<a href="http://twitter.com/m1ke_ellis">@m1ke_ellis</a>) made some bold decisions in putting on this event and they paid off. <p /> <span style="font-size: medium;">Bold Decision #1 - Bath </span><p /> Tech innovation and Somerset are not necessarily two words I would associate but they absolutely showed the rest of the country what a great scene exists there. Nottingham (where I live and work) could learn a lot. It is a beautiful city that is a joy to visit. In the battle for talent that cities are (or should be) engaged in now, they have served Bath well. <p /> <span style="font-size: medium;">Bold Decision #2 - No WiFi </span><p /> Didn&#8217;t miss it, in fact I&#8217;m glad it wasn&#8217;t there. The mobile signal was good enough to get emails if anything urgent cropped up. I would imagine this was one of the reasons why people talked to each other more and probably got more out of the speakers. I go to too many conferences these days where people are too busy, surfing, and interacting with people that aren&#8217;t there rather than engaging with the speakers. <p /> <span style="font-size: medium;">Bold Decision #3 - Price</span> <p /> &pound;200 for a one day conference seemed reasonably pricey and pitching this right would have been a really hand wringer but it was spot on. It meant everyone who came really wanted to get something out of it and I&#8217;m guessing it meant they could afford the calibre of speakers that they attracted. <p /> <span style="font-size: medium;">Bold Decision #4 - Comedy/Rock Club Venue</span> <p /> Forget anonymous hotels or convention facilities, more events like this should be held in this kind of venue. Komedia (<a href="http://www.komedia.co.uk/)">http://www.komedia.co.uk/)</a> had all the facilities and looked fantastic. People arrived and there was a palpable buzz as they went through the door into the venue proper. Going to a gig for &#8216;work&#8217;, brilliant. It was especially entertaining watching as a bunch of geeks spilled out on to streets at the breaks, blinking as they readjusted to a bright and very real world still existing outside. <p />  <br />If they run it next year I will absolutely be going as should you. <p /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/going-international-liveish">Going International (Live&#8217;ish)</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-09T20:25:00+00:00" pubdate data-updated="true">Mar 9<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Thanks to <a href="http://twitter.com/pcmcreative">@pcmcreative</a> for live streaming my talk at <a href="http://notttuesday.com">Nott Tuesday</a> last night.</p>
+
+<p>
+<object height="291" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="320">
+<embed src="http://static.bambuser.com/r/player.swf?vid=1481211" type="application/x-shockwave-flash" wmode="opaque" height="291" width="320"></embed>
+<param name="movie" value="http://static.bambuser.com/r/player.swf?vid=1481211" />
+<param name="allowfullscreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<param name="wmode" value="opaque" />
+</object>
+</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/lets-show-graduates-what-nottingham-can-offer">Let&#8217;s Show Graduates What Nottingham Can Offer</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-03T11:26:00+00:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I think it&#8217;s time we showed graduates and under-graduates that Nottingham not only represents a great place to get an education but also a fantastic city in which to build a life and career. We have some great creative and tech companies in the city crying out for talented people to join their successful teams. We need to connect people with these opportunities before they depart for more &#8216;traditional&#8217; destinations.</p>
+
+<p>To do this, I&#8217;m running a recruitment event for internships, work placements and graduate positions in the creative and tech companies of Nottingham.</p>
+
+<p>Before you run a mile with visions of milk-rounds and corporate presentations I&#8217;m going to set it up it in a way that better reflects how we, the new wave of businesses in the city, operate.</p>
+
+<p>While I appreciate that we&#8217;re all often in &#8216;competition&#8217; for the best talent we can get, a collaborative approach will reap for more benefits for us all. Let&#8217;s level the playing field a little and work together to represent Nottingham to the next generation of talented individuals so they can join us in changing our own particular worlds.</p>
+
+<p>So here&#8217;s the, current, plan</p>
+
+<ol>
+<li>Contribution to the costs are in proportion to the employers size. I&#8217;m looking for a couple of larger organisations to underwrite the event (Esendex will be one) in order that we can get it up and running. Current thinking is: 1-5 employees &pound;75, 6-15 &pound;150, 16-30 &pound;300, 30+ &pound;600.</li>
+<li>No presentations, no formal standing up in front of a room full of candidates. Each employer will be represented by a number of existing team members (in proportion to the number of opportunities/size) there to discuss them with the prospects. </li>
+<li>Venue will probably be something like Antenna and the costs are to put money behind the bar and some simple catering.</li>
+<li>Promotion is through word of mouth, contacts, social media and every other way we all know how. Of course the success of the event will rely on everyone knowing about it.</li>
+<li>Participation numbers (both employers and candidates) will controlled and ticketed, using Amiando probably</li>
+<li>I&#8217;m looking at April as the best time to run it.</li>
+</ol>
+
+
+<p>Firstly, let me know what you think. What have I missed, what could be improved, what help can you give in promotion? Please use the comments so we can have a discussion.</p>
+
+<p>Secondly if you can offer opportunities to graduates or under-grads then come direct: <a href="mailto:adam.bird@esendex.com">adam.bird@esendex.com</a>, <a href="http://twitter.com/adambird">@adambird</a></p>
+
+<p>We&#8217;ve started something in Nottingham, let&#8217;s push it to the next level.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/mobile-boarding-pass-success">Mobile Boarding Pass Success</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-11-25T09:18:17+00:00" pubdate data-updated="true">Nov 25<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="/images/mobile-boarding-pass-success/p602.jpg">
+I&#8217;ve tried mobile boarding passes before without success. By the time I&#8217;ve tried to navigate round my phone to get to the appropriate image or web site, getting a piece of paper out has generally been quicker. So it was with a degree of scepticism that I tried out the BA iPhone app with it&#8217;s board pass option for a flight to Lyon today.It worked a treat.
+The key for me was that it worked well enough for the gate agent who hadn&#8217;t used it before to let me board without issue.
+Why did it work this time and not before? A well designed app with good state management and fast app switching was they key. It meant I wasn&#8217;t tentatively nursing my phone as I approached each of the check points desperately trying to keep the screen alive while not navigating away from the boarding code.
+A long promised revolution in travel documentation may well be upon us.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/base-view-model-in-aspnet-mvc">Base View Model in ASP.NET MVC</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-11-08T13:00:00+00:00" pubdate data-updated="true">Nov 8<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I needed to reference some user context variables from within my site master page that had some logic behind their retrieval.</p>
+
+<p>In this example I need to choose the display language for a user.</p>
+
+<ol>
+<li>Check cookie present indicating user&#8217;s language preference</li>
+<li>if not use HTTP language header</li>
+<li>if not use the application default language</li>
+</ol>
+
+
+<p>The pattern I&#8217;ve ended up using is to implement a base view model from which all my specific view models inherit as follows:<span style=""> </span></p>
+
+<p><code></code></p>
+
+<p><code></code></p>
+
+<p><code></code></p>
+
+<p><code>
+<div class="CodeRay">
+  <div class="code"><pre>public class BaseViewModel {     
+    public string UserLanguage     
+    {      
+       get      
+       {          
+           return HttpContext.Current.Request.Cookies[&quot;language&quot;] != null        
+               ? HttpContext.Current.Request.Cookies[&quot;language&quot;].Value           
+               : CultureInfo.CurrentCulture.TwoLetterISOLanguageName;     
+        }
+    } 
+}</pre></div>
+</div>
+
+</code></p>
+
+
+<p>&nbsp;</p>
+
+<p>I then use the generic class for the master page</p>
+
+<p><code>&amp;lt;%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage&amp;lt;BaseViewModel&amp;gt;" %&amp;gt;</code></p>
+
+<p>Which then allows me to reference the model in the master page and keep the logic for deciding the language to display centralised.</p>
+
+<p>Not sure I&#8217;m wholly happy with the inheritance as it adds a level of dependencies which smells a bit off but in the small application I&#8217;m working in it was easy to implement and does what I need.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/ui-integration-testing-with-cassinidev-and-wa">UI Integration Testing With CassiniDev and WatiN, Not Selenium</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-09-30T20:56:00+01:00" pubdate data-updated="true">Sep 30<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This was to be my first foray into UI integration testing. I&#8217;ve always been a sceptic, scare by the brittleness of any kind of recorded UI test. Luckily Gemma and Jonathan in the dev team persisted and showed me Selenium RC and WatiN. Both these solutions allow you to write the integration tests in code, a critical requirement for me.</p>
+
+<p>Also key for me was this had to work in Hudson, my chosen Continuous Integration server, so simple deployment and management was key. I love being able to check everything I need into source control and have it &#8216;miraculously&#8217; run on the CI server with little or no config.</p>
+
+<p>The first thing I needed was a deployable web server I could, ideally, run in process. Enter <a href="http://cassinidev.codeplex.com/" title="CassiniDev" target="_blank">CassiniDev</a>&nbsp;and specifically the CassiniDev4-Lib.dll. Now this was really tricky to get going ;).</p>
+
+<ol>
+<li><p>Add reference to CassiniDev4-Lib.dll</p></li>
+<li><p>Put following code in my TestFixtureSetup</p></li>
+</ol>
+
+
+<div class="CodeRay">
+  <div class="code"><pre>_hostServer = new CassiniDevServer();
+_hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
+</div>
+
+
+<p>&nbsp;</p>
+
+<p><a href="http://seleniumhq.org/" target="_blank">Selenium</a> wasn&#8217;t quite so simple.</p>
+
+<p>It failed the simple deploy requirement because you have to run the Selenium Server and then use the RC libraries to interact with it and send commands to then run on browsers.</p>
+
+<p>It also has/d a bug where it sends a HEAD before it sends a GET which breaks if your MVC Controller Action as an HttpGet attribute. It sends a 404 because HEAD isn&#8217;t acceptable.</p>
+
+<p>Sky from the CassiniDev team was &uuml;ber-helpful finding this out for me&nbsp;<a href="http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174" target="_blank">http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174</a>.</p>
+
+<p><a href="http://watin.sourceforge.net/" target="_self">WatiN</a> was a different story though. Very simple to use and all run in process. There were a couple of gotcha&#8217;s though.</p>
+
+<p>I had to make sure NUnit was properly running .net 4, stackoverflow helped me there&nbsp;<a href="http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available" target="_blank">http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available</a></p>
+
+<p>And I got a rather gruesome COM exception when I pushed it all up to my CI server.&nbsp;</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>NSystem.UnauthorizedAccessException: Retrieving the COM class factory for component with
+        CLSID {0002DF01-0000-0000-C000-000000000046} failed due to the following error: 
+        80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+    at WatiN.Core.IE.CreateNewIEAndGoToUri(Uri uri, IDialogHandler logonDialogHandler, 
+        Boolean createInNewProcess)
+    at WatiN.Core.IE..ctor(String url)</pre></div>
+</div>
+
+
+<p>Luckily I found this post that talks through setting the COM permissions correctly for this kind of issue. Specifically giving the correct permissions to the user account used by the Hudson server. <a href="http://www.stuffthatjustworks.com/How+To+Fix+UnauthorizedAccessException+Retrieving+The+COM+Class+Factory+For+Component+With+CLSID.aspx" target="_blank">How To Fix UnauthorizedAccessException Retrieving The COM Class Factory For Component With CLSID</a></p>
+
+<p>Early days, but I now have a green build that includes actually navigating to one of my forms and entering text within an integration test.</p>
+
+<p>Selenium seemed to be the obvious choice for UI testing. I read somewhere that Google is throwing loads of effort into developing it so it would be a good horse to back. However, when I look at my requirements I don&#8217;t need what Selenium offers.</p>
+
+<p>Multi, cross-browser testing is nice but I&#8217;m just looking to confirm stories are operational and routes through my application are valid. The simplicity of WatiN seems to satisfy that nicely.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <img src="/images/adam-avatar.jpg">
+  <p>A software developer, entrepreneur and cyclists you may know from such productions as:</p>
+  <ul>
+    <li><a href="http://www.esendex.co.uk"><img src="/images/esendex-logo.jpg" width="40px" alt="Esendex logo" class="left"/>Esendex: international text messaging service provider</a></li>
+    <li><a href="http://www.bunch.cc"><img src="/images/bunch-rides-logo.png" width="40px" alt="Bunch Rides logo" class="left"/>Bunch Rides: cycling training diary &amp; bike ride organiser</a></li>
+    <li><a href="http://evenitron.com"><img src="/images/evenitron-logo.png" width="40px" alt="Evenitron logo" class="left"/>Evenitron: resque and delayed_job monitoring</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/code-club-a-call-to-arms">Code Club, a call to arms</a>
+      </li>
+    
+      <li class="post">
+        <a href="/4-years-a-thought-experiment">4 years - a thought experiment</a>
+      </li>
+    
+      <li class="post">
+        <a href="/the-nottingham-creative-quarter-what-can-you">The Nottingham Creative Quarter - What can you do</a>
+      </li>
+    
+      <li class="post">
+        <a href="/delayedjob-syck-woes-when-deploying-to-heroku">Delayed_job Syck woes when deploying to Heroku Cedar</a>
+      </li>
+    
+      <li class="post">
+        <a href="/remain-friends-with-your-git-collaborators-by">Remain friends with your Git collaborators by auto remove whitespace in Textmate</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/adambird">@adambird</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'adambird',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("adambird", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/adambird" class="twitter-follow-button" data-show-count="false">Follow @adambird</a>
+  
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll&#8230;</ul>
+  <p><a href="http://pinboard.in/u:adambird">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "adambird"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/104354607130956266898?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Adam -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'adambird';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

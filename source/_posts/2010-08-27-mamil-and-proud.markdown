@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Mamil and proud"
+description: "I read with some amusement the recent BBC article about Middle Aged Men In Lycra, Mamils (http://www.bbc.co.uk/news/magazine-10965608). Yes much of it rang true but I can't help feeling that there is an element of cynicism and sneering that drives..."
+date: Fri Aug 27 03:01:08 -0700 2010
+comments: true
+author: Adam
+categories: [cycling]
+---
+
+I read with some amusement the recent BBC article about Middle Aged Men In Lycra, Mamils (<a href="http://www.bbc.co.uk/news/magazine-10965608)">http://www.bbc.co.uk/news/magazine-10965608)</a>. Yes much of it rang true but I can't help feeling that there is an element of cynicism and sneering that drives that sort of moniker. <p /> It's the same in most sports-cum-leisure activities. The hard-core of 'real' participants look down their noses at these johnny-cum-latelys as some how not worthy of participating in 'their' sport. Turn-up on something expensive with which to participate in the sport like a carbon race frame or high-end clothing and this just fuels their derision. <p /> As an owner of much high-quality kit and no points to my racing name I am truly a Mamil to be derided. It's all about the legs apparently. If you haven't got the legs you should know your place and let the real-men show you how it's done. <p /> And they've done it the hard way. <p /> Balls to the hard-way. I was never very sporty and spent my twenties abusing my body with booze and fags. So no school of hard knocks apprenticeship for me but I have reached middle-age with kids and a decent career. So now I'm short on time and have a bit of disposable income. <p /> Being able to afford decent kit is brilliant. <p /> Beating other people is great too but bike races only have one winner out of anything up to 100 entrants so chances are high it's not going to be me. With that in mind I intend to enjoy myself riding in the bunch, putting myself in the mix and seeing which way the dice fall. <p /> Doing that in the best kit I'm prepared to afford just adds to the fun.

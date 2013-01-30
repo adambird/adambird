@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Oh yes!"
+description: ""
+date: Thu Dec 24 07:45:32 -0800 2009
+comments: true
+author: Adam
+categories: []
+---
+
+<img src="/images/oh-yes-74/IMG_0002.jpg">

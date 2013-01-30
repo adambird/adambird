@@ -1,0 +1,11 @@
+---
+layout: post
+title: "@beestoncc web site"
+description: "Having already stepped down through lack of time from moving the Beeston CC web site forward, I've stayed out of the discussions to date but I think it's got to the point where I would like to give my opinion. I think the current solution has miss..."
+date: Fri Jun 11 11:14:14 -0700 2010
+comments: true
+author: Adam
+categories: []
+---
+
+Having already stepped down through lack of time from moving the Beeston CC web site forward, I've stayed out of the discussions to date but I think it's got to the point where I would like to give my opinion. <p /> I think the current solution has missed the key requirement of any web site, engagement. <p /> Whatever technology you use, however easy or hard it is to utilise, the content and layout of the site must engage with it's audience. <p /> The forum is not doing that. <p /> My belief is that a technical solution has been chosen to suit the capabilities of the operator rather than to suit the purpose of the site. <p /> My choice of Wordpress as the platform was not because I knew how to use it, I was learning as I went along, but it was based on a hunch and a year of experimentation with Ride for Round Hill. This was born out by the success of the site in showcasing the club and attracting lots of new members. The forum approach just makes us look like any other club. Not the vision Adrian, Richard and myself had when we decided to found the club in 2008. <p /> Yes it had it's issues but ultimately more people read, commented and posted than the current solution. <p /> Also let's not ignore the fact that the most vocal detractors of the old site still aren't posting on the new one. <p /> It's time to look objectively at what the club needs from the site. I for one think we could do worse than just putting the old site back to the way it was and get some of the passion back into our club. <p /> A few small amendments would allow access to the key information that the people need while retaining the pace and fun of the original vision. <p /> I'm happy to direct the project, I just need someone with PHP skills (the development environment of Wordpress) to do the implementation. <p /> So Beeston CC your club needs you to find a Beeston dwelling PHP developer who cycles.

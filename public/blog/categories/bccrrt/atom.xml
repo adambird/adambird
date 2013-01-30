@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: bccrrt | Bird Stream]]></title>
+  <link href="http://adambird.com/blog/categories/bccrrt/atom.xml" rel="self"/>
+  <link href="http://adambird.com/"/>
+  <updated>2013-01-30T19:34:20+00:00</updated>
+  <id>http://adambird.com/</id>
+  <author>
+    <name><![CDATA[Adam]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Predictions for Darley Moor race 1]]></title>
+    <link href="http://adambird.com/predictions-for-darley-moor-race-1"/>
+    <updated>2010-01-16T11:37:57+00:00</updated>
+    <id>http://adambird.com/predictions-for-darley-moor-race-1</id>
+    <content type="html"><![CDATA[<object type="application/x-shockwave-flash" height="129" width="400">
+        <param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" />
+        <param name="scale" value="noscale" />
+        <param name="salign" value="lt" />
+        <param name="bgColor" value="#FFFFFF" />
+        <param name="wmode" value="window" />
+        <param name="FlashVars" value="mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F91221-predictions-for-darley-moor-race-1.mp3&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F91221-predictions-for-darley-moor-race-1&amp;mp3Title=Predictions+for+Darley+Moor+race+1&amp;mp3Time=11.34am+16+Jan+2010" />
+        <a href="http://audioboo.fm/boos/91221-predictions-for-darley-moor-race-1.mp3">Listen!</a>
+      </object>
+
+
+
+
+<div class="posterous_quote_citation">via <a href="http://audioboo.fm/boos/91221-predictions-for-darley-moor-race-1">AudioBoo</a></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2 hour turbo]]></title>
+    <link href="http://adambird.com/2-hour-turbo"/>
+    <updated>2010-01-14T14:55:59+00:00</updated>
+    <id>http://adambird.com/2-hour-turbo</id>
+    <content type="html"><![CDATA[<p>
+<object type="application/x-shockwave-flash" height="129" width="400">
+<param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" />
+<param name="scale" value="noscale" />
+<param name="salign" value="lt" />
+<param name="bgColor" value="#FFFFFF" />
+<param name="allowScriptAccess" value="always" />
+<param name="wmode" value="window" />
+<param name="FlashVars" value="mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F90720-2-hour-turbo.mp3&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F90720-2-hour-turbo&amp;mp3Title=2+hour+turbo&amp;mp3Time=06.56am+14+Jan+2010" /><a href="http://audioboo.fm/boos/90720-2-hour-turbo.mp3">Listen!</a>
+</object>
+</p>
+
+]]></content>
+  </entry>
+  
+</feed>

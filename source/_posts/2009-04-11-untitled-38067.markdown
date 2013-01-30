@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Prosecco Special Cuvee Zonin"
+description: "__________ Nice and appley, very light, don't chill it too much"
+date: Sat Apr 11 11:09:00 -0700 2009
+comments: true
+author: Adam
+categories: []
+---
+
+<img src="/images/untitled-38067/photo.jpg">
+__________
+
+
+Nice and appley, very light, don't chill it too much
