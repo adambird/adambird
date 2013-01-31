@@ -2,7 +2,7 @@
 layout: post
 title: "Oh @vodafoneuk the week started so well"
 description: "Last week I tweeted about what great support I'd had from Vodafone UK. I'd needed some help setting up a new Blackberry on Monday and the guy on the support desk was great. He was informed, helpful and keen to ensure my BlackBerry was fully setup...."
-date: Mon Jul 05 00:57:17 -0700 2010
+date: 2010-07-05 00:00
 comments: true
 author: Adam
 categories: []

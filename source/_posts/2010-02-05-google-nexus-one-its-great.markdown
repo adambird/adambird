@@ -2,7 +2,7 @@
 layout: post
 title: "Google Nexus One, it's great..."
 description: "I've been using the Nexus One for a couple of weeks now and I really like it. The first thing you notice is how reassuringly solid it feels in your hand. It reeks of a build quality not seen in previous Android devices. Next is the speed, it is ve..."
-date: Fri Feb 05 04:55:35 -0800 2010
+date: 2010-02-05 00:00
 comments: true
 author: Adam
 categories: [toys]

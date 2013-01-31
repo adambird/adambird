@@ -2,7 +2,7 @@
 layout: post
 title: "Knackered Mamil Syndrome"
 description: "Competitive cycling is a demanding mistress. Couple that with a career and a family and you have a recipe for doing some serious damage to yourself. I sit here after two months of enforced cycling lay-off through being repeatedly ill and am forced..."
-date: Fri Aug 27 03:02:55 -0700 2010
+date: 2010-08-27 00:00
 comments: true
 author: Adam
 categories: [cycling]

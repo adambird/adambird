@@ -2,7 +2,7 @@
 layout: post
 title: "Getting setup for SQL Azure "
 description: "To access SQL Azure database, you will need SQL Server Management Studio 2008 R2 CTP. The standard SSMS version doesn't cope with the slightly different schema of the cloud based cousin of the SQL 2008 we all know and love.The Express edition of t..."
-date: Thu Jan 21 01:43:00 -0800 2010
+date: 2010-01-21 00:00
 comments: true
 author: Adam
 categories: [azure,dev]

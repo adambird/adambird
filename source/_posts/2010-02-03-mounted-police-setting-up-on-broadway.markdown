@@ -2,7 +2,7 @@
 layout: post
 title: "Mounted Police setting up on Broadway"
 description: ""
-date: Wed Feb 03 02:55:15 -0800 2010
+date: 2010-02-03 00:00
 comments: true
 author: Adam
 categories: []

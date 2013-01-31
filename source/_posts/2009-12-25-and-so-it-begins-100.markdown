@@ -2,7 +2,7 @@
 layout: post
 title: "And so it begins"
 description: ""
-date: Fri Dec 25 03:45:14 -0800 2009
+date: 2009-12-25 00:00
 comments: true
 author: Adam
 categories: []

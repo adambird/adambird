@@ -2,7 +2,7 @@
 layout: post
 title: "La Marmotte Recce"
 description: "Just realised that I never posted this up from my recent trip to the Alps recce'ing in preparation for La Marmotte. Just 7 days to go and still feeling the effects of a virus so my planned taper has evaporated. A years training focus and it comes ..."
-date: Sat Jun 26 02:58:00 -0700 2010
+date: 2010-06-26 00:00
 comments: true
 author: Adam
 categories: []

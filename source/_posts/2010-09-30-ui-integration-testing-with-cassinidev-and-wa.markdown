@@ -2,7 +2,7 @@
 layout: post
 title: "UI Integration Testing with CassiniDev and WatiN, not Selenium"
 description: "This was to be my first foray into UI integration testing. I've always been a sceptic, scare by the brittleness of any kind of recorded UI test. Luckily Gemma and Jonathan in the dev team persisted and showed me Selenium RC and WatiN. Both these s..."
-date: Thu Sep 30 12:56:00 -0700 2010
+date: 2010-09-30 00:00
 comments: true
 author: Adam
 categories: [dev]

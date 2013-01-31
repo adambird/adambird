@@ -2,7 +2,7 @@
 layout: post
 title: "Is this the highest a Beeston CC shirt has been ridden to?"
 description: ""
-date: Thu May 20 04:32:33 -0700 2010
+date: 2010-05-20 00:00
 comments: true
 author: Adam
 categories: []

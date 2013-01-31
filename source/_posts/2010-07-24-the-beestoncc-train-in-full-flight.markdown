@@ -2,7 +2,7 @@
 layout: post
 title: "The @beestoncc train in full flight"
 description: ""
-date: Sat Jul 24 00:57:18 -0700 2010
+date: 2010-07-24 00:00
 comments: true
 author: Adam
 categories: []

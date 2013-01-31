@@ -2,7 +2,7 @@
 layout: post
 title: "Winnats Pass"
 description: "Listen! via AudioBoo"
-date: Fri May 14 05:42:47 -0700 2010
+date: 2010-05-14 00:00
 comments: true
 author: Adam
 categories: []

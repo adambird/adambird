@@ -2,7 +2,7 @@
 layout: post
 title: "I have a new home page iPhone app"
 description: "This is a really well executed app from the Met Office. An absolutely must for commuting cyclists."
-date: Sun Feb 07 07:30:20 -0800 2010
+date: 2010-02-07 00:00
 comments: true
 author: Adam
 categories: []

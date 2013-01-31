@@ -2,7 +2,7 @@
 layout: post
 title: "Predictions for Darley Moor race 1"
 description: "Listen! via AudioBoo"
-date: Sat Jan 16 03:37:57 -0800 2010
+date: 2010-01-16 00:00
 comments: true
 author: Adam
 categories: [bccrrt]

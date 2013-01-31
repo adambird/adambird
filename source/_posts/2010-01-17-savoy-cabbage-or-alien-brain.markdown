@@ -2,7 +2,7 @@
 layout: post
 title: "Savoy cabbage or alien brain?"
 description: ""
-date: Sun Jan 17 09:37:41 -0800 2010
+date: 2010-01-17 00:00
 comments: true
 author: Adam
 categories: []

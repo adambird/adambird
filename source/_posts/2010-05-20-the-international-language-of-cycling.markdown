@@ -2,7 +2,7 @@
 layout: post
 title: "The International Language of Cycling"
 description: "A truly stunning day in the Alps today. Julian and I started early from Grenoble and headed south and then up the valley towards Bourg d'Oisans. We turned left at Rochetaillé and took on the mighty climb up to the Col du Glandon and the Col de la ..."
-date: Thu May 20 22:04:23 -0700 2010
+date: 2010-05-20 00:00
 comments: true
 author: Adam
 categories: []

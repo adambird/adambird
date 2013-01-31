@@ -2,7 +2,7 @@
 layout: post
 title: "End of the road"
 description: ""
-date: Fri May 21 03:21:45 -0700 2010
+date: 2010-05-21 00:00
 comments: true
 author: Adam
 categories: []

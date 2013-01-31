@@ -2,7 +2,7 @@
 layout: post
 title: "Pigeon Love"
 description: "Seems the fire escape outside my window has turned into a pigeon seduction pad."
-date: Fri Jul 23 06:01:00 -0700 2010
+date: 2010-07-23 00:00
 comments: true
 author: Adam
 categories: []

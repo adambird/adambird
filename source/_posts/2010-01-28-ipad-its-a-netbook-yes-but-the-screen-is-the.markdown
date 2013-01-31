@@ -2,7 +2,7 @@
 layout: post
 title: "iPad - it's a netbook yes but the screen is the key"
 description: "Like much of the tech community on twitter I was left a little non-plussed by the launch of the iPad but having slept on it I think this could be another killer segment for Apple. A while ago I bought a netbook (Dell Mini 10v) and installed OSX wi..."
-date: Thu Jan 28 10:36:17 -0800 2010
+date: 2010-01-28 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "For all you gravy lovers"
 description: ""
-date: Thu Dec 24 03:31:55 -0800 2009
+date: 2009-12-24 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Catching up on some long overdue reading"
 description: "Need to catch the train more often"
-date: Thu Jan 14 08:20:57 -0800 2010
+date: 2010-01-14 00:00
 comments: true
 author: Adam
 categories: []

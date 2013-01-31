@@ -2,7 +2,7 @@
 layout: post
 title: "Do Androids Dream Of Electric Sheep"
 description: "Just finished reading this for the first time many, many years after first watching and loving Bladerunner, the film it inspired. It's a wonderfully dark and deep story, far more so than the film. The vulnerability of Deckard, subsumed in the naiv..."
-date: Fri Aug 27 12:22:00 -0700 2010
+date: 2010-08-27 00:00
 comments: true
 author: Adam
 categories: []

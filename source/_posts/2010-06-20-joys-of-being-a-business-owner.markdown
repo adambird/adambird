@@ -2,7 +2,7 @@
 layout: post
 title: "Joys of being a business owner"
 description: "Listen! via AudioBoo"
-date: Sun Jun 20 10:21:26 -0700 2010
+date: 2010-06-20 00:00
 comments: true
 author: Adam
 categories: []

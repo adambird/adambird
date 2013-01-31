@@ -2,7 +2,7 @@
 layout: post
 title: "Norwegian scuba divers chasing Google Street View car"
 description: "View Larger Map"
-date: Wed Feb 10 14:00:00 -0800 2010
+date: 2010-02-10 00:00
 comments: true
 author: Adam
 categories: []

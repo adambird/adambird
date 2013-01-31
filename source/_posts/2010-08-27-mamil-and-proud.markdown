@@ -2,7 +2,7 @@
 layout: post
 title: "Mamil and proud"
 description: "I read with some amusement the recent BBC article about Middle Aged Men In Lycra, Mamils (http://www.bbc.co.uk/news/magazine-10965608). Yes much of it rang true but I can't help feeling that there is an element of cynicism and sneering that drives..."
-date: Fri Aug 27 03:01:08 -0700 2010
+date: 2010-08-27 00:00
 comments: true
 author: Adam
 categories: [cycling]

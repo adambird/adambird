@@ -2,7 +2,7 @@
 layout: post
 title: "This time last year I was about to do something epic"
 description: "Ventoux 09 The Movie from Adam Bird on Vimeo. This year it's La Marmotte which I suspect might be even more of a challenge. Dead excited"
-date: Wed Jun 16 01:36:00 -0700 2010
+date: 2010-06-16 00:00
 comments: true
 author: Adam
 categories: []

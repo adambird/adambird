@@ -2,7 +2,7 @@
 layout: post
 title: "Going International (live'ish)"
 description: "Thanks to @pcmcreative for live streaming my talk at Nott Tuesday last night."
-date: Wed Mar 09 12:25:00 -0800 2011
+date: 2011-03-09 00:00
 comments: true
 author: Adam
 categories: []

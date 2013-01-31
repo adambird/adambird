@@ -2,7 +2,7 @@
 layout: post
 title: "Gorgeous early morning ride from San Francisco"
 description: "Brought my bike with me to San Francisco and so glad I did. Julian and I had a big run out on Monday and quick dash over the bridge early Tuesday, but this morning I got up extra early and was really rewarded. Beautifully sunny, clear morning. Cyc..."
-date: Thu May 06 11:46:00 -0700 2010
+date: 2010-05-06 00:00
 comments: true
 author: Adam
 categories: []

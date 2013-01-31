@@ -2,7 +2,7 @@
 layout: post
 title: "A Development Team To Be Proud Of"
 description: "We are going through a period of major change at Esendex. Not only are we moving to new headquarters, opening an office in San Francisco and rebranding, all in the first two weeks of September, but we're also hiring like mad. As result of this hir..."
-date: Wed Aug 11 13:36:00 -0700 2010
+date: 2010-08-11 00:00
 comments: true
 author: Adam
 categories: [esendex]

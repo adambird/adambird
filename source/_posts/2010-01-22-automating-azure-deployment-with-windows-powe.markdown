@@ -2,7 +2,7 @@
 layout: post
 title: "Automating Azure deployment with Windows PowerShell"
 description: "One of the pre-requisites I had for using Azure was that it could be deployed automatically as part of an integration and deployment process. A quick scan through the Labs in the Windows Azure Platform Kit, which by the way have been an excellent ..."
-date: Fri Jan 22 08:08:00 -0800 2010
+date: 2010-01-22 00:00
 comments: true
 author: Adam
 categories: []

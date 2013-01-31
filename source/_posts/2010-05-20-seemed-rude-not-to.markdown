@@ -2,7 +2,7 @@
 layout: post
 title: "Seemed rude not to"
 description: ""
-date: Thu May 20 05:15:01 -0700 2010
+date: 2010-05-20 00:00
 comments: true
 author: Adam
 categories: []

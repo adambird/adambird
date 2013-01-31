@@ -2,7 +2,7 @@
 layout: post
 title: "Custom domain names in Windows Azure "
 description: "need a a CNAME mapping to /cloudapp.net as described here: http://blog.smarx.com/posts/custom-domain-names-in-windows-azure"
-date: Wed Jan 27 07:57:03 -0800 2010
+date: 2010-01-27 00:00
 comments: true
 author: Adam
 categories: [dev]

@@ -2,7 +2,7 @@
 layout: post
 title: "The Big M Went Bold And Got It So Right"
 description: "I was at the Big M mobile conference (http://thebigm.mobi/) on Monday and am very glad I was. Chris (@bookmeister) and Mike (@m1ke_ellis) made some bold decisions in putting on this event and they paid off. Bold Decision #1 - Bath Tech innovation ..."
-date: Wed Mar 23 04:25:00 -0700 2011
+date: 2011-03-23 00:00
 comments: true
 author: Adam
 categories: []

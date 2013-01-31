@@ -2,7 +2,7 @@
 layout: post
 title: "Swimming with Champions"
 description: "I've been at Loughborough University this evening having my swim stroke recorded and analysed to see what I can do to improve my swimming. Fascinating stuff and not quite the horror story I was expecting, which is good. At one point, while I was w..."
-date: Thu Jan 14 12:23:00 -0800 2010
+date: 2010-01-14 00:00
 comments: true
 author: Adam
 categories: []

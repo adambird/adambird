@@ -2,7 +2,7 @@
 layout: post
 title: "2 hour turbo"
 description: "Listen!"
-date: Thu Jan 14 06:55:59 -0800 2010
+date: 2010-01-14 00:00
 comments: true
 author: Adam
 categories: [bccrrt]

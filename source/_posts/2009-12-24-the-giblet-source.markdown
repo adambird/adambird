@@ -2,7 +2,7 @@
 layout: post
 title: "The giblet source"
 description: ""
-date: Thu Dec 24 03:33:39 -0800 2009
+date: 2009-12-24 00:00
 comments: true
 author: Adam
 categories: []

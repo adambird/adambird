@@ -2,7 +2,7 @@
 layout: post
 title: "Easy to be critical"
 description: "In development you get very used to people making sweeping criticisms of your work. People who have not been party to the constant decision and compromise process that is building web sites and applications find it very easy to tell you something ..."
-date: Sun Aug 01 13:52:09 -0700 2010
+date: 2010-08-01 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "A DVCS working process"
 description: "I've started working with Git using GitHub as a remote repository. This introduces into my life branching as a cheap operation and makes for a potentially different way of working. After a discussion with the guys at work on Friday afternoon, here..."
-date: Sat Sep 04 08:44:00 -0700 2010
+date: 2010-09-04 00:00
 comments: true
 author: Adam
 categories: [dev]

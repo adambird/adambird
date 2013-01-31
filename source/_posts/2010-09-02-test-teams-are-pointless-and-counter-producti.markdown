@@ -2,7 +2,7 @@
 layout: post
 title: "Test teams are pointless and counter-productive"
 description: "In an Agile world unit tests and integration tests, in our case driven by BDD declared stories, are a fundamental part of a development team's output. It could be argued that this is the most important element as these both prove the software work..."
-date: Thu Sep 02 08:21:08 -0700 2010
+date: 2010-09-02 00:00
 comments: true
 author: Adam
 categories: [dev]

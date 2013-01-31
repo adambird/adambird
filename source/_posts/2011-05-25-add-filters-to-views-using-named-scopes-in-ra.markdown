@@ -2,7 +2,7 @@
 layout: post
 title: "Add Filters to Views Using Named Scopes in Rails"
 description: "This really helped me deliver a rather lovely solution to filtering records on Bunch Rides. http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-... and here's what I did: http://rides.bunch.cc/clubs/54 and the helper code:..."
-date: Wed May 25 15:18:00 -0700 2011
+date: 2011-05-25 00:00
 comments: true
 author: Adam
 categories: []

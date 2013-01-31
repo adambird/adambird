@@ -2,7 +2,7 @@
 layout: post
 title: "Prosecco Special Cuvee Zonin"
 description: "__________ Nice and appley, very light, don't chill it too much"
-date: Sat Apr 11 11:09:00 -0700 2009
+date: 2009-04-11 00:00
 comments: true
 author: Adam
 categories: []

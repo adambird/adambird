@@ -2,7 +2,7 @@
 layout: post
 title: "The perils of focus"
 description: "Yesterday was to be the culmination of 9 months effort and training. From the moment i got back on the bike after having surgery to repair a broken collar bone, La Marmotte was my goal. Training for La Marmotte ended up consuming the whole of my t..."
-date: Sun Jul 04 03:46:00 -0700 2010
+date: 2010-07-04 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Why @YoSushiNotts annoyed me today"
 description: "Seems only fair that I explain what prompted my vitriolic tweet earlier. I decided to treat myself to Yo Sushi takeaway for lunch today. I wanted something quick and felt I deserved something nice and it's just round the corner from the office, pe..."
-date: Fri Jun 11 06:47:22 -0700 2010
+date: 2010-06-11 00:00
 comments: true
 author: Adam
 categories: []

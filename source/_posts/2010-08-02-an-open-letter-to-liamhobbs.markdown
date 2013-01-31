@@ -2,7 +2,7 @@
 layout: post
 title: "An open letter to @liamhobbs"
 description: "I have a request. Please stop insulting me in posts and tweets. Please stop re-tweeting my comments with snide remarks. Please stop commenting on posts I make, whatever the web site. I've tried ignoring you but that just seemed to make matters wor..."
-date: Mon Aug 02 16:26:51 -0700 2010
+date: 2010-08-02 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Ready for assembly"
 description: "Got the S1 frame home today and had every intention of starting the build this evening. Got sidetracked sorting out the garage but it does mean my workspace is sorted which is pleasing the control freak/anorak in me no end. Work commences Friday."
-date: Wed Aug 04 15:31:04 -0700 2010
+date: 2010-08-04 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "first thoughts on Azure"
 description: "Listen! via AudioBoo"
-date: Thu Jan 14 08:45:09 -0800 2010
+date: 2010-01-14 00:00
 comments: true
 author: Adam
 categories: []

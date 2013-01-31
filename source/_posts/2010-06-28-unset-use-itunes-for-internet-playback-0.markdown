@@ -2,7 +2,7 @@
 layout: post
 title: "Unset Use iTunes for Internet Playback"
 description: "You know when you clicked on the option to use iTunes as the default player for Internet media and immediately regretted it well I've found the solution.It seems the preferences pane option is not a toggle so you'll need to go in an edit the file ..."
-date: Mon Jun 28 05:39:00 -0700 2010
+date: 2010-06-28 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Camping with kids, a cure for snobbery"
 description: "I'll admit that I wasn't wholly looking forward to a bank holiday weekend spent camping in the New Forest. The picture above pretty much represented a close approximation to hell in my book. As the rain came down on Saturday morning i was feeling ..."
-date: Mon May 31 13:47:37 -0700 2010
+date: 2010-05-31 00:00
 comments: true
 author: Adam
 categories: []

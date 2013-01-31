@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Top 80s Films Your Children Must See"
+title: "The Top 80s Films That Your Children Must See"
 date: 2013-01-30 19:50
 comments: true
+author: Adam
 categories: [stuff]
 ---
 
 We're going through a bit of cultural education of my boys at the moment, Back To The Future I, II & III, ET, Fawlty Towers have all been on the bill.
 
 So I put a call out on twitter last Saturday for film recommendations for 80s films that my children need to see. Here's the list (in no particular order). 
-
+<!-- more -->
 + [D.A.R.Y.L.](http://www.imdb.com/title/tt0088979/)
 + [Flight of the Navigator](http://www.imdb.com/title/tt0091059)
 + [Back to the Future](http://www.imdb.com/title/tt0088763)

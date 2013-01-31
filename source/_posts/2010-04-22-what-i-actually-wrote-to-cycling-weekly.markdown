@@ -2,7 +2,7 @@
 layout: post
 title: "What I actually wrote to Cycling Weekly"
 description: "I can see how the confusion came about:Hi Robert,Couldn't resist the temptation to share one of my own 'hard'/daft cycling exploits after reading your great article in this weeks Cycling Weekly. Last summer I was unlucky enough to be involved in a..."
-date: Thu Apr 22 09:14:45 -0700 2010
+date: 2010-04-22 00:00
 comments: true
 author: Adam
 categories: []

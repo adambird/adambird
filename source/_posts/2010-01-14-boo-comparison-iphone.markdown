@@ -2,7 +2,7 @@
 layout: post
 title: "Boo comparison - iPhone"
 description: "Listen! via AudioBoo"
-date: Thu Jan 14 08:46:41 -0800 2010
+date: 2010-01-14 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Migrating to SQL Azure "
 description: "So, I have myself a database in the cloud but it wasn't plain sailing migrating from an existing database.I used SQL Server Management Studio to generate the whole schema as a script and attempted to run this on the cloud DB. As expected it didn't..."
-date: Thu Jan 21 07:27:13 -0800 2010
+date: 2010-01-21 00:00
 comments: true
 author: Adam
 categories: [azure]

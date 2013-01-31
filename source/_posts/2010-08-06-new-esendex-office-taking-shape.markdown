@@ -2,7 +2,7 @@
 layout: post
 title: "New @esendex office taking shape"
 description: ""
-date: Fri Aug 06 06:54:47 -0700 2010
+date: 2010-08-06 00:00
 comments: true
 author: Adam
 categories: [esendex]

@@ -2,7 +2,7 @@
 layout: post
 title: "The sound of the Malt Shovel"
 description: "Listen! via AudioBoo"
-date: Thu Jun 17 14:43:35 -0700 2010
+date: 2010-06-17 00:00
 comments: true
 author: Adam
 categories: []

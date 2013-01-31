@@ -2,7 +2,7 @@
 layout: post
 title: "It's starting #esendexis10"
 description: "Listen!"
-date: Thu Jun 09 18:00:47 -0700 2011
+date: 2011-06-09 00:00
 comments: true
 author: Adam
 categories: [audioboo]

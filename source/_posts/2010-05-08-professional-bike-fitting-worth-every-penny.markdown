@@ -2,7 +2,7 @@
 layout: post
 title: "Professional Bike Fitting, worth every penny"
 description: "While I was in San Francisco I took the opportunity of having a bike fitting session at Pacific Bikes on 3rd Street, http://pacbikes.com.I'd wondered about having it done for a while but prices in the UK seemed steep and you generally had to trave..."
-date: Sat May 08 07:58:40 -0700 2010
+date: 2010-05-08 00:00
 comments: true
 author: Adam
 categories: []

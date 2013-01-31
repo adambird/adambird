@@ -2,7 +2,7 @@
 layout: post
 title: "@beestoncc web site"
 description: "Having already stepped down through lack of time from moving the Beeston CC web site forward, I've stayed out of the discussions to date but I think it's got to the point where I would like to give my opinion. I think the current solution has miss..."
-date: Fri Jun 11 11:14:14 -0700 2010
+date: 2010-06-11 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC2 Wildcard Mapping on IIS6"
 description: "Spent a little while tearing my hair out on this one. I followed Steve Sanderson's post ( http://blog.stevensanderson.com/2008/07/04/options-for-deploying-aspnet-mvc-t... ) but I was still getting the classic IIS 404Sorted"
-date: Wed Sep 22 02:09:00 -0700 2010
+date: 2010-09-22 00:00
 comments: true
 author: Adam
 categories: [dev]

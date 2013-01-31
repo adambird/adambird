@@ -2,7 +2,7 @@
 layout: post
 title: "No SD card slot because iPhone will plug straight into iPad?"
 description: "Just a thought, but with a new iPhone looming in July of this year along with possibly v4 of the OS could this be one of the reasons the SD card slot is present in the iPad. The new iPhone will almost certainly have a better camera, microphone, et..."
-date: Wed Feb 10 04:02:41 -0800 2010
+date: 2010-02-10 00:00
 comments: true
 author: Adam
 categories: []

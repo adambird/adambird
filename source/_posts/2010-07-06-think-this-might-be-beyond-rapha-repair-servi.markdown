@@ -2,7 +2,7 @@
 layout: post
 title: "Think this might be beyond Rapha repair service"
 description: "Finding it a real struggle to get rid of it"
-date: Tue Jul 06 13:35:20 -0700 2010
+date: 2010-07-06 00:00
 comments: true
 author: Adam
 categories: []

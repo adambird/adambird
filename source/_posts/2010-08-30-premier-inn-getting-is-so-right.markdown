@@ -2,7 +2,7 @@
 layout: post
 title: "Premier Inn getting it so right"
 description: "Stopped at the Premier Inn in Port Solent to break up the long drive back from France this weekend and am really glad we did. We arrived at the end of a long day of travelling which was made longer than expected by very slow progress getting off t..."
-date: Mon Aug 30 00:44:00 -0700 2010
+date: 2010-08-30 00:00
 comments: true
 author: Adam
 categories: []

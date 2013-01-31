@@ -2,7 +2,7 @@
 layout: post
 title: "Nexus One initial impressions"
 description: "Listen! via AudioBoo"
-date: Wed Jan 13 10:11:59 -0800 2010
+date: 2010-01-13 00:00
 comments: true
 author: Adam
 categories: []

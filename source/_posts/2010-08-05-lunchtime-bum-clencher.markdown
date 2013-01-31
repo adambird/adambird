@@ -2,7 +2,7 @@
 layout: post
 title: "Lunchtime bum-clencher"
 description: "Working from home today so decided to be brave and cut down my steerer tube. Mark, disassemble, panic that mark isn't the right one, reassemble, confirm mark, disassemble, panic again, tell myself not to be so stupid and press on. Using masking ta..."
-date: Thu Aug 05 06:25:00 -0700 2010
+date: 2010-08-05 00:00
 comments: true
 author: Adam
 categories: []

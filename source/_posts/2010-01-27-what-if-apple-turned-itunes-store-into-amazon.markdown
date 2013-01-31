@@ -2,7 +2,7 @@
 layout: post
 title: "What if Apple turned iTunes store into Amazon/Ebay killer?"
 description: "If the tablet is going to redefine how content is being delivered, turning the existing concept of magazines into interactive delights, it would make sense to deliver a purchasing experience. I read a lot of cycling magazines that contain reviews ..."
-date: Wed Jan 27 08:32:42 -0800 2010
+date: 2010-01-27 00:00
 comments: true
 author: Adam
 categories: []

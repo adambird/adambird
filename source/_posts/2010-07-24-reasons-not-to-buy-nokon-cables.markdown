@@ -2,7 +2,7 @@
 layout: post
 title: "Reasons not to buy Nokon cables"
 description: "Listen! via AudioBoo"
-date: Sat Jul 24 02:54:03 -0700 2010
+date: 2010-07-24 00:00
 comments: true
 author: Adam
 categories: []

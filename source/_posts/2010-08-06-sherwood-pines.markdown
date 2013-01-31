@@ -2,7 +2,7 @@
 layout: post
 title: "Sherwood Pines"
 description: "Day out hitting the trails"
-date: Fri Aug 06 04:59:16 -0700 2010
+date: 2010-08-06 00:00
 comments: true
 author: Adam
 categories: []

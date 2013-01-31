@@ -2,7 +2,7 @@
 layout: post
 title: "Winnats again"
 description: "Listen! via AudioBoo"
-date: Sat May 15 06:57:17 -0700 2010
+date: 2010-05-15 00:00
 comments: true
 author: Adam
 categories: []

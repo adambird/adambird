@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dev | Bird Stream]]></title>
   <link href="http://adambird.com/blog/categories/dev/atom.xml" rel="self"/>
   <link href="http://adambird.com/"/>
-  <updated>2013-01-30T20:51:55+00:00</updated>
+  <updated>2013-01-31T00:19:59+00:00</updated>
   <id>http://adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -14,41 +14,9 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Code Club, a call to arms]]></title>
-    <link href="http://adambird.com/code-club-a-call-to-arms"/>
-    <updated>2012-09-03T11:21:00+01:00</updated>
-    <id>http://adambird.com/code-club-a-call-to-arms</id>
-    <content type="html"><![CDATA[<p><img src="http://adambird.com/images/code-club-logo.png" alt="Code Club Logo" width="180px" /></p>
-
-<p>Are you a developer? Are you a business owner who employs developers? Have you heard about<a href="http://codeclub.org.uk"> CodeClub</a>?&nbsp;</p>
-
-<p>Code Club is a nationwide network of volunteer-led after school coding clubs for children aged 9-11. The mission is&nbsp;to give every child in the UK the chance to learn to code. The&nbsp;aim to have a Code Club in 25% of primary schools in the UK by the end of 2014.</p>
-
-<p>What's not to like about being part of that.</p>
-
-<p>A new term is about to start so I urge you to contact your local primary school, either local to home or work, and volunteer to run a club for a term. All the materials are made available by Code Club so it's super easy.</p>
-
-<p>If you're a developer you just have to inspire hungry young minds.</p>
-
-<p>If you employ developers then this a perfect personal development opportunity for your team and a real opportunity for you to give something to your community.</p>
-
-<p>If you're in Nottingham then get in touch with me (<a href="mailto:adam.bird@esendex.com">adam.bird@esendex.com</a>) as the City Council are very, very keen to find ways they can help local employers to make this happen.</p>
-
-<p>So, to summarise</p>
-
-<ul>
-<li>Go here <a href="http://codeclub.org.uk/">http://codeclub.org.uk/</a></li>
-<li>Volunteer</li>
-<li>Inspire the next generation</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Delayed_job Syck woes when deploying to Heroku Cedar]]></title>
     <link href="http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
-    <updated>2012-06-26T12:11:22+01:00</updated>
+    <updated>2012-06-26T00:00:00+01:00</updated>
     <id>http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
     <content type="html"><![CDATA[<p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
 
@@ -56,6 +24,9 @@
 
 <pre><code>uninitialized constant Syck::Syck
 </code></pre>
+
+<!-- more -->
+
 
 <p>when trying to parse and initialise the handler. Irritatingly the worker logs were showing the jobs as successful.</p>
 
@@ -76,7 +47,7 @@
   <entry>
     <title type="html"><![CDATA[Decoupling the domain from the interface with ReST and method objects]]></title>
     <link href="http://adambird.com/decoupling-the-domain-from-the-interface-with"/>
-    <updated>2012-05-08T10:07:00+01:00</updated>
+    <updated>2012-05-08T00:00:00+01:00</updated>
     <id>http://adambird.com/decoupling-the-domain-from-the-interface-with</id>
     <content type="html"><![CDATA[<p>MVC (model-view-controller) is a well established pattern for developing web applications which I've used with both Rails and ASP.NET. Both of these frameworks provide powerful interface add-ons, for example validations, with which you can decorate your models and let the framework do a lot of heavy lifting for you.</p>
 
@@ -84,42 +55,43 @@
 
 <p>I've started using a new approach that I'm finding more flexible but has enough pragmatism to leverage the framework hooks and features.</p>
 
-<h3>Treat the web app as an API</h3>
+<!-- more -->
 
+
+<h3>Treat the web app as an API</h3>
 
 <p>Whatever you do, make the web application url scheme work with resources. For example if you need to expose a password reset feature you would do the following</p>
 
-<p><code>POST /password_resets</code></p>
+<pre><code>POST /password_resets
+</code></pre>
 
 <p>You would then provide a link to the created password reset request in an email</p>
 
-<p><code>GET /password_resets/wieurh2398hf38h83h028f2=f92-0fw0f</code></p>
+<pre><code>GET /password_resets/wieurh2398hf38h83h028f2=f92-0fw0f
+</code></pre>
 
 <p>The the user would then submit a new password with</p>
 
-<p><code>PUT /password_resets/wieurh2398hf38h83h028f2=f92-0fw0f</code></p>
+<pre><code>PUT /password_resets/wieurh2398hf38h83h028f2=f92-0fw0f
+</code></pre>
 
 <p>All good so far. But here's the next stage</p>
 
 <h3>Resources are not necessarily domain objects</h3>
 
-
 <p>When I create a password reset request I'm not actually creating a record in a database somewhere, I'm actually performing an operation on a User domain object to append a random token that I can use to look up the user record when the user clicks on the link.</p>
 
-<div class="CodeRay">
-  <div class="code"><pre>class User
+<pre><code>class User
   def create_password_reset_token(at)
     password_reset_token = SecureRandom.urlsafe_base64
     password_reset_token_expires_at = at.utc + (60*60*24)
   end
-end</pre></div>
-</div>
-
+end
+</code></pre>
 
 <p>Enter the method object. For this interaction I need two. CreatePasswordReset and ResetPassword.</p>
 
-<div class="CodeRay">
-  <div class="code"><pre>class CreatePasswordReset
+<pre><code>class CreatePasswordReset
   attr_accessor :user_id
 
   def execute(at)
@@ -132,10 +104,10 @@ end
 class ResetPassword
   include ActiveModel::Validations
   attr_accessor :token, :password, :password_confirmation
-  
-  validate :password, :presence =&gt; true   
-  validate :password, :confirmation =&gt; true    
-  
+
+  validate :password, :presence =&amp;gt; true   
+  validate :password, :confirmation =&amp;gt; true    
+
   def execute(at)
     if valid?       
       user = user_store.get_by_token(token)       
@@ -143,30 +115,27 @@ class ResetPassword
       user_store.save(user)     
     end   
   end 
-end</pre></div>
-</div>
-
+end
+</code></pre>
 
 <p>The corresponding controller methods are super simple as they just treat the result of the execute method as a binary result.</p>
 
-<div class="CodeRay">
-  <div class="code"><pre>class PasswordResetController &lt; ApplicationController   
+<pre><code>class PasswordResetController &amp;lt; ApplicationController   
   def update     
     command = ResetPassword.new(params[:reset_password])     
     if command.execute(current_time)       
-      redirect_to account_path, :notice =&gt; &quot;We've updated your password&quot;     
+      redirect_to account_path, :notice =&amp;gt; &amp;quot;We've updated your password&amp;quot;     
     else       
       render :edit     
     end   
   end
-end</pre></div>
-</div>
-
+end
+</code></pre>
 
 <p>The result is</p>
 
 <ul>
-<li>I have a web api that maps to operations that a user wants to perform and domain that maps to the entities in my business system. </li>
+<li>I have a web api that maps to operations that a user wants to perform and domain that maps to the entities in my business system.</li>
 <li>I have very simple controllers that delegate the domain interactions to method objects that understand the required interactions.</li>
 <li>I leverage the validation helpers provided by the framework without polluting my domain with UI detail</li>
 </ul>
@@ -176,25 +145,20 @@ end</pre></div>
 
 <h3>Roles and responsibilities</h3>
 
-
 <p><strong>Controllers</strong> to ensure only authorised users can perform operations on the domain</p>
 
 <p><strong>Method Objects</strong> to ensure domain interactions are valid and well formed.</p>
 
 <p><strong>Models</strong> to model the domain irrespective of how it's being interacted with.</p>
 
-<p>&nbsp;</p>
-
 <p>What do you think?</p>
-
-<p>&nbsp;</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Spork not reloading classes]]></title>
     <link href="http://adambird.com/spork-not-reloading-classes"/>
-    <updated>2012-03-21T09:37:00+00:00</updated>
+    <updated>2012-03-21T00:00:00+00:00</updated>
     <id>http://adambird.com/spork-not-reloading-classes</id>
     <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
 
@@ -217,7 +181,7 @@ end</pre></div>
   <entry>
     <title type="html"><![CDATA[Base View Model in ASP.NET MVC]]></title>
     <link href="http://adambird.com/base-view-model-in-aspnet-mvc"/>
-    <updated>2010-11-08T13:00:00+00:00</updated>
+    <updated>2010-11-08T00:00:00+00:00</updated>
     <id>http://adambird.com/base-view-model-in-aspnet-mvc</id>
     <content type="html"><![CDATA[<p>I needed to reference some user context variables from within my site master page that had some logic behind their retrieval.</p>
 
@@ -265,6 +229,65 @@ end</pre></div>
 <p>Which then allows me to reference the model in the master page and keep the logic for deciding the language to display centralised.</p>
 
 <p>Not sure I'm wholly happy with the inheritance as it adds a level of dependencies which smells a bit off but in the small application I'm working in it was easy to implement and does what I need.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[UI Integration Testing with CassiniDev and WatiN, not Selenium]]></title>
+    <link href="http://adambird.com/ui-integration-testing-with-cassinidev-and-wa"/>
+    <updated>2010-09-30T00:00:00+01:00</updated>
+    <id>http://adambird.com/ui-integration-testing-with-cassinidev-and-wa</id>
+    <content type="html"><![CDATA[<p>This was to be my first foray into UI integration testing. I've always been a sceptic, scare by the brittleness of any kind of recorded UI test. Luckily Gemma and Jonathan in the dev team persisted and showed me Selenium RC and WatiN. Both these solutions allow you to write the integration tests in code, a critical requirement for me.</p>
+
+<p>Also key for me was this had to work in Hudson, my chosen Continuous Integration server, so simple deployment and management was key. I love being able to check everything I need into source control and have it 'miraculously' run on the CI server with little or no config.</p>
+
+<p>The first thing I needed was a deployable web server I could, ideally, run in process. Enter <a href="http://cassinidev.codeplex.com/" title="CassiniDev" target="_blank">CassiniDev</a>&nbsp;and specifically the CassiniDev4-Lib.dll. Now this was really tricky to get going ;).</p>
+
+<ol>
+<li><p>Add reference to CassiniDev4-Lib.dll</p></li>
+<li><p>Put following code in my TestFixtureSetup</p></li>
+</ol>
+
+
+<div class="CodeRay">
+  <div class="code"><pre>_hostServer = new CassiniDevServer();
+_hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
+</div>
+
+
+<p>&nbsp;</p>
+
+<p><a href="http://seleniumhq.org/" target="_blank">Selenium</a> wasn't quite so simple.</p>
+
+<p>It failed the simple deploy requirement because you have to run the Selenium Server and then use the RC libraries to interact with it and send commands to then run on browsers.</p>
+
+<p>It also has/d a bug where it sends a HEAD before it sends a GET which breaks if your MVC Controller Action as an HttpGet attribute. It sends a 404 because HEAD isn't acceptable.</p>
+
+<p>Sky from the CassiniDev team was &uuml;ber-helpful finding this out for me&nbsp;<a href="http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174" target="_blank">http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174</a>.</p>
+
+<p><a href="http://watin.sourceforge.net/" target="_self">WatiN</a> was a different story though. Very simple to use and all run in process. There were a couple of gotcha's though.</p>
+
+<p>I had to make sure NUnit was properly running .net 4, stackoverflow helped me there&nbsp;<a href="http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available" target="_blank">http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available</a></p>
+
+<p>And I got a rather gruesome COM exception when I pushed it all up to my CI server.&nbsp;</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>NSystem.UnauthorizedAccessException: Retrieving the COM class factory for component with
+        CLSID {0002DF01-0000-0000-C000-000000000046} failed due to the following error: 
+        80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+    at WatiN.Core.IE.CreateNewIEAndGoToUri(Uri uri, IDialogHandler logonDialogHandler, 
+        Boolean createInNewProcess)
+    at WatiN.Core.IE..ctor(String url)</pre></div>
+</div>
+
+
+<p>Luckily I found this post that talks through setting the COM permissions correctly for this kind of issue. Specifically giving the correct permissions to the user account used by the Hudson server. <a href="http://www.stuffthatjustworks.com/How+To+Fix+UnauthorizedAccessException+Retrieving+The+COM+Class+Factory+For+Component+With+CLSID.aspx" target="_blank">How To Fix UnauthorizedAccessException Retrieving The COM Class Factory For Component With CLSID</a></p>
+
+<p>Early days, but I now have a green build that includes actually navigating to one of my forms and entering text within an integration test.</p>
+
+<p>Selenium seemed to be the obvious choice for UI testing. I read somewhere that Google is throwing loads of effort into developing it so it would be a good horse to back. However, when I look at my requirements I don't need what Selenium offers.</p>
+
+<p>Multi, cross-browser testing is nice but I'm just looking to confirm stories are operational and routes through my application are valid. The simplicity of WatiN seems to satisfy that nicely.</p>
 ]]></content>
   </entry>
   

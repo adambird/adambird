@@ -2,7 +2,7 @@
 layout: post
 title: "mmm this isn't a good Azure moment"
 description: "been like this for a while"
-date: Fri Jan 15 07:45:38 -0800 2010
+date: 2010-01-15 00:00
 comments: true
 author: Adam
 categories: []

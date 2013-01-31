@@ -2,7 +2,7 @@
 layout: post
 title: "Let's Show Graduates What Nottingham Can Offer"
 description: "I think it's time we showed graduates and under-graduates that Nottingham not only represents a great place to get an education but also a fantastic city in which to build a life and career. We have some great creative and tech companies in the ci..."
-date: Thu Mar 03 03:26:00 -0800 2011
+date: 2011-03-03 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Base View Model in ASP.NET MVC"
 description: "I needed to reference some user context variables from within my site master page that had some logic behind their retrieval. In this example I need to choose the display language for a user. Check cookie present indicating user's language prefere..."
-date: Mon Nov 08 05:00:00 -0800 2010
+date: 2010-11-08 00:00
 comments: true
 author: Adam
 categories: [dev]

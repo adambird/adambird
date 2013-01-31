@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | Bird Stream]]></title>
   <link href="http://adambird.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://adambird.com/"/>
-  <updated>2013-01-30T20:51:55+00:00</updated>
+  <updated>2013-01-31T00:19:59+00:00</updated>
   <id>http://adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Delayed_job Syck woes when deploying to Heroku Cedar]]></title>
     <link href="http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
-    <updated>2012-06-26T12:11:22+01:00</updated>
+    <updated>2012-06-26T00:00:00+01:00</updated>
     <id>http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
     <content type="html"><![CDATA[<p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
 
@@ -24,6 +24,9 @@
 
 <pre><code>uninitialized constant Syck::Syck
 </code></pre>
+
+<!-- more -->
+
 
 <p>when trying to parse and initialise the handler. Irritatingly the worker logs were showing the jobs as successful.</p>
 
@@ -44,7 +47,7 @@
   <entry>
     <title type="html"><![CDATA[Spork not reloading classes]]></title>
     <link href="http://adambird.com/spork-not-reloading-classes"/>
-    <updated>2012-03-21T09:37:00+00:00</updated>
+    <updated>2012-03-21T00:00:00+00:00</updated>
     <id>http://adambird.com/spork-not-reloading-classes</id>
     <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
 

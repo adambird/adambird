@@ -2,7 +2,7 @@
 layout: post
 title: "Office coming together"
 description: "A big few days to get it all done but we move in here on Monday. There's no mistaking where you are."
-date: Wed Sep 08 07:49:48 -0700 2010
+date: 2010-09-08 00:00
 comments: true
 author: Adam
 categories: []

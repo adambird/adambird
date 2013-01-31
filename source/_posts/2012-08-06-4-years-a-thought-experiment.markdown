@@ -2,7 +2,7 @@
 layout: post
 title: "4 years - a thought experiment"
 description: "What would you like to be recognised for in 4 years time? What are the steps required to get there? Would your life be better if you did the first step? And the next one? The Olympics is bloody brilliant because it demonstrates with crystal clarit..."
-date: Mon Aug 06 04:46:31 -0700 2012
+date: 2012-08-06 00:00
 comments: true
 author: Adam
 categories: []

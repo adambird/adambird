@@ -2,7 +2,7 @@
 layout: post
 title: "Mobile Boarding Pass Success"
 description: "I've tried mobile boarding passes before without success. By the time I've tried to navigate round my phone to get to the appropriate image or web site, getting a piece of paper out has generally been quicker. So it was with a degree of scepticism..."
-date: Thu Nov 25 01:18:17 -0800 2010
+date: 2010-11-25 00:00
 comments: true
 author: Adam
 categories: []

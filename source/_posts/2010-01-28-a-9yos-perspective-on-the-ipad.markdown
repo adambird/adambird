@@ -2,7 +2,7 @@
 layout: post
 title: "A 9yo's perspective on the iPad"
 description: "Listen! via AudioBoo"
-date: Thu Jan 28 12:07:08 -0800 2010
+date: 2010-01-28 00:00
 comments: true
 author: Adam
 categories: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Beeston Centurions U9s sports men of the league"
 description: "Listen!"
-date: Sun Jun 12 15:54:32 -0700 2011
+date: 2011-06-12 00:00
 comments: true
 author: Adam
 categories: [audioboo]

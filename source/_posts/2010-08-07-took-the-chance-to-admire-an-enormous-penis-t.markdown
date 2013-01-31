@@ -2,7 +2,7 @@
 layout: post
 title: "Took the chance to admire an enormous penis this evening"
 description: ""
-date: Sat Aug 07 13:24:00 -0700 2010
+date: 2010-08-07 00:00
 comments: true
 author: Adam
 categories: []

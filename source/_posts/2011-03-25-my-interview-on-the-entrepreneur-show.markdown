@@ -2,7 +2,7 @@
 layout: post
 title: "My interview on The Entrepreneur Show"
 description: "Loading video ... I was lucky enough to be interviewed by @robwilmot on his Entrepreneur Show yesterday. It was a great opportunity to share my views on how Nottingham is going to harness some of the current successes in the creative and technolog..."
-date: Fri Mar 25 04:36:00 -0700 2011
+date: 2011-03-25 00:00
 comments: true
 author: Adam
 categories: []

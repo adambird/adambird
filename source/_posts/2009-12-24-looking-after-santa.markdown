@@ -2,7 +2,7 @@
 layout: post
 title: "Looking after Santa"
 description: ""
-date: Thu Dec 24 12:13:35 -0800 2009
+date: 2009-12-24 00:00
 comments: true
 author: Adam
 categories: []

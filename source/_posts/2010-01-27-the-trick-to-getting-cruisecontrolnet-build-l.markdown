@@ -2,7 +2,7 @@
 layout: post
 title: "The trick to getting CruiseControl.net build label into PowerShell script "
 description: "is to use an environment variable. The PowerShell Task is a subclassed Executable Task which loads a series of environment variables before the task is executed. You then just need to access those in your PowerShell script via the $Env variable. I..."
-date: Wed Jan 27 07:22:24 -0800 2010
+date: 2010-01-27 00:00
 comments: true
 author: Adam
 categories: [dev]
