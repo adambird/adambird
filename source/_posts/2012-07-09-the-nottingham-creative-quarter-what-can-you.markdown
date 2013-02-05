@@ -5,7 +5,7 @@ description: "The announcement of Nottingham's City Deal last week (http://www.d
 date: 2012-07-09 00:00
 comments: true
 author: Adam
-categories: [entrepreneurship]
+categories: [business, creativequarter]
 ---
 
 The announcement of Nottingham's City Deal last week (<a href="http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf">http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf</a>) is big deal for entrepreneurship in the city. The council now have the funds and powers to provide the infrastructure and support to the new, innovative businesses that will drive GDP growth in the city and provide the skilled jobs going forward.

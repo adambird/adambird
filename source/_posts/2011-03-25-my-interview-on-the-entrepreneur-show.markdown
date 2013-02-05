@@ -5,7 +5,7 @@ description: "Loading video ... I was lucky enough to be interviewed by @robwilm
 date: 2011-03-25 00:00
 comments: true
 author: Adam
-categories: []
+categories: [business]
 ---
 
 <iframe src="http://get-embed.wistia.com/embed/medias/032c4b3dd8?width=500&amp;height=281&amp;autoplay=false&amp;playbutton=true&amp;controls_visible=false&amp;end_video_behavior=default" frameborder="0" height="281" width="500">Loading video ...</iframe>

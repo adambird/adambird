@@ -5,7 +5,7 @@ description: "Handy article that shows you how to do just that http://blogobaggi
 date: 2012-05-18 00:00
 comments: true
 author: Adam
-categories: []
+categories: [dev]
 ---
 
 Handy article that shows you how to do just that 

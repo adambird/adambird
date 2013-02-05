@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://adambird.com/sitemap.xml 
+Sitemap: http://www.adambird.com/sitemap.xml 

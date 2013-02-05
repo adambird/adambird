@@ -5,7 +5,7 @@ description: "I've been discovering the wonders of RSpec and Cucumber recently (
 date: 2011-10-27 00:00
 comments: true
 author: Adam
-categories: []
+categories: [dev]
 ---
 
 I've been discovering the wonders of <a href="https://www.relishapp.com/rspec">RSpec</a> and <a href="http://cukes.info/">Cucumber</a> recently (I know, I know, I'm horribly late to that particular party) and revelling in how the BDD &gt; TDD cycle helps keep one focused on the feature being delivered.

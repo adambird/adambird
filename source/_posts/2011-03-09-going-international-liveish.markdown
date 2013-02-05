@@ -5,7 +5,7 @@ description: "Thanks to @pcmcreative for live streaming my talk at Nott Tuesday 
 date: 2011-03-09 00:00
 comments: true
 author: Adam
-categories: []
+categories: [business]
 ---
 
 Thanks to <a href="http://twitter.com/pcmcreative">@pcmcreative</a> for live streaming my talk at <a href="http://notttuesday.com">Nott Tuesday</a> last night.

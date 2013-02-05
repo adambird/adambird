@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Bird Stream]]></title>
-  <link href="http://adambird.com/atom.xml" rel="self"/>
-  <link href="http://adambird.com/"/>
-  <updated>2013-01-31T00:19:59+00:00</updated>
-  <id>http://adambird.com/</id>
+  <link href="http://www.adambird.com/atom.xml" rel="self"/>
+  <link href="http://www.adambird.com/"/>
+  <updated>2013-02-05T11:29:07+00:00</updated>
+  <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
     
@@ -14,10 +14,38 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Only Entrepreneurs Can Lead a Start-Up Community]]></title>
+    <link href="http://www.adambird.com/only-entrepreneurs-can-lead-a-start-up-community"/>
+    <updated>2013-02-05T10:50:00+00:00</updated>
+    <id>http://www.adambird.com/only-entrepreneurs-can-lead-a-start-up-community</id>
+    <content type="html"><![CDATA[<p>I&#8217;m reading <a href="http://www.feld.com">Brad Feld&#8217;s</a> book <a href="http://www.amazon.co.uk/Startup-Communities-Building-Entrepreneurial-Ecosystem/dp/1118441540/ref=sr_1_1?ie=UTF8&amp;qid=1360061822&amp;sr=8-1">Startup Communities: Building an Entrepreneurial Ecosystem in Your City</a> at the moment. It shares his ideas and experience from being keenly involved in establishing the start-up community in Boulder, Colorado.</p>
+
+<p>One of his key assertions is that entrepreneurs must lead such a community:</p>
+
+<blockquote><p>The most critical principle of a startup community is that entrepreneurs must lead it. Lots of different people are involved in the startup community and many nonentrepreneurs play key roles. Unless the entrepreneurs lead, the startup community will not be sustainable over time.</p></blockquote>
+
+<!-- more -->
+
+
+<p>He goes on to say</p>
+
+<blockquote><p>I define an entrepreneur as someone who has co-founded a company. I differentiate between &#8220;high-growth entrepreneurial companies&#8221; and &#8220;small businesses&#8221;. Both are important, but they are different things.</p></blockquote>
+
+<p>Later in the book he describes how half a dozen such people &#8220;ignited the entrepreneurial revolution&#8221; on Boulder. A city of 250k people. Nottingham has around 800k.</p>
+
+<p>If you follow Brad&#8217;s assertion then in order for the Creative Quarter project to create sustainable economic development driven by new ambitious businesses then those of us leading high-growth businesses need to take responsibility for it.</p>
+
+<p>If you&#8217;re one of those people, please get in touch.</p>
+
+<p>Whether you&#8217;re an entrepreneur or not, if you want to help make this initative successful, I&#8217;d recommend reading the book.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The Top 80s Films That Your Children Must See]]></title>
-    <link href="http://adambird.com/top-80s-films-your-children-must-see"/>
+    <link href="http://www.adambird.com/top-80s-films-your-children-must-see"/>
     <updated>2013-01-30T19:50:00+00:00</updated>
-    <id>http://adambird.com/top-80s-films-your-children-must-see</id>
+    <id>http://www.adambird.com/top-80s-films-your-children-must-see</id>
     <content type="html"><![CDATA[<p>We&#8217;re going through a bit of cultural education of my boys at the moment, Back To The Future I, II &amp; III, ET, Fawlty Towers have all been on the bill.</p>
 
 <p>So I put a call out on twitter last Saturday for film recommendations for 80s films that my children need to see. Here&#8217;s the list (in no particular order).</p>
@@ -58,10 +86,10 @@
   
   <entry>
     <title type="html"><![CDATA[Code Club, a call to arms]]></title>
-    <link href="http://adambird.com/code-club-a-call-to-arms"/>
+    <link href="http://www.adambird.com/code-club-a-call-to-arms"/>
     <updated>2012-09-03T00:00:00+01:00</updated>
-    <id>http://adambird.com/code-club-a-call-to-arms</id>
-    <content type="html"><![CDATA[<p><img src="http://adambird.com/images/code-club-logo.png" alt="" width="180px"/></p>
+    <id>http://www.adambird.com/code-club-a-call-to-arms</id>
+    <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/code-club-logo.png" alt="" width="180px"/></p>
 
 <p>Are you a developer? Are you a business owner who employs developers? Have you heard about<a href="http://codeclub.org.uk"> CodeClub</a>?&nbsp;</p>
 
@@ -95,18 +123,28 @@
   
   <entry>
     <title type="html"><![CDATA[4 years - a thought experiment]]></title>
-    <link href="http://adambird.com/4-years-a-thought-experiment"/>
+    <link href="http://www.adambird.com/4-years-a-thought-experiment"/>
     <updated>2012-08-06T00:00:00+01:00</updated>
-    <id>http://adambird.com/4-years-a-thought-experiment</id>
-    <content type="html"><![CDATA[<p>What would you like to be recognised for in 4 years time? <p /> What are the steps required to get there? <p /> Would your life be better if you did the first step? <p /> And the next one? <p />  <br />The Olympics is bloody brilliant because it demonstrates with crystal clarity that success is down to dedication, following a process and constant learning and revising the approach. <br />If that&#8217;s not a lesson for life in general, I don&#8217;t know what is.</p>
+    <id>http://www.adambird.com/4-years-a-thought-experiment</id>
+    <content type="html"><![CDATA[<p>What would you like to be recognised for in 4 years time?</p>
+
+<p>What are the steps required to get there?</p>
+
+<p>Would your life be better if you did the first step?</p>
+
+<p>And the next one?</p>
+
+<p>The Olympics is bloody brilliant because it demonstrates with crystal clarity that success is down to dedication, following a process and constant learning and revising the approach.</p>
+
+<p>If that&#8217;s not a lesson for life in general, I don&#8217;t know what is.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Nottingham Creative Quarter - What can you do]]></title>
-    <link href="http://adambird.com/the-nottingham-creative-quarter-what-can-you"/>
+    <link href="http://www.adambird.com/the-nottingham-creative-quarter-what-can-you"/>
     <updated>2012-07-09T00:00:00+01:00</updated>
-    <id>http://adambird.com/the-nottingham-creative-quarter-what-can-you</id>
+    <id>http://www.adambird.com/the-nottingham-creative-quarter-what-can-you</id>
     <content type="html"><![CDATA[<p>The announcement of Nottingham&#8217;s City Deal last week (<a href="http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf">http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf</a>) is big deal for entrepreneurship in the city. The council now have the funds and powers to provide the infrastructure and support to the new, innovative businesses that will drive GDP growth in the city and provide the skilled jobs going forward.</p>
 
 <p>But, infrastructure is only one part of the jigsaw. I want to share a couple of thoughts on how we, the business community in Nottingham, can do our bit to support our city in this endeavour.</p>
@@ -142,9 +180,9 @@
   
   <entry>
     <title type="html"><![CDATA[Delayed_job Syck woes when deploying to Heroku Cedar]]></title>
-    <link href="http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
+    <link href="http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
     <updated>2012-06-26T00:00:00+01:00</updated>
-    <id>http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
+    <id>http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
     <content type="html"><![CDATA[<p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
 
 <p>I&#8217;d upgraded a Rails 2 app that used Delayed_Job to Rails 3 and was deploying the Heroku Cedar stack. Jobs were being queued but would fail immediately when trying to deserialise with</p>
@@ -173,9 +211,9 @@
   
   <entry>
     <title type="html"><![CDATA[Remain friends with your Git collaborators by auto removing whitespace in Textmate]]></title>
-    <link href="http://adambird.com/remain-friends-with-your-git-collaborators-by"/>
+    <link href="http://www.adambird.com/remain-friends-with-your-git-collaborators-by"/>
     <updated>2012-05-18T00:00:00+01:00</updated>
-    <id>http://adambird.com/remain-friends-with-your-git-collaborators-by</id>
+    <id>http://www.adambird.com/remain-friends-with-your-git-collaborators-by</id>
     <content type="html"><![CDATA[<p>Handy article that shows you how to do just that</p>
 
 <p><a href="http://blogobaggins.com/2009/03/31/waging-war-on-whitespace.html">http://blogobaggins.com/2009/03/31/waging-war-on-whitespace.html</a></p>
@@ -184,9 +222,9 @@
   
   <entry>
     <title type="html"><![CDATA[Decoupling the domain from the interface with ReST and method objects]]></title>
-    <link href="http://adambird.com/decoupling-the-domain-from-the-interface-with"/>
+    <link href="http://www.adambird.com/decoupling-the-domain-from-the-interface-with"/>
     <updated>2012-05-08T00:00:00+01:00</updated>
-    <id>http://adambird.com/decoupling-the-domain-from-the-interface-with</id>
+    <id>http://www.adambird.com/decoupling-the-domain-from-the-interface-with</id>
     <content type="html"><![CDATA[<p>MVC (model-view-controller) is a well established pattern for developing web applications which I&#8217;ve used with both Rails and ASP.NET. Both of these frameworks provide powerful interface add-ons, for example validations, with which you can decorate your models and let the framework do a lot of heavy lifting for you.</p>
 
 <p>However, I&#8217;ve found that using these can lead to a leaky coupling between domain and UI logic which slowly and inexorably adds complexity and maintainability headaches.</p>
@@ -295,9 +333,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[My two-penneth on the 2012 Budget]]></title>
-    <link href="http://adambird.com/my-two-penneth-on-the-2012-budget"/>
+    <link href="http://www.adambird.com/my-two-penneth-on-the-2012-budget"/>
     <updated>2012-03-22T00:00:00+00:00</updated>
-    <id>http://adambird.com/my-two-penneth-on-the-2012-budget</id>
+    <id>http://www.adambird.com/my-two-penneth-on-the-2012-budget</id>
     <content type="html"><![CDATA[<p>The most disappointing announcement for me was that Nottingham has missed out on it&#8217;s bid for the Super Connected Cities fund. It&#8217;s a real shame for the city. There was an additional, smaller, fund announced so hopefully the bid team can dust themselves off and we can go again.</p>
 
 <p>Much was made the day before the budget about discounted lending for small businesses, ie those with less than &pound;50m turnover. This is an amendment to the existing Enterprise Finance Guarantee Scheme where the government underwrites this lending, protecting the banks.</p>
@@ -317,9 +355,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Spork not reloading classes]]></title>
-    <link href="http://adambird.com/spork-not-reloading-classes"/>
+    <link href="http://www.adambird.com/spork-not-reloading-classes"/>
     <updated>2012-03-21T00:00:00+00:00</updated>
-    <id>http://adambird.com/spork-not-reloading-classes</id>
+    <id>http://www.adambird.com/spork-not-reloading-classes</id>
     <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
 
 <p>Replace this line in test.rb</p>
@@ -340,9 +378,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[API Divining With Cucumber and Firefox]]></title>
-    <link href="http://adambird.com/api-divining-with-cucumber-and-firefox"/>
+    <link href="http://www.adambird.com/api-divining-with-cucumber-and-firefox"/>
     <updated>2011-10-27T00:00:00+01:00</updated>
-    <id>http://adambird.com/api-divining-with-cucumber-and-firefox</id>
+    <id>http://www.adambird.com/api-divining-with-cucumber-and-firefox</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been discovering the wonders of <a href="https://www.relishapp.com/rspec">RSpec</a> and <a href="http://cukes.info/">Cucumber</a> recently (I know, I know, I&#8217;m horribly late to that particular party) and revelling in how the BDD &gt; TDD cycle helps keep one focused on the feature being delivered.</p>
 
 <p><a href="http://en.wikipedia.org/wiki/Representational_state_transfer">Rest APIs</a> are a common topic of conversation among the <a href="http://www.esendex.com">Esendex</a> dev team and it was a conversation with @jbjon and @samwessel this week that inspired an experiment.</p>
@@ -362,9 +400,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Beeston Centurions U9s sports men of the league]]></title>
-    <link href="http://adambird.com/beeston-centurions-u9s-sports-men-of-the-leag"/>
+    <link href="http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag"/>
     <updated>2011-06-12T00:00:00+01:00</updated>
-    <id>http://adambird.com/beeston-centurions-u9s-sports-men-of-the-leag</id>
+    <id>http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag</id>
     <content type="html"><![CDATA[<div class='p_embed p_image_embed'>
 <img alt="Media_httpaudioboofmb_tject" height="1" src="http://getfile3.posterous.com/getfile/files.posterous.com/adambird/ghBhsiaDuqrIusxlHqqorabzjmeIjjymazvHseDFqvytoduwrafFDwEfqDvG/media_httpaudioboofmb_tjeCt.jpg.scaled500.jpg" width="1" />
 </div>
@@ -377,9 +415,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[It's starting #esendexis10]]></title>
-    <link href="http://adambird.com/its-starting-esendexis10"/>
+    <link href="http://www.adambird.com/its-starting-esendexis10"/>
     <updated>2011-06-09T00:00:00+01:00</updated>
-    <id>http://adambird.com/its-starting-esendexis10</id>
+    <id>http://www.adambird.com/its-starting-esendexis10</id>
     <content type="html"><![CDATA[<div class='p_embed p_image_embed'>
 <img alt="Media_httpaudioboofmb_lbuth" height="1" src="http://getfile1.posterous.com/getfile/files.posterous.com/adambird/pdzeBvpyHmEbBHkyfmCxmAEaaBoHzsyAoilExsaFgEiFhGAwqFbIEGuAjqbx/media_httpaudioboofmb_lbutH.jpg.scaled500.jpg" width="1" />
 </div>
@@ -392,9 +430,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Add Filters to Views Using Named Scopes in Rails]]></title>
-    <link href="http://adambird.com/add-filters-to-views-using-named-scopes-in-ra"/>
+    <link href="http://www.adambird.com/add-filters-to-views-using-named-scopes-in-ra"/>
     <updated>2011-05-25T00:00:00+01:00</updated>
-    <id>http://adambird.com/add-filters-to-views-using-named-scopes-in-ra</id>
+    <id>http://www.adambird.com/add-filters-to-views-using-named-scopes-in-ra</id>
     <content type="html"><![CDATA[<p>This really helped me deliver a rather lovely solution to filtering records on Bunch Rides.</p>
 
 <p><a href="http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-to-views-using-named-scopes-in-rails">http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-&#8230;</a></p>
@@ -403,32 +441,32 @@ end
 
 <p>and the helper code:</p>
 
-<div class="CodeRay">
-  <div class="code"><pre>def table_filter(filters, selected_scope)
+<pre><code>def table_filter(filters, selected_scope)
   content_tag(:div,
     raw(filters.collect { |filter| 
-      content_tag(:a, filter[:label], :href =&gt; &quot;?show=#{filter[:scope]}&quot;, :class =&gt; ('selected' if filter[:scope] == selected_scope)) }),  
-    :class =&gt; 'table-filter')
-end</pre></div>
-</div>
-
+      content_tag(:a, filter[:label], :href =&amp;gt; &amp;quot;?show=#{filter[:scope]}&amp;quot;, :class =&amp;gt; ('selected' if filter[:scope] == selected_scope)) }),  
+    :class =&amp;gt; 'table-filter')
+end
+</code></pre>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Can Nottingham make the most of its own creative class?]]></title>
-    <link href="http://adambird.com/can-nottingham-make-the-most-of-its-own-creat"/>
+    <link href="http://www.adambird.com/can-nottingham-make-the-most-of-its-own-creat"/>
     <updated>2011-04-19T00:00:00+01:00</updated>
-    <id>http://adambird.com/can-nottingham-make-the-most-of-its-own-creat</id>
-    <content type="html"><![CDATA[<p>I was interviewed recently, along with Toby Reid (@tobyjbreid), by the Business Editor of the Nottingham Post. We both believe Nottingham as all the ingredients to become a creative and tech power house. <p /> <a href="http://www.thisisbusiness-eastmidlands.co.uk/nottinghamshire/Nottingham-make-creative-class/article-3461030-detail/article.html">http://www.thisisbusiness-eastmidlands.co.uk/nottinghamshire/Nottingham-make-&#8230;</a></p>
+    <id>http://www.adambird.com/can-nottingham-make-the-most-of-its-own-creat</id>
+    <content type="html"><![CDATA[<p>I was interviewed recently, along with Toby Reid (@tobyjbreid), by the Business Editor of the Nottingham Post. We both believe Nottingham as all the ingredients to become a creative and tech power house.</p>
+
+<p><a href="http://www.thisisbusiness-eastmidlands.co.uk/nottinghamshire/Nottingham-make-creative-class/article-3461030-detail/article.html">http://www.thisisbusiness-eastmidlands.co.uk/nottinghamshire/Nottingham-make-&#8230;</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[My interview on The Entrepreneur Show]]></title>
-    <link href="http://adambird.com/my-interview-on-the-entrepreneur-show"/>
+    <link href="http://www.adambird.com/my-interview-on-the-entrepreneur-show"/>
     <updated>2011-03-25T00:00:00+00:00</updated>
-    <id>http://adambird.com/my-interview-on-the-entrepreneur-show</id>
+    <id>http://www.adambird.com/my-interview-on-the-entrepreneur-show</id>
     <content type="html"><![CDATA[<iframe src="http://get-embed.wistia.com/embed/medias/032c4b3dd8?width=500&amp;height=281&amp;autoplay=false&amp;playbutton=true&amp;controls_visible=false&amp;end_video_behavior=default" frameborder="0" height="281" width="500">Loading video &#8230;</iframe>
 
 
@@ -438,18 +476,18 @@ end</pre></div>
   
   <entry>
     <title type="html"><![CDATA[The Big M Went Bold And Got It So Right]]></title>
-    <link href="http://adambird.com/the-big-m-went-bold-and-got-it-so-right"/>
+    <link href="http://www.adambird.com/the-big-m-went-bold-and-got-it-so-right"/>
     <updated>2011-03-23T00:00:00+00:00</updated>
-    <id>http://adambird.com/the-big-m-went-bold-and-got-it-so-right</id>
+    <id>http://www.adambird.com/the-big-m-went-bold-and-got-it-so-right</id>
     <content type="html"><![CDATA[<p>I was at the Big M mobile conference (<a href="http://thebigm.mobi/)">http://thebigm.mobi/)</a> on Monday and am very glad I was. Chris (<a href="http://twitter.com/bookmeister">@bookmeister</a>) and Mike (<a href="http://twitter.com/m1ke_ellis">@m1ke_ellis</a>) made some bold decisions in putting on this event and they paid off. <p /> <span style="font-size: medium;">Bold Decision #1 - Bath </span><p /> Tech innovation and Somerset are not necessarily two words I would associate but they absolutely showed the rest of the country what a great scene exists there. Nottingham (where I live and work) could learn a lot. It is a beautiful city that is a joy to visit. In the battle for talent that cities are (or should be) engaged in now, they have served Bath well. <p /> <span style="font-size: medium;">Bold Decision #2 - No WiFi </span><p /> Didn&#8217;t miss it, in fact I&#8217;m glad it wasn&#8217;t there. The mobile signal was good enough to get emails if anything urgent cropped up. I would imagine this was one of the reasons why people talked to each other more and probably got more out of the speakers. I go to too many conferences these days where people are too busy, surfing, and interacting with people that aren&#8217;t there rather than engaging with the speakers. <p /> <span style="font-size: medium;">Bold Decision #3 - Price</span> <p /> &pound;200 for a one day conference seemed reasonably pricey and pitching this right would have been a really hand wringer but it was spot on. It meant everyone who came really wanted to get something out of it and I&#8217;m guessing it meant they could afford the calibre of speakers that they attracted. <p /> <span style="font-size: medium;">Bold Decision #4 - Comedy/Rock Club Venue</span> <p /> Forget anonymous hotels or convention facilities, more events like this should be held in this kind of venue. Komedia (<a href="http://www.komedia.co.uk/)">http://www.komedia.co.uk/)</a> had all the facilities and looked fantastic. People arrived and there was a palpable buzz as they went through the door into the venue proper. Going to a gig for &#8216;work&#8217;, brilliant. It was especially entertaining watching as a bunch of geeks spilled out on to streets at the breaks, blinking as they readjusted to a bright and very real world still existing outside. <p />  <br />If they run it next year I will absolutely be going as should you. <p /></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Going International (live'ish)]]></title>
-    <link href="http://adambird.com/going-international-liveish"/>
+    <link href="http://www.adambird.com/going-international-liveish"/>
     <updated>2011-03-09T00:00:00+00:00</updated>
-    <id>http://adambird.com/going-international-liveish</id>
+    <id>http://www.adambird.com/going-international-liveish</id>
     <content type="html"><![CDATA[<p>Thanks to <a href="http://twitter.com/pcmcreative">@pcmcreative</a> for live streaming my talk at <a href="http://notttuesday.com">Nott Tuesday</a> last night.</p>
 
 <p>
@@ -467,9 +505,9 @@ end</pre></div>
   
   <entry>
     <title type="html"><![CDATA[Let's Show Graduates What Nottingham Can Offer]]></title>
-    <link href="http://adambird.com/lets-show-graduates-what-nottingham-can-offer"/>
+    <link href="http://www.adambird.com/lets-show-graduates-what-nottingham-can-offer"/>
     <updated>2011-03-03T00:00:00+00:00</updated>
-    <id>http://adambird.com/lets-show-graduates-what-nottingham-can-offer</id>
+    <id>http://www.adambird.com/lets-show-graduates-what-nottingham-can-offer</id>
     <content type="html"><![CDATA[<p>I think it&#8217;s time we showed graduates and under-graduates that Nottingham not only represents a great place to get an education but also a fantastic city in which to build a life and career. We have some great creative and tech companies in the city crying out for talented people to join their successful teams. We need to connect people with these opportunities before they depart for more &#8216;traditional&#8217; destinations.</p>
 
 <p>To do this, I&#8217;m running a recruitment event for internships, work placements and graduate positions in the creative and tech companies of Nottingham.</p>
@@ -500,68 +538,14 @@ end</pre></div>
   
   <entry>
     <title type="html"><![CDATA[Mobile Boarding Pass Success]]></title>
-    <link href="http://adambird.com/mobile-boarding-pass-success"/>
+    <link href="http://www.adambird.com/mobile-boarding-pass-success"/>
     <updated>2010-11-25T00:00:00+00:00</updated>
-    <id>http://adambird.com/mobile-boarding-pass-success</id>
-    <content type="html"><![CDATA[<p><img src="http://adambird.com/images/mobile-boarding-pass-success/p602.jpg">
+    <id>http://www.adambird.com/mobile-boarding-pass-success</id>
+    <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/mobile-boarding-pass-success/p602.jpg">
 I&#8217;ve tried mobile boarding passes before without success. By the time I&#8217;ve tried to navigate round my phone to get to the appropriate image or web site, getting a piece of paper out has generally been quicker. So it was with a degree of scepticism that I tried out the BA iPhone app with it&#8217;s board pass option for a flight to Lyon today.It worked a treat.
 The key for me was that it worked well enough for the gate agent who hadn&#8217;t used it before to let me board without issue.
 Why did it work this time and not before? A well designed app with good state management and fast app switching was they key. It meant I wasn&#8217;t tentatively nursing my phone as I approached each of the check points desperately trying to keep the screen alive while not navigating away from the boarding code.
 A long promised revolution in travel documentation may well be upon us.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Base View Model in ASP.NET MVC]]></title>
-    <link href="http://adambird.com/base-view-model-in-aspnet-mvc"/>
-    <updated>2010-11-08T00:00:00+00:00</updated>
-    <id>http://adambird.com/base-view-model-in-aspnet-mvc</id>
-    <content type="html"><![CDATA[<p>I needed to reference some user context variables from within my site master page that had some logic behind their retrieval.</p>
-
-<p>In this example I need to choose the display language for a user.</p>
-
-<ol>
-<li>Check cookie present indicating user&#8217;s language preference</li>
-<li>if not use HTTP language header</li>
-<li>if not use the application default language</li>
-</ol>
-
-
-<p>The pattern I&#8217;ve ended up using is to implement a base view model from which all my specific view models inherit as follows:<span style=""> </span></p>
-
-<p><code></code></p>
-
-<p><code></code></p>
-
-<p><code></code></p>
-
-<p><code>
-<div class="CodeRay">
-  <div class="code"><pre>public class BaseViewModel {     
-    public string UserLanguage     
-    {      
-       get      
-       {          
-           return HttpContext.Current.Request.Cookies[&quot;language&quot;] != null        
-               ? HttpContext.Current.Request.Cookies[&quot;language&quot;].Value           
-               : CultureInfo.CurrentCulture.TwoLetterISOLanguageName;     
-        }
-    } 
-}</pre></div>
-</div>
-
-</code></p>
-
-
-<p>&nbsp;</p>
-
-<p>I then use the generic class for the master page</p>
-
-<p><code>&amp;lt;%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage&amp;lt;BaseViewModel&amp;gt;" %&amp;gt;</code></p>
-
-<p>Which then allows me to reference the model in the master page and keep the logic for deciding the language to display centralised.</p>
-
-<p>Not sure I&#8217;m wholly happy with the inheritance as it adds a level of dependencies which smells a bit off but in the small application I&#8217;m working in it was easy to implement and does what I need.</p>
 ]]></content>
   </entry>
   

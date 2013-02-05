@@ -5,7 +5,7 @@ description: "Listen!"
 date: 2011-06-12 00:00
 comments: true
 author: Adam
-categories: [audioboo]
+categories: [stuff]
 ---
 
 <div class='p_embed p_image_embed'>

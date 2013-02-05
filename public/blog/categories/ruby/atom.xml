@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ruby | Bird Stream]]></title>
-  <link href="http://adambird.com/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://adambird.com/"/>
-  <updated>2013-01-31T00:19:59+00:00</updated>
-  <id>http://adambird.com/</id>
+  <link href="http://www.adambird.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://www.adambird.com/"/>
+  <updated>2013-02-05T11:29:07+00:00</updated>
+  <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Spork not reloading classes]]></title>
-    <link href="http://adambird.com/spork-not-reloading-classes"/>
+    <link href="http://www.adambird.com/spork-not-reloading-classes"/>
     <updated>2012-03-21T00:00:00+00:00</updated>
-    <id>http://adambird.com/spork-not-reloading-classes</id>
+    <id>http://www.adambird.com/spork-not-reloading-classes</id>
     <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
 
 <p>Replace this line in test.rb</p>

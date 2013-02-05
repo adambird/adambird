@@ -5,7 +5,7 @@ description: "The most disappointing announcement for me was that Nottingham has
 date: 2012-03-22 00:00
 comments: true
 author: Adam
-categories: []
+categories: [business]
 ---
 
 The most disappointing announcement for me was that Nottingham has missed out on it's bid for the Super Connected Cities fund. It's a real shame for the city. There was an additional, smaller, fund announced so hopefully the bid team can dust themselves off and we can go again.

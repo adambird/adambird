@@ -5,7 +5,7 @@ description: "This really helped me deliver a rather lovely solution to filterin
 date: 2011-05-25 00:00
 comments: true
 author: Adam
-categories: []
+categories: [dev]
 ---
 
 This really helped me deliver a rather lovely solution to filtering records on Bunch Rides.
@@ -16,11 +16,9 @@ and here's what I did: <a href="http://rides.bunch.cc/clubs/54">http://rides.bun
 
 and the helper code:
 
-<div class="CodeRay">
-  <div class="code"><pre>def table_filter(filters, selected_scope)
-  content_tag(:div,
-    raw(filters.collect { |filter| 
-      content_tag(:a, filter[:label], :href =&gt; &quot;?show=#{filter[:scope]}&quot;, :class =&gt; ('selected' if filter[:scope] == selected_scope)) }),  
-    :class =&gt; 'table-filter')
-end</pre></div>
-</div>
+    def table_filter(filters, selected_scope)
+      content_tag(:div,
+        raw(filters.collect { |filter| 
+          content_tag(:a, filter[:label], :href =&gt; &quot;?show=#{filter[:scope]}&quot;, :class =&gt; ('selected' if filter[:scope] == selected_scope)) }),  
+        :class =&gt; 'table-filter')
+    end

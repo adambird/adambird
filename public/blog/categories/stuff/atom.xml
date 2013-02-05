@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: stuff | Bird Stream]]></title>
-  <link href="http://adambird.com/blog/categories/stuff/atom.xml" rel="self"/>
-  <link href="http://adambird.com/"/>
-  <updated>2013-01-31T00:19:59+00:00</updated>
-  <id>http://adambird.com/</id>
+  <link href="http://www.adambird.com/blog/categories/stuff/atom.xml" rel="self"/>
+  <link href="http://www.adambird.com/"/>
+  <updated>2013-02-05T11:29:07+00:00</updated>
+  <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Top 80s Films That Your Children Must See]]></title>
-    <link href="http://adambird.com/top-80s-films-your-children-must-see"/>
+    <link href="http://www.adambird.com/top-80s-films-your-children-must-see"/>
     <updated>2013-01-30T19:50:00+00:00</updated>
-    <id>http://adambird.com/top-80s-films-your-children-must-see</id>
+    <id>http://www.adambird.com/top-80s-films-your-children-must-see</id>
     <content type="html"><![CDATA[<p>We're going through a bit of cultural education of my boys at the moment, Back To The Future I, II &amp; III, ET, Fawlty Towers have all been on the bill.</p>
 
 <p>So I put a call out on twitter last Saturday for film recommendations for 80s films that my children need to see. Here's the list (in no particular order).</p>
@@ -53,6 +53,21 @@
 
 
 <p>Some I'm going to hold off for age and content reasons but I think our Saturday night viewing is sorted for a good while.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Beeston Centurions U9s sports men of the league]]></title>
+    <link href="http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag"/>
+    <updated>2011-06-12T00:00:00+01:00</updated>
+    <id>http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag</id>
+    <content type="html"><![CDATA[<div class='p_embed p_image_embed'>
+<img alt="Media_httpaudioboofmb_tject" height="1" src="http://getfile3.posterous.com/getfile/files.posterous.com/adambird/ghBhsiaDuqrIusxlHqqorabzjmeIjjymazvHseDFqvytoduwrafFDwEfqDvG/media_httpaudioboofmb_tjeCt.jpg.scaled500.jpg" width="1" />
+</div>
+
+
+<br /><object type="application/x-shockwave-flash" height="129" width="400"><param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="bgColor" value="#FFFFFF" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="window" /><param name="FlashVars" value="mp3Time=03.51pm+12+Jun+2011&amp;rootID=boo_embed_383593&amp;mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league.mp3%3Fsource%3Dembed&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league&amp;mp3Title=Beeston+Centurions+U9s+sports+men+of+the+league" /><a href="http://audioboo.fm/boos/383593-beeston-centurions-u9s-sports-men-of-the-league.mp3?source=embed">Listen!</a></object>
+
 ]]></content>
   </entry>
   

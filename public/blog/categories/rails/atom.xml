@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: rails | Bird Stream]]></title>
-  <link href="http://adambird.com/blog/categories/rails/atom.xml" rel="self"/>
-  <link href="http://adambird.com/"/>
-  <updated>2013-01-31T00:19:59+00:00</updated>
-  <id>http://adambird.com/</id>
+  <link href="http://www.adambird.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://www.adambird.com/"/>
+  <updated>2013-02-05T11:29:07+00:00</updated>
+  <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Delayed_job Syck woes when deploying to Heroku Cedar]]></title>
-    <link href="http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
+    <link href="http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
     <updated>2012-06-26T00:00:00+01:00</updated>
-    <id>http://adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
+    <id>http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
     <content type="html"><![CDATA[<p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
 
 <p>I'd upgraded a Rails 2 app that used Delayed_Job to Rails 3 and was deploying the Heroku Cedar stack. Jobs were being queued but would fail immediately when trying to deserialise with</p>
@@ -46,9 +46,9 @@
   
   <entry>
     <title type="html"><![CDATA[Spork not reloading classes]]></title>
-    <link href="http://adambird.com/spork-not-reloading-classes"/>
+    <link href="http://www.adambird.com/spork-not-reloading-classes"/>
     <updated>2012-03-21T00:00:00+00:00</updated>
-    <id>http://adambird.com/spork-not-reloading-classes</id>
+    <id>http://www.adambird.com/spork-not-reloading-classes</id>
     <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
 
 <p>Replace this line in test.rb</p>

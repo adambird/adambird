@@ -9,7 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="I&#8217;ve been using the Nexus One for a couple of weeks now and I really like it. The first thing you notice is how reassuringly solid it feels in &hellip;">
+  <meta name="description" content="This is a really well executed app from the Met Office. An absolutely must for commuting cyclists. ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://adambird.com/blog/page/9/">
+  <link rel="canonical" href="http://www.adambird.com/blog/page/9/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -61,7 +61,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:adambird.com" />
+    <input type="hidden" name="q" value="site:www.adambird.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -76,6 +76,45 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/i-have-a-new-home-page-iphone-app">I Have a New Home Page iPhone App</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-02-07T00:00:00+00:00" pubdate data-updated="true">Feb 7<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is a really well executed app from the Met Office. An absolutely must for commuting cyclists.<p><div class='p_embed p_image_embed'>
+<img alt="Photo" height="480" src="http://getfile6.posterous.com/getfile/files.posterous.com/adambird/HsDYizTXoCfnkctYwvFgvQmbqF5AVTSUOTEVqM4VIx4B8jbfu2WXMGDF1IIY/photo.jpg" width="320" />
+</div>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -415,128 +454,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/automating-azure-deployment-with-windows-powe">Automating Azure Deployment With Windows PowerShell</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-22T00:00:00+00:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>One of the pre-requisites I had for using Azure was that it could be deployed automatically as part of an integration and deployment process.</p>
-
-<p>A quick scan through the Labs in the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=413E88F8-5966-4A83-B309-53B7B77EDF78&amp;displaylang=en" target="_blank">Windows Azure Platform Kit</a>, which by the way have been an excellent resource so far, gave me Windows PowerShell as the option.</p>
-
-<p>&nbsp;</p>
-
-<p>It proved pretty easy to get up and running. Here&#8217;s my quick start guide.</p>
-
-<h4>Download PowerShell and the Azure CmdLets</h4>
-
-
-<p>If you&#8217;re running anything other than Windows 7 you&#8217;ll need to download and install PowerShell from here: <a href="http://support.microsoft.com/kb/926139" target="_blank">http://support.microsoft.com/kb/926139</a>.</p>
-
-<p>Next you need the Azure Power Shell CmdLets available here: <a href="http://code.msdn.microsoft.com/azurecmdlets" target="_blank">http://code.msdn.microsoft.com/azurecmdlets</a>. Once you&#8217;ve downloaded and extracted the scripts, you then just need to execute the <em>startHere</em> script to get them installed.</p>
-
-<h4>Script the deployment</h4>
-
-
-<p>I won&#8217;t regurgitate the full instructions as it&#8217;s best to read through the Lab <em>Deploying and Monitoring Applications in Windows Azure - Exercise 2 - Using PowerShell to Manage Windows Azure Applications</em> in the Windows Azure Platform Kit.</p>
-
-<p>Is also worth checking reading about them on Ryan Dunn&#8217;s blog: <a href="http://dunnry.com/blog/WindowsAzureServiceManagementCmdLets.aspx" target="_blank">http://dunnry.com/blog/WindowsAzureServiceManagementCmdLets.aspx</a></p>
-
-<p>This is the script I ended up with</p>
-
-<div class="CodeRay">
-  <div class="code"><pre>Add-PSSnapin AzureManagementToolsSnapIn
-
-$service = &quot;&lt;service_name&gt;&quot;
-$sub = &quot;&lt;subscription_id&gt;&quot;
-$cert = Get-Item cert:\CurrentUser\My\&quot;&lt;thumbnail&gt;&quot;
-$package = &quot;&quot;&lt;package_file&gt;&quot;&quot;
-$config = &quot;&quot;&lt;config_file&gt;&quot;&quot;
-
-if ($args.Length -eq 1)
-{
-        $label = $args[0]
-} 
-else
-{
-        $label = &quot;unknown&quot;
-}
-
-/* 
-    If the staging deployment doesn't exist, this will create it
-*/
-/*
-New-Deployment -serviceName $service -subscriptionId $sub -certificate $cert -slot staging -package $package -configuration $config -label $label |
-Get-OperationStatus –WaitToComplete
-*/
-
-/*
-    Upgrade the current staging deployment
-*/
-Get-HostedService -serviceName $service -subscriptionId $sub -certificate $cert |
-Get-Deployment -slot staging |
-Set-Deployment -package $package -label $label |
-Get-OperationStatus –WaitToComplete
-
-/*
-    Set to running
-*/
-Get-HostedService -serviceName $service -subscriptionId $sub -certificate $cert |
-Get-Deployment -slot staging |
-Set-DeploymentStatus running |
-Get-OperationStatus –WaitToComplete
-
-/*
-    Move staging to production, this will actually swap them over
-*/
-Get-HostedService -serviceName $service -subscriptionId $sub -certificate $cert |
-Get-Deployment -slot staging |
-Move-Deployment |
-Get-OperationStatus –WaitToComplete</pre></div>
-</div>
-
-
-<p>You&#8217;ll note that I have two options for the deployment <em>New-Deployment</em> and <em>Set-Deployment</em>.</p>
-
-<p>When you start off, Azure has nothing in either of the staging or production slots so you have to use <em>New-Deployment</em>.</p>
-
-<p>When you create the first staging deployment then move to production, this empties the staging slot.</p>
-
-<p>When you run through the process again, with <em>New-Deployment</em>, the <em>Move</em> swaps the deployments over so staging then has the first deployment and production the second.</p>
-
-<p>At this point you can then start upgrading the staging deployment with <em>Set-Deployment</em></p>
-
-<p>You can of course avoid all this by just doing two manual deploys before automating it.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/10/">&larr; Older</a>
@@ -557,10 +474,20 @@ Get-OperationStatus –WaitToComplete</pre></div>
     <li><a href="http://www.bunch.cc"><img src="/images/bunch-rides-logo.png" width="40px" alt="Bunch Rides logo" class="left"/>Bunch Rides: cycling training diary &amp; bike ride organiser</a></li>
     <li><a href="http://evenitron.com"><img src="/images/evenitron-logo.png" width="40px" alt="Evenitron logo" class="left"/>Evenitron: resque and delayed_job monitoring</a></li>
   </ul>
+  <ul>
+    <li><a href="https://twitter.com/adambird" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @adambird</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+  <li><a href="http://uk.linkedin.com/in/adambird">
+    <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Adam Bird's profile on LinkedIn"></a></li>
+  </ul>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/only-entrepreneurs-can-lead-a-start-up-community">Only Entrepreneurs Can Lead a Start-Up Community</a>
+      </li>
     
       <li class="post">
         <a href="/top-80s-films-your-children-must-see">The Top 80s Films That Your Children Must See</a>
@@ -576,10 +503,6 @@ Get-OperationStatus –WaitToComplete</pre></div>
     
       <li class="post">
         <a href="/the-nottingham-creative-quarter-what-can-you">The Nottingham Creative Quarter - What can you do</a>
-      </li>
-    
-      <li class="post">
-        <a href="/delayedjob-syck-woes-when-deploying-to-heroku">Delayed_job Syck woes when deploying to Heroku Cedar</a>
       </li>
     
   </ul>

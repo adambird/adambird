@@ -5,7 +5,7 @@ description: "Are you a developer? Are you a business owner who employs develope
 date: 2012-09-03 00:00
 comments: true
 author: Adam
-categories: []
+categories: [business, dev]
 ---
 
 <img src="/images/code-club-logo.png" alt="" width="180px"/>
