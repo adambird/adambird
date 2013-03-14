@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-02-05T11:29:07+00:00</updated>
+  <updated>2013-03-14T14:28:00+00:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Do You Use Calendars?]]></title>
+    <link href="http://www.adambird.com/do-you-use-calendars"/>
+    <updated>2013-03-14T14:00:00+00:00</updated>
+    <id>http://www.adambird.com/do-you-use-calendars</id>
+    <content type="html"><![CDATA[<p>I&#8217;m an eternally frustrated user of computer and phone calendars. I find all sorts of aspects of using them clumsy and ill-suited to the way I work.</p>
+
+<p>Am I the only one?</p>
+
+<p>I have some ideas about how they could be improved but I only represent one perspective. If you use calendars and are within striking distance of either Nottingham or London I&#8217;d love to come and buy you a coffee.</p>
+
+<!-- more -->
+
+
+<p>Basically I&#8217;m looking for 15-20 mins of your time in which I&#8217;d like to understand how you currently use calendars and what your current pain points are. Where do you have to work round existing solutions in order to fit them into your way of working?</p>
+
+<p>In return I can offer a warm &amp; invigorating beverage and an empathetic ear as you unload your calendar related tails of woe. I might even throw in a muffin :)</p>
+
+<p>If that sounds like something you&#8217;d be up for please get in touch <a href="http://twitter.com/adambird">@adambird</a> or <a href="mailto:adam.bird@gmail.com">adam.bird@gmail.com</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Only Entrepreneurs Can Lead a Start-Up Community]]></title>
@@ -37,7 +59,7 @@
 
 <p>If you&#8217;re one of those people, please get in touch.</p>
 
-<p>Whether you&#8217;re an entrepreneur or not, if you want to help make this initative successful, I&#8217;d recommend reading the book.</p>
+<p>Whether you&#8217;re an entrepreneur or not, if you want to be part of making this initative successful, I&#8217;d recommend reading the book.</p>
 ]]></content>
   </entry>
   
@@ -533,19 +555,6 @@ end
 <p>Secondly if you can offer opportunities to graduates or under-grads then come direct: <a href="mailto:adam.bird@esendex.com">adam.bird@esendex.com</a>, <a href="http://twitter.com/adambird">@adambird</a></p>
 
 <p>We&#8217;ve started something in Nottingham, let&#8217;s push it to the next level.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mobile Boarding Pass Success]]></title>
-    <link href="http://www.adambird.com/mobile-boarding-pass-success"/>
-    <updated>2010-11-25T00:00:00+00:00</updated>
-    <id>http://www.adambird.com/mobile-boarding-pass-success</id>
-    <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/mobile-boarding-pass-success/p602.jpg">
-I&#8217;ve tried mobile boarding passes before without success. By the time I&#8217;ve tried to navigate round my phone to get to the appropriate image or web site, getting a piece of paper out has generally been quicker. So it was with a degree of scepticism that I tried out the BA iPhone app with it&#8217;s board pass option for a flight to Lyon today.It worked a treat.
-The key for me was that it worked well enough for the gate agent who hadn&#8217;t used it before to let me board without issue.
-Why did it work this time and not before? A well designed app with good state management and fast app switching was they key. It meant I wasn&#8217;t tentatively nursing my phone as I approached each of the check points desperately trying to keep the screen alive while not navigating away from the boarding code.
-A long promised revolution in travel documentation may well be upon us.</p>
 ]]></content>
   </entry>
   

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Delayed_job Syck woes when deploying to Heroku Cedar - Bird Stream</title>
+  <title>Do You Use Calendars? - Bird Stream</title>
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="This caused me a bit of heartache and I found little to help via the usual channels. I'd upgraded a Rails 2 app that used Delayed_Job to Rails 3 and &hellip;">
+  <meta name="description" content="I&#8217;m an eternally frustrated user of computer and phone calendars. I find all sorts of aspects of using them clumsy and ill-suited to the way I &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku">
+  <link rel="canonical" href="http://www.adambird.com/do-you-use-calendars">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,7 +79,7 @@
   
   <header>
     
-      <h1 class="entry-title">Delayed_job Syck Woes When Deploying to Heroku Cedar</h1>
+      <h1 class="entry-title">Do You Use Calendars?</h1>
     
     
       <p class="meta">
@@ -95,36 +95,27 @@
   
 
 
-<time datetime="2012-06-26T00:00:00+01:00" pubdate data-updated="true">Jun 26<span>th</span>, 2012</time>
+<time datetime="2013-03-14T14:00:00+00:00" pubdate data-updated="true">Mar 14<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
+<div class="entry-content"><p>I&#8217;m an eternally frustrated user of computer and phone calendars. I find all sorts of aspects of using them clumsy and ill-suited to the way I work.</p>
 
-<p>I&#8217;d upgraded a Rails 2 app that used Delayed_Job to Rails 3 and was deploying the Heroku Cedar stack. Jobs were being queued but would fail immediately when trying to deserialise with</p>
+<p>Am I the only one?</p>
 
-<pre><code>uninitialized constant Syck::Syck
-</code></pre>
+<p>I have some ideas about how they could be improved but I only represent one perspective. If you use calendars and are within striking distance of either Nottingham or London I&#8217;d love to come and buy you a coffee.</p>
 
 <!-- more -->
 
 
-<p>when trying to parse and initialise the handler. Irritatingly the worker logs were showing the jobs as successful.</p>
+<p>Basically I&#8217;m looking for 15-20 mins of your time in which I&#8217;d like to understand how you currently use calendars and what your current pain points are. Where do you have to work round existing solutions in order to fit them into your way of working?</p>
 
-<p>After messing around with trying to explicitly set the YAML parser in <code>config/boot.rb</code> I found the solution.</p>
+<p>In return I can offer a warm &amp; invigorating beverage and an empathetic ear as you unload your calendar related tails of woe. I might even throw in a muffin :)</p>
 
-<p><code>Syck</code> isn&#8217;t available on the Heroku Cedar stack so you have to include the <code>Psych</code> gem.</p>
-
-<pre><code>gem 'pysch'
-</code></pre>
-
-<p>I then ran this on the console to resubmit the jobs and all was good</p>
-
-<pre><code>Delayed::Job.all.each do |job| job.invoke_job ; job.destroy end
-</code></pre>
+<p>If that sounds like something you&#8217;d be up for please get in touch <a href="http://twitter.com/adambird">@adambird</a> or <a href="mailto:adam.bird@gmail.com">adam.bird@gmail.com</a>.</p>
 </div>
 
 
@@ -147,12 +138,12 @@
   
 
 
-<time datetime="2012-06-26T00:00:00+01:00" pubdate data-updated="true">Jun 26<span>th</span>, 2012</time>
+<time datetime="2013-03-14T14:00:00+00:00" pubdate data-updated="true">Mar 14<span>th</span>, 2013</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/dev/'>dev</a>, <a class='category' href='/blog/categories/rails/'>rails</a>
+    <a class='category' href='/blog/categories/business/'>business</a>
   
 </span>
 
@@ -161,7 +152,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku" data-via="adambird" data-counturl="http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambird.com/do-you-use-calendars" data-via="adambird" data-counturl="http://www.adambird.com/do-you-use-calendars" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -174,10 +165,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/remain-friends-with-your-git-collaborators-by" title="Previous Post: Remain friends with your Git collaborators by auto removing whitespace in Textmate">&laquo; Remain friends with your Git collaborators by auto removing whitespace in Textmate</a>
+        <a class="basic-alignment left" href="/only-entrepreneurs-can-lead-a-start-up-community" title="Previous Post: Only Entrepreneurs Can Lead a Start-Up Community">&laquo; Only Entrepreneurs Can Lead a Start-Up Community</a>
       
-      
-        <a class="basic-alignment right" href="/the-nottingham-creative-quarter-what-can-you" title="Next Post: The Nottingham Creative Quarter - What can you do">The Nottingham Creative Quarter - What can you do &raquo;</a>
       
     </p>
   </footer>
@@ -331,8 +320,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku';
-        var disqus_url = 'http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku';
+        var disqus_identifier = 'http://www.adambird.com/do-you-use-calendars';
+        var disqus_url = 'http://www.adambird.com/do-you-use-calendars';
         var disqus_script = 'embed.js';
       
     (function () {

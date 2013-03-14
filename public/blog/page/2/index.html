@@ -9,7 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="I&#8217;ve been discovering the wonders of RSpec and Cucumber recently (I know, I know, I&#8217;m horribly late to that particular party) and &hellip;">
+  <meta name="description" content="Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,56 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/spork-not-reloading-classes">Spork Not Reloading Classes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-21T00:00:00+00:00" pubdate data-updated="true">Mar 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
+
+<p>Replace this line in test.rb</p>
+
+<pre><code>config.cache_classes = true
+</code></pre>
+
+<p>with this</p>
+
+<pre><code>config.cache_classes = !(ENV['DRB'] == 'true')
+</code></pre>
+
+<p>and development is back to full speed.</p>
+
+<p>More info here&nbsp;<a href="http://Spork not reloading classes">http://www.avenue80.com/tiny-tip-spork-not-reloading-classes/</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -474,46 +524,6 @@ end
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/mobile-boarding-pass-success">Mobile Boarding Pass Success</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-11-25T00:00:00+00:00" pubdate data-updated="true">Nov 25<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="/images/mobile-boarding-pass-success/p602.jpg">
-I&#8217;ve tried mobile boarding passes before without success. By the time I&#8217;ve tried to navigate round my phone to get to the appropriate image or web site, getting a piece of paper out has generally been quicker. So it was with a degree of scepticism that I tried out the BA iPhone app with it&#8217;s board pass option for a flight to Lyon today.It worked a treat.
-The key for me was that it worked well enough for the gate agent who hadn&#8217;t used it before to let me board without issue.
-Why did it work this time and not before? A well designed app with good state management and fast app switching was they key. It meant I wasn&#8217;t tentatively nursing my phone as I approached each of the check points desperately trying to keep the screen alive while not navigating away from the boarding code.
-A long promised revolution in travel documentation may well be upon us.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -537,13 +547,17 @@ A long promised revolution in travel documentation may well be upon us.</p>
   <ul>
     <li><a href="https://twitter.com/adambird" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @adambird</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
-  <li><a href="http://uk.linkedin.com/in/adambird">
+  <li><a href="http://uk.linkedin.com/in/adambird" style="white-space: normal;">
     <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Adam Bird's profile on LinkedIn"></a></li>
   </ul>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/do-you-use-calendars">Do You Use Calendars?</a>
+      </li>
     
       <li class="post">
         <a href="/only-entrepreneurs-can-lead-a-start-up-community">Only Entrepreneurs Can Lead a Start-Up Community</a>
@@ -559,10 +573,6 @@ A long promised revolution in travel documentation may well be upon us.</p>
     
       <li class="post">
         <a href="/4-years-a-thought-experiment">4 years - a thought experiment</a>
-      </li>
-    
-      <li class="post">
-        <a href="/the-nottingham-creative-quarter-what-can-you">The Nottingham Creative Quarter - What can you do</a>
       </li>
     
   </ul>
