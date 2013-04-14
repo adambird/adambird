@@ -28,7 +28,10 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
+<!-- coderwall -->
+<link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -175,11 +178,9 @@
   
     <section>
   <img src="/images/adam-avatar.jpg">
-  <p>A Nottingham based software developer, entrepreneur and cyclist you may know from such productions as:</p>
+  <p>A Nottingham based software developer, entrepreneur and cyclist you may know from</p>
   <ul>
     <li><a href="http://www.esendex.co.uk"><img src="/images/esendex-logo.jpg" width="40px" alt="Esendex logo" class="left"/>Esendex: international text messaging service provider</a></li>
-    <li><a href="http://www.bunch.cc"><img src="/images/bunch-rides-logo.png" width="40px" alt="Bunch Rides logo" class="left"/>Bunch Rides: cycling training diary &amp; bike ride organiser</a></li>
-    <li><a href="http://evenitron.com"><img src="/images/evenitron-logo.png" width="40px" alt="Evenitron logo" class="left"/>Evenitron: resque and delayed_job monitoring</a></li>
   </ul>
   <ul>
     <li><a href="https://twitter.com/adambird" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @adambird</a>
@@ -187,6 +188,76 @@
   <li><a href="http://uk.linkedin.com/in/adambird" style="white-space: normal;">
     <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Adam Bird's profile on LinkedIn"></a></li>
   </ul>
+</section>
+
+<section>
+  <h1>Coderwall</h1>
+  <ul id="cw_badges">
+    <li class="loading">Status updating...</li>
+  </ul>
+
+  <script type="text/javascript">
+    var coderwall = (function(){
+      function render(options, badges){
+        var fragment = '',
+            t = $(options.target)[0],
+            height = 65,
+            width = 65,
+            index;
+
+        for (index in badges) {
+          fragment += '<a class="cw_badge"title="' + badges[index].description + '" href="http://coderwall.com/' + options.user + '">';
+          fragment +=   '<img alt="' + badges[index].description + '" height="' + width + '" width="' + height + '" src="' + badges[index].badge + '"/>';
+          fragment += '</a>';
+        }
+
+        t.innerHTML = fragment;
+      }
+      return {
+        showBadges: function(options){
+          $.ajax({
+              url: 'http://coderwall.com/' + options.user + '.json?callback=?'
+            , type: 'jsonp'
+            , error: function (err) { $(options.target + ' li.loading').addClass('error').text("Error loading feed"); }
+            , success: function(res) {
+                render(options, res.data.badges);
+            }
+          });
+        }
+      };
+    })();
+
+    $.domReady(function(){
+      if (!window.jXHR){
+        var jxhr = document.createElement('script');
+        jxhr.type = 'text/javascript';
+        jxhr.src = '/javascripts/libs/jXHR.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(jxhr, s);
+      }
+      if (!window.$){
+        var b = document.createElement('script');
+        b.type = 'text/javascript';
+        b.src = '/javascripts/ender.js';
+        var sc = document.getElementsByTagName('script')[0];
+        sc.parentNode.insertBefore(jxhr, s);
+      }
+      coderwall.showBadges({
+        user: 'adambird',
+        target: '#cw_badges'
+      });
+    });
+  </script>
+  <style type="text/css">
+    .cw_badge img {
+      padding: 5px;
+      border: 0 none !important;
+      -moz-box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      -o-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+  </style>
 </section>
 <section>
   <h1>Recent Posts</h1>
