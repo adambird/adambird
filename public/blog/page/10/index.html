@@ -9,8 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="need a a CNAME mapping to /cloudapp.net as described here: http://blog.smarx.com/posts/custom-domain-names-in-windows-azure
-">
+  <meta name="description" content="is to use an environment variable. The PowerShell Task is a subclassed Executable Task which loads a series of environment variables before the task &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +76,42 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-trick-to-getting-cruisecontrolnet-build-l">The Trick to Getting CruiseControl.net Build Label Into PowerShell Script</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-27T00:00:00+00:00" pubdate data-updated="true">Jan 27<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>is to use an environment variable. <p /> The PowerShell Task is a subclassed Executable Task which loads a series of environment variables before the task is executed. You then just need to access those in your PowerShell script via the $Env variable. <p /> In my case <br />$label = $Env:CCNetLabel <p /> Scroll down to the Notes section of this page <a href="http://confluence.public.thoughtworks.org/display/CCNET/Executable%2BTask">http://confluence.public.thoughtworks.org/display/CCNET/Executable%2BTask</a> for a full list of the environment variables that are set.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -504,45 +539,6 @@ Get-OperationStatus –WaitToComplete</pre></div>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/mmm-this-isnt-a-good-azure-moment">Mmm This Isn&#8217;t a Good Azure Moment</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-15T00:00:00+00:00" pubdate data-updated="true">Jan 15<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>been like this for a while<p><div class='p_embed p_image_embed'>
-<img alt="Screen_shot_2010-01-15_at_15" height="294" src="http://getfile2.posterous.com/getfile/files.posterous.com/adambird/JS9dnJ0Il9FLhDgiixgDdL7VQy0t2pqvhf7ektS7cD4UWzJgVoDAxM6peTMA/Screen_shot_2010-01-15_at_15.2.png" width="428" />
-</div>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/11/">&larr; Older</a>
@@ -643,6 +639,10 @@ Get-OperationStatus –WaitToComplete</pre></div>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/framework-jail-and-bail">Framework Jail &amp; Bail</a>
+      </li>
+    
+      <li class="post">
         <a href="/do-you-use-calendars">Do You Use Calendars?</a>
       </li>
     
@@ -656,10 +656,6 @@ Get-OperationStatus –WaitToComplete</pre></div>
     
       <li class="post">
         <a href="/code-club-a-call-to-arms">Code Club, a call to arms</a>
-      </li>
-    
-      <li class="post">
-        <a href="/4-years-a-thought-experiment">4 years - a thought experiment</a>
       </li>
     
   </ul>
