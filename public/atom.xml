@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-05-12T15:29:42+01:00</updated>
+  <updated>2013-05-12T21:13:25+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pre cycle commute UK weather forecast tweet]]></title>
+    <link href="http://www.adambird.com/pre-cycle-commute-uk-weather-forecast-tweet"/>
+    <updated>2013-05-12T20:57:00+01:00</updated>
+    <id>http://www.adambird.com/pre-cycle-commute-uk-weather-forecast-tweet</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been playing around (<a href="../pushing-info-to-pebble-watch">see here</a>) and have set up a simple service that tweets me every morning at 7:30am with a simple weather forecast. Importantly it has the information I want as a cycle commuter.</p>
+
+<ul>
+<li>Wind speed &amp; direction</li>
+<li>Likelihood of rain</li>
+<li>Temperature</li>
+</ul>
+
+
+<!-- more -->
+
+
+<p>The result looks a bit like this</p>
+
+<pre><code>@adambird
+Mon 13 - BEESTON
+11C Light rain
+11mph WSW
+Rain 84%
+</code></pre>
+
+<p>It&#8217;s just one less thing to have to look at in the morning.</p>
+
+<p>Would you like to receive the messages too?</p>
+
+<p>I&#8217;ve got some ideas for developing it and if there&#8217;s enough interest I will. It doesn&#8217;t cost me anything to run other than time at the moment so I thought it was worth putting out there.</p>
+
+<p>If you&#8217;d like to give it a go. Then adam dot bird at gmail dot com or @adambird and let me know</p>
+
+<ol>
+<li>Where you want the forecast for</li>
+<li>What time you want it</li>
+</ol>
+
+
+<p>Also any thoughts on what info would be useful to you before you assemble your commuting accessories and attire would be much appreciated.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pushing info to my Pebble watch]]></title>
@@ -555,15 +599,6 @@ end
 
 
 <p>I was lucky enough to be interviewed by <a href="http://twitter.com/robwilmot">@robwilmot</a> on his <a href="http://rob.fibreca.mp">Entrepreneur Show</a> yesterday. It was a great opportunity to share my views on how Nottingham is going to harness some of the current successes in the creative and technology scene to really cement is position as a leading centre for the UK.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Big M Went Bold And Got It So Right]]></title>
-    <link href="http://www.adambird.com/the-big-m-went-bold-and-got-it-so-right"/>
-    <updated>2011-03-23T00:00:00+00:00</updated>
-    <id>http://www.adambird.com/the-big-m-went-bold-and-got-it-so-right</id>
-    <content type="html"><![CDATA[<p>I was at the Big M mobile conference (<a href="http://thebigm.mobi/)">http://thebigm.mobi/)</a> on Monday and am very glad I was. Chris (<a href="http://twitter.com/bookmeister">@bookmeister</a>) and Mike (<a href="http://twitter.com/m1ke_ellis">@m1ke_ellis</a>) made some bold decisions in putting on this event and they paid off. <p /> <span style="font-size: medium;">Bold Decision #1 - Bath </span><p /> Tech innovation and Somerset are not necessarily two words I would associate but they absolutely showed the rest of the country what a great scene exists there. Nottingham (where I live and work) could learn a lot. It is a beautiful city that is a joy to visit. In the battle for talent that cities are (or should be) engaged in now, they have served Bath well. <p /> <span style="font-size: medium;">Bold Decision #2 - No WiFi </span><p /> Didn&#8217;t miss it, in fact I&#8217;m glad it wasn&#8217;t there. The mobile signal was good enough to get emails if anything urgent cropped up. I would imagine this was one of the reasons why people talked to each other more and probably got more out of the speakers. I go to too many conferences these days where people are too busy, surfing, and interacting with people that aren&#8217;t there rather than engaging with the speakers. <p /> <span style="font-size: medium;">Bold Decision #3 - Price</span> <p /> &pound;200 for a one day conference seemed reasonably pricey and pitching this right would have been a really hand wringer but it was spot on. It meant everyone who came really wanted to get something out of it and I&#8217;m guessing it meant they could afford the calibre of speakers that they attracted. <p /> <span style="font-size: medium;">Bold Decision #4 - Comedy/Rock Club Venue</span> <p /> Forget anonymous hotels or convention facilities, more events like this should be held in this kind of venue. Komedia (<a href="http://www.komedia.co.uk/)">http://www.komedia.co.uk/)</a> had all the facilities and looked fantastic. People arrived and there was a palpable buzz as they went through the door into the venue proper. Going to a gig for &#8216;work&#8217;, brilliant. It was especially entertaining watching as a bunch of geeks spilled out on to streets at the breaks, blinking as they readjusted to a bright and very real world still existing outside. <p />  <br />If they run it next year I will absolutely be going as should you. <p /></p>
 ]]></content>
   </entry>
   
