@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-04-30T10:59:43+01:00</updated>
+  <updated>2013-05-12T15:29:42+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pushing info to my Pebble watch]]></title>
+    <link href="http://www.adambird.com/pushing-info-to-pebble-watch"/>
+    <updated>2013-05-12T15:06:00+01:00</updated>
+    <id>http://www.adambird.com/pushing-info-to-pebble-watch</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/adambird/8730919595/" title="Weather forecast to my Pebble by adamebird, on Flickr"><img src="http://farm8.staticflickr.com/7283/8730919595_b631670ee7.jpg" width="375" height="500" alt="Weather forecast to my Pebble"></a></p>
+
+<p>My <a href="http://getpebble.com">Pebble Watch</a> finally arrived this week so I thought I should have a go at pushing information to it. As a cycle commuter I look at the weather every day and am primarily interested in wind direction and rain forecast so I though it would be neat to have this appear on my watch every morning.</p>
+
+<!-- more -->
+
+
+<p><a href="http://ifttt.com">IFTTT</a> was the obvious place to start, especially as weather notifications are standard recipes. SMS or Twitter would be good channels to start but neither would work for me.</p>
+
+<p>SMS just didn&#8217;t work, I&#8217;m in the UK on Orange. And Twitter wouldn&#8217;t allow sending a DM to myself (though as you&#8217;ll see from my solution I could have just done this).</p>
+
+<p>I had heard reports of a Pebble push API but haven&#8217;t been able to find any documentation so I resorted to handcrafting my own solution.</p>
+
+<h2>Pebblebot</h2>
+
+<p>I created a simple Ruby command line script to handle the weather initially <a href="https://github.com/adambird/pebblebot">adambird/pebblebot</a>.</p>
+
+<p>I&#8217;ve resorted to twitter DMs from another &#8216;bot&#8217; account I&#8217;ve created for the purpose. Not ideal as I end up with DMs on several devices which I don&#8217;t want. Once the Pebble Push API is available then this should be an easy swap out.</p>
+
+<p>I host this on a Heroku at zero cost by having an app with no dynos and just a free <a href="https://addons.heroku.com/scheduler">Heroku Scheduler</a> that runs the script every morning.</p>
+
+<p>At the moment this will need to be manually changed to daylight saving so I might need to thing of something more powerful for scheduling.</p>
+
+<p>Have various ideas for improving and extending this, including making something that anyone could use. If you&#8217;re interested let me know what would be useful to you <a href="http://twitter.com/adambird">@adambird</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Framework Jail &amp; Bail]]></title>
@@ -532,26 +564,6 @@ end
     <updated>2011-03-23T00:00:00+00:00</updated>
     <id>http://www.adambird.com/the-big-m-went-bold-and-got-it-so-right</id>
     <content type="html"><![CDATA[<p>I was at the Big M mobile conference (<a href="http://thebigm.mobi/)">http://thebigm.mobi/)</a> on Monday and am very glad I was. Chris (<a href="http://twitter.com/bookmeister">@bookmeister</a>) and Mike (<a href="http://twitter.com/m1ke_ellis">@m1ke_ellis</a>) made some bold decisions in putting on this event and they paid off. <p /> <span style="font-size: medium;">Bold Decision #1 - Bath </span><p /> Tech innovation and Somerset are not necessarily two words I would associate but they absolutely showed the rest of the country what a great scene exists there. Nottingham (where I live and work) could learn a lot. It is a beautiful city that is a joy to visit. In the battle for talent that cities are (or should be) engaged in now, they have served Bath well. <p /> <span style="font-size: medium;">Bold Decision #2 - No WiFi </span><p /> Didn&#8217;t miss it, in fact I&#8217;m glad it wasn&#8217;t there. The mobile signal was good enough to get emails if anything urgent cropped up. I would imagine this was one of the reasons why people talked to each other more and probably got more out of the speakers. I go to too many conferences these days where people are too busy, surfing, and interacting with people that aren&#8217;t there rather than engaging with the speakers. <p /> <span style="font-size: medium;">Bold Decision #3 - Price</span> <p /> &pound;200 for a one day conference seemed reasonably pricey and pitching this right would have been a really hand wringer but it was spot on. It meant everyone who came really wanted to get something out of it and I&#8217;m guessing it meant they could afford the calibre of speakers that they attracted. <p /> <span style="font-size: medium;">Bold Decision #4 - Comedy/Rock Club Venue</span> <p /> Forget anonymous hotels or convention facilities, more events like this should be held in this kind of venue. Komedia (<a href="http://www.komedia.co.uk/)">http://www.komedia.co.uk/)</a> had all the facilities and looked fantastic. People arrived and there was a palpable buzz as they went through the door into the venue proper. Going to a gig for &#8216;work&#8217;, brilliant. It was especially entertaining watching as a bunch of geeks spilled out on to streets at the breaks, blinking as they readjusted to a bright and very real world still existing outside. <p />  <br />If they run it next year I will absolutely be going as should you. <p /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Going International (live'ish)]]></title>
-    <link href="http://www.adambird.com/going-international-liveish"/>
-    <updated>2011-03-09T00:00:00+00:00</updated>
-    <id>http://www.adambird.com/going-international-liveish</id>
-    <content type="html"><![CDATA[<p>Thanks to <a href="http://twitter.com/pcmcreative">@pcmcreative</a> for live streaming my talk at <a href="http://notttuesday.com">Nott Tuesday</a> last night.</p>
-
-<p>
-<object height="291" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="320">
-<embed src="http://static.bambuser.com/r/player.swf?vid=1481211" type="application/x-shockwave-flash" wmode="opaque" height="291" width="320"></embed>
-<param name="movie" value="http://static.bambuser.com/r/player.swf?vid=1481211" />
-<param name="allowfullscreen" value="true" />
-<param name="allowscriptaccess" value="always" />
-<param name="wmode" value="opaque" />
-</object>
-</p>
-
 ]]></content>
   </entry>
   

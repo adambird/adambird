@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Custom domain names in Windows Azure  - Bird Stream</title>
+  <title>Pushing info to my Pebble watch - Bird Stream</title>
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="need a a CNAME mapping to /cloudapp.net as described here: http://blog.smarx.com/posts/custom-domain-names-in-windows-azure">
+  <meta name="description" content="My Pebble Watch finally arrived this week so I thought I should have a go at pushing information to it. As a cycle commuter I look at the weather &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.adambird.com/custom-domain-names-in-windows-azure">
+  <link rel="canonical" href="http://www.adambird.com/pushing-info-to-pebble-watch">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,7 +79,7 @@
   
   <header>
     
-      <h1 class="entry-title">Custom Domain Names in Windows Azure</h1>
+      <h1 class="entry-title">Pushing Info to My Pebble Watch</h1>
     
     
       <p class="meta">
@@ -95,14 +95,37 @@
   
 
 
-<time datetime="2010-01-27T00:00:00+00:00" pubdate data-updated="true">Jan 27<span>th</span>, 2010</time>
+<time datetime="2013-05-12T15:06:00+01:00" pubdate data-updated="true">May 12<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>need a a CNAME mapping to /cloudapp.net as described here: <a href="http://blog.smarx.com/posts/custom-domain-names-in-windows-azure">http://blog.smarx.com/posts/custom-domain-names-in-windows-azure</a></p>
+<div class="entry-content"><p><a href="http://www.flickr.com/photos/adambird/8730919595/" title="Weather forecast to my Pebble by adamebird, on Flickr"><img src="http://farm8.staticflickr.com/7283/8730919595_b631670ee7.jpg" width="375" height="500" alt="Weather forecast to my Pebble"></a></p>
+
+<p>My <a href="http://getpebble.com">Pebble Watch</a> finally arrived this week so I thought I should have a go at pushing information to it. As a cycle commuter I look at the weather every day and am primarily interested in wind direction and rain forecast so I though it would be neat to have this appear on my watch every morning.</p>
+
+<!-- more -->
+
+
+<p><a href="http://ifttt.com">IFTTT</a> was the obvious place to start, especially as weather notifications are standard recipes. SMS or Twitter would be good channels to start but neither would work for me.</p>
+
+<p>SMS just didn&#8217;t work, I&#8217;m in the UK on Orange. And Twitter wouldn&#8217;t allow sending a DM to myself (though as you&#8217;ll see from my solution I could have just done this).</p>
+
+<p>I had heard reports of a Pebble push API but haven&#8217;t been able to find any documentation so I resorted to handcrafting my own solution.</p>
+
+<h2>Pebblebot</h2>
+
+<p>I created a simple Ruby command line script to handle the weather initially <a href="https://github.com/adambird/pebblebot">adambird/pebblebot</a>.</p>
+
+<p>I&#8217;ve resorted to twitter DMs from another &#8216;bot&#8217; account I&#8217;ve created for the purpose. Not ideal as I end up with DMs on several devices which I don&#8217;t want. Once the Pebble Push API is available then this should be an easy swap out.</p>
+
+<p>I host this on a Heroku at zero cost by having an app with no dynos and just a free <a href="https://addons.heroku.com/scheduler">Heroku Scheduler</a> that runs the script every morning.</p>
+
+<p>At the moment this will need to be manually changed to daylight saving so I might need to thing of something more powerful for scheduling.</p>
+
+<p>Have various ideas for improving and extending this, including making something that anyone could use. If you&#8217;re interested let me know what would be useful to you <a href="http://twitter.com/adambird">@adambird</a>.</p>
 </div>
 
 
@@ -125,7 +148,7 @@
   
 
 
-<time datetime="2010-01-27T00:00:00+00:00" pubdate data-updated="true">Jan 27<span>th</span>, 2010</time>
+<time datetime="2013-05-12T15:06:00+01:00" pubdate data-updated="true">May 12<span>th</span>, 2013</time>
       
 
 <span class="categories">
@@ -139,7 +162,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambird.com/custom-domain-names-in-windows-azure" data-via="adambird" data-counturl="http://www.adambird.com/custom-domain-names-in-windows-azure" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambird.com/pushing-info-to-pebble-watch" data-via="adambird" data-counturl="http://www.adambird.com/pushing-info-to-pebble-watch" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -152,10 +175,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/automating-azure-deployment-with-windows-powe" title="Previous Post: Automating Azure deployment with Windows PowerShell">&laquo; Automating Azure deployment with Windows PowerShell</a>
+        <a class="basic-alignment left" href="/framework-jail-and-bail" title="Previous Post: Framework Jail &amp; Bail">&laquo; Framework Jail &amp; Bail</a>
       
-      
-        <a class="basic-alignment right" href="/the-trick-to-getting-cruisecontrolnet-build-l" title="Next Post: The trick to getting CruiseControl.net build label into PowerShell script ">The trick to getting CruiseControl.net build label into PowerShell script  &raquo;</a>
       
     </p>
   </footer>
@@ -377,8 +398,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://www.adambird.com/custom-domain-names-in-windows-azure';
-        var disqus_url = 'http://www.adambird.com/custom-domain-names-in-windows-azure';
+        var disqus_identifier = 'http://www.adambird.com/pushing-info-to-pebble-watch';
+        var disqus_url = 'http://www.adambird.com/pushing-info-to-pebble-watch';
         var disqus_script = 'embed.js';
       
     (function () {

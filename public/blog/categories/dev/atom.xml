@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dev | Bird Stream]]></title>
   <link href="http://www.adambird.com/blog/categories/dev/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-04-30T10:59:43+01:00</updated>
+  <updated>2013-05-12T15:29:42+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pushing info to my Pebble watch]]></title>
+    <link href="http://www.adambird.com/pushing-info-to-pebble-watch"/>
+    <updated>2013-05-12T15:06:00+01:00</updated>
+    <id>http://www.adambird.com/pushing-info-to-pebble-watch</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/adambird/8730919595/" title="Weather forecast to my Pebble by adamebird, on Flickr"><img src="http://farm8.staticflickr.com/7283/8730919595_b631670ee7.jpg" width="375" height="500" alt="Weather forecast to my Pebble"></a></p>
+
+<p>My <a href="http://getpebble.com">Pebble Watch</a> finally arrived this week so I thought I should have a go at pushing information to it. As a cycle commuter I look at the weather every day and am primarily interested in wind direction and rain forecast so I though it would be neat to have this appear on my watch every morning.</p>
+
+<!-- more -->
+
+
+<p><a href="http://ifttt.com">IFTTT</a> was the obvious place to start, especially as weather notifications are standard recipes. SMS or Twitter would be good channels to start but neither would work for me.</p>
+
+<p>SMS just didn't work, I'm in the UK on Orange. And Twitter wouldn't allow sending a DM to myself (though as you'll see from my solution I could have just done this).</p>
+
+<p>I had heard reports of a Pebble push API but haven't been able to find any documentation so I resorted to handcrafting my own solution.</p>
+
+<h2>Pebblebot</h2>
+
+<p>I created a simple Ruby command line script to handle the weather initially <a href="https://github.com/adambird/pebblebot">adambird/pebblebot</a>.</p>
+
+<p>I've resorted to twitter DMs from another 'bot' account I've created for the purpose. Not ideal as I end up with DMs on several devices which I don't want. Once the Pebble Push API is available then this should be an easy swap out.</p>
+
+<p>I host this on a Heroku at zero cost by having an app with no dynos and just a free <a href="https://addons.heroku.com/scheduler">Heroku Scheduler</a> that runs the script every morning.</p>
+
+<p>At the moment this will need to be manually changed to daylight saving so I might need to thing of something more powerful for scheduling.</p>
+
+<p>Have various ideas for improving and extending this, including making something that anyone could use. If you're interested let me know what would be useful to you <a href="http://twitter.com/adambird">@adambird</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Code Club, a call to arms]]></title>
@@ -200,29 +232,6 @@ end
 <p><strong>Models</strong> to model the domain irrespective of how it's being interacted with.</p>
 
 <p>What do you think?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spork not reloading classes]]></title>
-    <link href="http://www.adambird.com/spork-not-reloading-classes"/>
-    <updated>2012-03-21T00:00:00+00:00</updated>
-    <id>http://www.adambird.com/spork-not-reloading-classes</id>
-    <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
-
-<p>Replace this line in test.rb</p>
-
-<pre><code>config.cache_classes = true
-</code></pre>
-
-<p>with this</p>
-
-<pre><code>config.cache_classes = !(ENV['DRB'] == 'true')
-</code></pre>
-
-<p>and development is back to full speed.</p>
-
-<p>More info here&nbsp;<a href="http://Spork not reloading classes">http://www.avenue80.com/tiny-tip-spork-not-reloading-classes/</a></p>
 ]]></content>
   </entry>
   
