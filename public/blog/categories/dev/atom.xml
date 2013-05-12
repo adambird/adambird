@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dev | Bird Stream]]></title>
   <link href="http://www.adambird.com/blog/categories/dev/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-05-12T21:13:25+01:00</updated>
+  <updated>2013-05-12T21:34:14+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -42,6 +42,10 @@
 <p>At the moment this will need to be manually changed to daylight saving so I might need to thing of something more powerful for scheduling.</p>
 
 <p>Have various ideas for improving and extending this, including making something that anyone could use. If you're interested let me know what would be useful to you <a href="http://twitter.com/adambird">@adambird</a>.</p>
+
+<h2>Update</h2>
+
+<p>I've now added support for <a href="http://pushover.net">Pushover</a> and extended the command line options. See the <a href="https://github.com/adambird/pebblebot">adambird/pebblebot</a> for full details</p>
 ]]></content>
   </entry>
   

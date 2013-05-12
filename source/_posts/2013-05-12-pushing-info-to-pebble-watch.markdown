@@ -28,3 +28,7 @@ I host this on a Heroku at zero cost by having an app with no dynos and just a f
 At the moment this will need to be manually changed to daylight saving so I might need to thing of something more powerful for scheduling.
 
 Have various ideas for improving and extending this, including making something that anyone could use. If you're interested let me know what would be useful to you [@adambird](http://twitter.com/adambird).
+
+## Update
+
+I've now added support for [Pushover](http://pushover.net) and extended the command line options. See the [adambird/pebblebot](https://github.com/adambird/pebblebot) for full details
