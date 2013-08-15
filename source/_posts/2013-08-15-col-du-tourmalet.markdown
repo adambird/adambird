@@ -8,7 +8,10 @@ categories:
 ---
 Today I was Jérémy Roy
 
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='http://www.strava.com/activities/74848523/embed/79861b92c9d6541ca3dcc1db7597fbd8a0947e75'></iframe>
+
 The plan today was to take in both ascents of the Col du Tormalet. We're staying close (20km) to the start of the west ascent so and out, up and over, and back seemed like a 'sensible' plan.
+<!-- more -->
 
 The one challenge was the road closures due to the flood damage experienced earlier in the season between Barèges and Luz-Saint-Sauveur, the first section of the climb. The roads were closed from 08:00 to 12:00 and 13:30 to 17:30. So in order to make sure I was passed the roadworks before they closed I had to leave at 05:45 so I could descend back home during the lunchtime period.
 
@@ -18,13 +21,15 @@ As you go past 10km to go the road flattens to 5% which seems blessed relief at 
 
 After an easy section through the ski station at Super-Barèges things start to ramp up again and you can't help feeling this is where it all starts to kick off when the Col is the destination for a summit finish. It's at this point that the road painting starts to appear. Including a timely reminder that 'pain is weakness leaving the body'.
 
+<object width="400" height="300"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fadambird%2Fsets%2F72157635086805664%2Fshow%2F&page_show_back_url=%2Fphotos%2Fadambird%2Fsets%2F72157635086805664%2F&set_id=72157635086805664&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=124984"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=124984" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fadambird%2Fsets%2F72157635086805664%2Fshow%2F&page_show_back_url=%2Fphotos%2Fadambird%2Fsets%2F72157635086805664%2F&set_id=72157635086805664&jump_to=" width="400" height="300"></embed></object>
+
 More curious comes at around 5km to go when there is a Dutch section with names of national riders followed by what appears to be 500m of 1-3m long sperm. If I hadn't been cycling I would have taken a photo so you'll just have to believe me. Would love to know what it's about.
 
 Just at the end of the sperm, if you look up to your left you can see the observatory balanced precariously on the top of the Pic du Midi. Completely oblivious to your plight as all it's attention is focused on the heavens.
 
 2km is when it gets really serious. There's a flat'ish section until a righthand hairpin at which point it's a push skyward to the summit. Time to get into that pain cave and feel right at home as there is no respite now until the top. When you round the final lefthand hairpin under the chairlift any thoughts of an elegant, seated approach evaporate as the gradient, coupled with it's position on the climb, require every muscle you can muster to overcome it.
 
-I was alone on the Col at 08:30 when I arrived so a quick snap (see photos below) and straight down the other side to the ski resort at La Mongie, 4km below the Col, for what I hoped would be breakfast. Unfortunately all I could find open was a bar that was just serving coffee. A couple of short ones and I was off down what felt like would be the best descent of the day. 
+I was alone on the Col at 08:30 when I arrived so a quick snap and straight down the other side to the ski resort at La Mongie, 4km below the Col, for what I hoped would be breakfast. Unfortunately all I could find open was a bar that was just serving coffee. A couple of short ones and I was off down what felt like would be the best descent of the day. 
 
 The 8km from La Mongie consisted of long straights and open corners that you could see through. I'm no dare-devil descender so didn't push it, especially with some new wheels that I haven't got used to yet, but I felt confident and enjoyed every minute of it. Maybe partly down to a masochistic pleasure taken in knowing I'd be coming back up shortly.
 
@@ -53,4 +58,3 @@ Then my back said don't be so stupid, you're 41 and somewhat out of condition.
 Oh and there absolutely wasn't a festival-come-market thing just below the Tourmalet on the west side that meant that roadworks and thus road closures had been suspended to ensure people could get to it. 
 
 So I needn't have got up at 5:30 but I'm kinda glad I did.
-
