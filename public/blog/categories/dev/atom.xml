@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dev | Bird Stream]]></title>
   <link href="http://www.adambird.com/blog/categories/dev/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-08-18T21:54:32+02:00</updated>
+  <updated>2013-09-12T18:14:33+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Pushing info to my Pebble watch]]></title>
     <link href="http://www.adambird.com/pushing-info-to-pebble-watch"/>
-    <updated>2013-05-12T15:06:00+02:00</updated>
+    <updated>2013-05-12T15:06:00+01:00</updated>
     <id>http://www.adambird.com/pushing-info-to-pebble-watch</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/adambird/8730919595/" title="Weather forecast to my Pebble by adamebird, on Flickr"><img src="http://farm8.staticflickr.com/7283/8730919595_b631670ee7.jpg" width="375" height="500" alt="Weather forecast to my Pebble"></a></p>
 
@@ -52,7 +52,7 @@
   <entry>
     <title type="html"><![CDATA[Code Club, a call to arms]]></title>
     <link href="http://www.adambird.com/code-club-a-call-to-arms"/>
-    <updated>2012-09-03T00:00:00+02:00</updated>
+    <updated>2012-09-03T00:00:00+01:00</updated>
     <id>http://www.adambird.com/code-club-a-call-to-arms</id>
     <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/code-club-logo.png" alt="" width="180px"/></p>
 
@@ -89,7 +89,7 @@
   <entry>
     <title type="html"><![CDATA[Delayed_job Syck woes when deploying to Heroku Cedar]]></title>
     <link href="http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
-    <updated>2012-06-26T00:00:00+02:00</updated>
+    <updated>2012-06-26T00:00:00+01:00</updated>
     <id>http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
     <content type="html"><![CDATA[<p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
 
@@ -120,7 +120,7 @@
   <entry>
     <title type="html"><![CDATA[Remain friends with your Git collaborators by auto removing whitespace in Textmate]]></title>
     <link href="http://www.adambird.com/remain-friends-with-your-git-collaborators-by"/>
-    <updated>2012-05-18T00:00:00+02:00</updated>
+    <updated>2012-05-18T00:00:00+01:00</updated>
     <id>http://www.adambird.com/remain-friends-with-your-git-collaborators-by</id>
     <content type="html"><![CDATA[<p>Handy article that shows you how to do just that</p>
 
@@ -131,7 +131,7 @@
   <entry>
     <title type="html"><![CDATA[Decoupling the domain from the interface with ReST and method objects]]></title>
     <link href="http://www.adambird.com/decoupling-the-domain-from-the-interface-with"/>
-    <updated>2012-05-08T00:00:00+02:00</updated>
+    <updated>2012-05-08T00:00:00+01:00</updated>
     <id>http://www.adambird.com/decoupling-the-domain-from-the-interface-with</id>
     <content type="html"><![CDATA[<p>MVC (model-view-controller) is a well established pattern for developing web applications which I've used with both Rails and ASP.NET. Both of these frameworks provide powerful interface add-ons, for example validations, with which you can decorate your models and let the framework do a lot of heavy lifting for you.</p>
 

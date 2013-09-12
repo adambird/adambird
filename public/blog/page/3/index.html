@@ -9,7 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="I was interviewed recently, along with Toby Reid (@tobyjbreid), by the Business Editor of the Nottingham Post. We both believe Nottingham as all the &hellip;">
+  <meta name="description" content="This really helped me deliver a rather lovely solution to filtering records on Bunch Rides. http://www.idolhands.com/ruby-on-rails/guides-tips-and- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,6 +82,56 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/add-filters-to-views-using-named-scopes-in-ra">Add Filters to Views Using Named Scopes in Rails</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-05-25T00:00:00+01:00" pubdate data-updated="true">May 25<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This really helped me deliver a rather lovely solution to filtering records on Bunch Rides.</p>
+
+<p><a href="http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-to-views-using-named-scopes-in-rails">http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-&#8230;</a></p>
+
+<p>and here&#8217;s what I did: <a href="http://rides.bunch.cc/clubs/54">http://rides.bunch.cc/clubs/54</a></p>
+
+<p>and the helper code:</p>
+
+<pre><code>def table_filter(filters, selected_scope)
+  content_tag(:div,
+    raw(filters.collect { |filter| 
+      content_tag(:a, filter[:label], :href =&amp;gt; &amp;quot;?show=#{filter[:scope]}&amp;quot;, :class =&amp;gt; ('selected' if filter[:scope] == selected_scope)) }),  
+    :class =&amp;gt; 'table-filter')
+end
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/can-nottingham-make-the-most-of-its-own-creat">Can Nottingham Make the Most of Its Own Creative Class?</a></h1>
     
     
@@ -98,7 +148,7 @@
   
 
 
-<time datetime="2011-04-19T00:00:00+02:00" pubdate data-updated="true">Apr 19<span>th</span>, 2011</time>
+<time datetime="2011-04-19T00:00:00+01:00" pubdate data-updated="true">Apr 19<span>th</span>, 2011</time>
         
       </p>
     
@@ -136,7 +186,7 @@
   
 
 
-<time datetime="2011-03-25T00:00:00+01:00" pubdate data-updated="true">Mar 25<span>th</span>, 2011</time>
+<time datetime="2011-03-25T00:00:00+00:00" pubdate data-updated="true">Mar 25<span>th</span>, 2011</time>
         
       </p>
     
@@ -175,7 +225,7 @@
   
 
 
-<time datetime="2011-03-23T00:00:00+01:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2011</time>
+<time datetime="2011-03-23T00:00:00+00:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2011</time>
         
       </p>
     
@@ -211,7 +261,7 @@
   
 
 
-<time datetime="2011-03-09T00:00:00+01:00" pubdate data-updated="true">Mar 9<span>th</span>, 2011</time>
+<time datetime="2011-03-09T00:00:00+00:00" pubdate data-updated="true">Mar 9<span>th</span>, 2011</time>
         
       </p>
     
@@ -258,7 +308,7 @@
   
 
 
-<time datetime="2011-03-03T00:00:00+01:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2011</time>
+<time datetime="2011-03-03T00:00:00+00:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2011</time>
         
       </p>
     
@@ -318,7 +368,7 @@
   
 
 
-<time datetime="2010-11-25T00:00:00+01:00" pubdate data-updated="true">Nov 25<span>th</span>, 2010</time>
+<time datetime="2010-11-25T00:00:00+00:00" pubdate data-updated="true">Nov 25<span>th</span>, 2010</time>
         
       </p>
     
@@ -358,7 +408,7 @@ A long promised revolution in travel documentation may well be upon us.</p>
   
 
 
-<time datetime="2010-11-08T00:00:00+01:00" pubdate data-updated="true">Nov 8<span>th</span>, 2010</time>
+<time datetime="2010-11-08T00:00:00+00:00" pubdate data-updated="true">Nov 8<span>th</span>, 2010</time>
         
       </p>
     
@@ -439,7 +489,7 @@ A long promised revolution in travel documentation may well be upon us.</p>
   
 
 
-<time datetime="2010-09-30T00:00:00+02:00" pubdate data-updated="true">Sep 30<span>th</span>, 2010</time>
+<time datetime="2010-09-30T00:00:00+01:00" pubdate data-updated="true">Sep 30<span>th</span>, 2010</time>
         
       </p>
     
@@ -525,7 +575,7 @@ _hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
   
 
 
-<time datetime="2010-09-22T00:00:00+02:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2010</time>
+<time datetime="2010-09-22T00:00:00+01:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2010</time>
         
       </p>
     
@@ -550,42 +600,6 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
 
 
 <p>Sorted</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/one-of-my-favourite-features-of-the-new-offic">One of My Favourite Features of the New Office</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-09-09T00:00:00+02:00" pubdate data-updated="true">Sep 9<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="/images/one-of-my-favourite-features-of-the-new-offic/photo.jpg"></p>
 </div>
   
   
@@ -693,6 +707,10 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/new-project-new-team">New project New team</a>
+      </li>
+    
+      <li class="post">
         <a href="/hautacam">Hautacam</a>
       </li>
     
@@ -706,10 +724,6 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
     
       <li class="post">
         <a href="/pushing-info-to-pebble-watch">Pushing info to my Pebble watch</a>
-      </li>
-    
-      <li class="post">
-        <a href="/framework-jail-and-bail">Framework Jail &amp; Bail</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-08-18T21:54:32+02:00</updated>
+  <updated>2013-09-12T18:14:33+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -14,9 +14,64 @@
 
   
   <entry>
+    <title type="html"><![CDATA[New project New team]]></title>
+    <link href="http://www.adambird.com/new-project-new-team"/>
+    <updated>2013-09-12T17:23:00+01:00</updated>
+    <id>http://www.adambird.com/new-project-new-team</id>
+    <content type="html"><![CDATA[<p>Having <a href="http://www.esendex.co.uk/blog/post/behind-the-acquisition-what-new-ownership-means-for-esendexs-growth-strategy/">exited Esendex</a> this summer, it&#8217;s time to start all over again and have another go at changing the world.</p>
+
+<p>The new startup is called <a href="http://www.onediaryapp.com">One Diary</a> and is delivering a felixible and collaborative diary. The antithesis of the current rigid silos we find ourselves cursed with at the moment.</p>
+
+<p>To change the calendars that everyone uses right now (Exchange, Google, etc) is a big, hairy audacious ambition but it really, really needs doing. It&#8217;s just going to require a lot of small steps.</p>
+
+<p>My focus now is on two things</p>
+
+<ol>
+<li>building a prototype to demonstrate servicing what I believe to be an initial, compelling use case</li>
+<li>finding the founding team members</li>
+</ol>
+
+
+<p>It&#8217;s the second of these that this post is about. The founding team I&#8217;m imagining is as follows.</p>
+
+<h3>CEO (me)</h3>
+
+<p>Product strategy, growth and ensuring there&#8217;s enough money in the bank (through timely fundraising and/or revenue generation).</p>
+
+<h3>Back-end Ruby Developer</h3>
+
+<p>This is a platform play so the working hypothesis is that an API first approach is critical to it&#8217;s ongoing success. The current implementation uses an event-sourced domain with a CQRS approach to the API. This is a real software engineering role.</p>
+
+<h3>Front-end JavaScript Developer</h3>
+
+<p>A rock solid, rich user experience delivered to web browsers is crucial to ensure people continue to use the service. No jQuery hacking, this is building a fully featured application that is hosted in the browser of all sorts of devices.</p>
+
+<h3>Design, Branding and UX Designer</h3>
+
+<p>The kind of data we&#8217;ll be holding for people is very private and thus we need to be sure that we interact with customers in way that both delights them and gives them confidence in us.</p>
+
+<hr />
+
+<p>The mode of operation will be a complete buzzword fest: agile, test-driven, continuously deployed, iterative, empircal decision making, constant learning. Anyone who knows me, or how Esendex operates, will know that these aren&#8217;t just words but are fundamental to how I try and operate.</p>
+
+<p>Location is pretty open. I would love everyone to be within commuting distance of Nottingham but that just isn&#8217;t realistic if I want to work with the best people (and I do) so I&#8217;m looking at anywhere in the UK right now.</p>
+
+<p>My plan/idea is to bring the team together for an intense period at the start (in Nottingham) and then we come together fortnightly for a retro on the previous iteration and to plan and start the next iteration. So being able to get to Nottingham without a crazy amount of hassle would probably be helpful.</p>
+
+<p>Salary and options (with a proper earning and vesting schedule) for these roles. I&#8217;m seed funding this personally so salaries aren&#8217;t going to be crazy. You&#8217;ll definitely be able to earn more money doing something else but where would be the fun in that?</p>
+
+<p>If you know someone who might fit please send them this post.</p>
+
+<p>If you are that person then get in touch adam.bird [at] gmail.com and let&#8217;s see if we can make this happen.</p>
+
+<p>What have I missed?</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Hautacam]]></title>
     <link href="http://www.adambird.com/hautacam"/>
-    <updated>2013-08-18T21:19:00+02:00</updated>
+    <updated>2013-08-18T21:19:00+01:00</updated>
     <id>http://www.adambird.com/hautacam</id>
     <content type="html"><![CDATA[<p>There is a strong correlation between having Hautacam on your TdF palmares and performance enhancement through drugs. I took the opposite approach and rode it with a mild hangover.</p>
 
@@ -57,7 +112,7 @@
   <entry>
     <title type="html"><![CDATA[Col du Tourmalet]]></title>
     <link href="http://www.adambird.com/col-du-tourmalet"/>
-    <updated>2013-08-15T18:25:00+02:00</updated>
+    <updated>2013-08-15T18:25:00+01:00</updated>
     <id>http://www.adambird.com/col-du-tourmalet</id>
     <content type="html"><![CDATA[<p>Today I was Jérémy Roy</p>
 
@@ -121,7 +176,7 @@
   <entry>
     <title type="html"><![CDATA[Pre cycle commute UK weather forecast tweet]]></title>
     <link href="http://www.adambird.com/pre-cycle-commute-uk-weather-forecast-tweet"/>
-    <updated>2013-05-12T20:57:00+02:00</updated>
+    <updated>2013-05-12T20:57:00+01:00</updated>
     <id>http://www.adambird.com/pre-cycle-commute-uk-weather-forecast-tweet</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been playing around (<a href="../pushing-info-to-pebble-watch">see here</a>) and have set up a simple service that tweets me every morning at 7:30am with a simple weather forecast. Importantly it has the information I want as a cycle commuter.</p>
 
@@ -165,7 +220,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Pushing info to my Pebble watch]]></title>
     <link href="http://www.adambird.com/pushing-info-to-pebble-watch"/>
-    <updated>2013-05-12T15:06:00+02:00</updated>
+    <updated>2013-05-12T15:06:00+01:00</updated>
     <id>http://www.adambird.com/pushing-info-to-pebble-watch</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/adambird/8730919595/" title="Weather forecast to my Pebble by adamebird, on Flickr"><img src="http://farm8.staticflickr.com/7283/8730919595_b631670ee7.jpg" width="375" height="500" alt="Weather forecast to my Pebble"></a></p>
 
@@ -201,7 +256,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Framework Jail &amp; Bail]]></title>
     <link href="http://www.adambird.com/framework-jail-and-bail"/>
-    <updated>2013-04-30T10:41:00+02:00</updated>
+    <updated>2013-04-30T10:41:00+01:00</updated>
     <id>http://www.adambird.com/framework-jail-and-bail</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been put forward for this year&#8217;s <a href="http://www.frameworkha.org/jail_bail">Jail &amp; Bail</a> event in support of <a href="http://www.frameworkha.org">Framework</a> and I need your help (money).</p>
 
@@ -231,7 +286,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Do You Use Calendars?]]></title>
     <link href="http://www.adambird.com/do-you-use-calendars"/>
-    <updated>2013-03-14T14:00:00+01:00</updated>
+    <updated>2013-03-14T14:00:00+00:00</updated>
     <id>http://www.adambird.com/do-you-use-calendars</id>
     <content type="html"><![CDATA[<p>I&#8217;m an eternally frustrated user of computer and phone calendars. I find all sorts of aspects of using them clumsy and ill-suited to the way I work.</p>
 
@@ -253,7 +308,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Only Entrepreneurs Can Lead a Start-Up Community]]></title>
     <link href="http://www.adambird.com/only-entrepreneurs-can-lead-a-start-up-community"/>
-    <updated>2013-02-05T10:50:00+01:00</updated>
+    <updated>2013-02-05T10:50:00+00:00</updated>
     <id>http://www.adambird.com/only-entrepreneurs-can-lead-a-start-up-community</id>
     <content type="html"><![CDATA[<p>I&#8217;m reading <a href="http://www.feld.com">Brad Feld&#8217;s</a> book <a href="http://www.amazon.co.uk/Startup-Communities-Building-Entrepreneurial-Ecosystem/dp/1118441540/ref=sr_1_1?ie=UTF8&amp;qid=1360061822&amp;sr=8-1">Startup Communities: Building an Entrepreneurial Ecosystem in Your City</a> at the moment. It shares his ideas and experience from being keenly involved in establishing the start-up community in Boulder, Colorado.</p>
 
@@ -281,7 +336,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[The Top 80s Films That Your Children Must See]]></title>
     <link href="http://www.adambird.com/top-80s-films-your-children-must-see"/>
-    <updated>2013-01-30T19:50:00+01:00</updated>
+    <updated>2013-01-30T19:50:00+00:00</updated>
     <id>http://www.adambird.com/top-80s-films-your-children-must-see</id>
     <content type="html"><![CDATA[<p>We&#8217;re going through a bit of cultural education of my boys at the moment, Back To The Future I, II &amp; III, ET, Fawlty Towers have all been on the bill.</p>
 
@@ -324,7 +379,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Code Club, a call to arms]]></title>
     <link href="http://www.adambird.com/code-club-a-call-to-arms"/>
-    <updated>2012-09-03T00:00:00+02:00</updated>
+    <updated>2012-09-03T00:00:00+01:00</updated>
     <id>http://www.adambird.com/code-club-a-call-to-arms</id>
     <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/code-club-logo.png" alt="" width="180px"/></p>
 
@@ -361,7 +416,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[4 years - a thought experiment]]></title>
     <link href="http://www.adambird.com/4-years-a-thought-experiment"/>
-    <updated>2012-08-06T00:00:00+02:00</updated>
+    <updated>2012-08-06T00:00:00+01:00</updated>
     <id>http://www.adambird.com/4-years-a-thought-experiment</id>
     <content type="html"><![CDATA[<p>What would you like to be recognised for in 4 years time?</p>
 
@@ -380,7 +435,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[The Nottingham Creative Quarter - What can you do]]></title>
     <link href="http://www.adambird.com/the-nottingham-creative-quarter-what-can-you"/>
-    <updated>2012-07-09T00:00:00+02:00</updated>
+    <updated>2012-07-09T00:00:00+01:00</updated>
     <id>http://www.adambird.com/the-nottingham-creative-quarter-what-can-you</id>
     <content type="html"><![CDATA[<p>The announcement of Nottingham&#8217;s City Deal last week (<a href="http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf">http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf</a>) is big deal for entrepreneurship in the city. The council now have the funds and powers to provide the infrastructure and support to the new, innovative businesses that will drive GDP growth in the city and provide the skilled jobs going forward.</p>
 
@@ -418,7 +473,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Delayed_job Syck woes when deploying to Heroku Cedar]]></title>
     <link href="http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku"/>
-    <updated>2012-06-26T00:00:00+02:00</updated>
+    <updated>2012-06-26T00:00:00+01:00</updated>
     <id>http://www.adambird.com/delayedjob-syck-woes-when-deploying-to-heroku</id>
     <content type="html"><![CDATA[<p>This caused me a bit of heartache and I found little to help via the usual channels.</p>
 
@@ -449,7 +504,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Remain friends with your Git collaborators by auto removing whitespace in Textmate]]></title>
     <link href="http://www.adambird.com/remain-friends-with-your-git-collaborators-by"/>
-    <updated>2012-05-18T00:00:00+02:00</updated>
+    <updated>2012-05-18T00:00:00+01:00</updated>
     <id>http://www.adambird.com/remain-friends-with-your-git-collaborators-by</id>
     <content type="html"><![CDATA[<p>Handy article that shows you how to do just that</p>
 
@@ -460,7 +515,7 @@ Rain 84%
   <entry>
     <title type="html"><![CDATA[Decoupling the domain from the interface with ReST and method objects]]></title>
     <link href="http://www.adambird.com/decoupling-the-domain-from-the-interface-with"/>
-    <updated>2012-05-08T00:00:00+02:00</updated>
+    <updated>2012-05-08T00:00:00+01:00</updated>
     <id>http://www.adambird.com/decoupling-the-domain-from-the-interface-with</id>
     <content type="html"><![CDATA[<p>MVC (model-view-controller) is a well established pattern for developing web applications which I&#8217;ve used with both Rails and ASP.NET. Both of these frameworks provide powerful interface add-ons, for example validations, with which you can decorate your models and let the framework do a lot of heavy lifting for you.</p>
 
@@ -571,7 +626,7 @@ end
   <entry>
     <title type="html"><![CDATA[My two-penneth on the 2012 Budget]]></title>
     <link href="http://www.adambird.com/my-two-penneth-on-the-2012-budget"/>
-    <updated>2012-03-22T00:00:00+01:00</updated>
+    <updated>2012-03-22T00:00:00+00:00</updated>
     <id>http://www.adambird.com/my-two-penneth-on-the-2012-budget</id>
     <content type="html"><![CDATA[<p>The most disappointing announcement for me was that Nottingham has missed out on it&#8217;s bid for the Super Connected Cities fund. It&#8217;s a real shame for the city. There was an additional, smaller, fund announced so hopefully the bid team can dust themselves off and we can go again.</p>
 
@@ -593,7 +648,7 @@ end
   <entry>
     <title type="html"><![CDATA[Spork not reloading classes]]></title>
     <link href="http://www.adambird.com/spork-not-reloading-classes"/>
-    <updated>2012-03-21T00:00:00+01:00</updated>
+    <updated>2012-03-21T00:00:00+00:00</updated>
     <id>http://www.adambird.com/spork-not-reloading-classes</id>
     <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
 
@@ -616,7 +671,7 @@ end
   <entry>
     <title type="html"><![CDATA[API Divining With Cucumber and Firefox]]></title>
     <link href="http://www.adambird.com/api-divining-with-cucumber-and-firefox"/>
-    <updated>2011-10-27T00:00:00+02:00</updated>
+    <updated>2011-10-27T00:00:00+01:00</updated>
     <id>http://www.adambird.com/api-divining-with-cucumber-and-firefox</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been discovering the wonders of <a href="https://www.relishapp.com/rspec">RSpec</a> and <a href="http://cukes.info/">Cucumber</a> recently (I know, I know, I&#8217;m horribly late to that particular party) and revelling in how the BDD &gt; TDD cycle helps keep one focused on the feature being delivered.</p>
 
@@ -638,7 +693,7 @@ end
   <entry>
     <title type="html"><![CDATA[Beeston Centurions U9s sports men of the league]]></title>
     <link href="http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag"/>
-    <updated>2011-06-12T00:00:00+02:00</updated>
+    <updated>2011-06-12T00:00:00+01:00</updated>
     <id>http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag</id>
     <content type="html"><![CDATA[<div class='p_embed p_image_embed'>
 <img alt="Media_httpaudioboofmb_tject" height="1" src="http://getfile3.posterous.com/getfile/files.posterous.com/adambird/ghBhsiaDuqrIusxlHqqorabzjmeIjjymazvHseDFqvytoduwrafFDwEfqDvG/media_httpaudioboofmb_tjeCt.jpg.scaled500.jpg" width="1" />
@@ -653,7 +708,7 @@ end
   <entry>
     <title type="html"><![CDATA[It's starting #esendexis10]]></title>
     <link href="http://www.adambird.com/its-starting-esendexis10"/>
-    <updated>2011-06-09T00:00:00+02:00</updated>
+    <updated>2011-06-09T00:00:00+01:00</updated>
     <id>http://www.adambird.com/its-starting-esendexis10</id>
     <content type="html"><![CDATA[<div class='p_embed p_image_embed'>
 <img alt="Media_httpaudioboofmb_lbuth" height="1" src="http://getfile1.posterous.com/getfile/files.posterous.com/adambird/pdzeBvpyHmEbBHkyfmCxmAEaaBoHzsyAoilExsaFgEiFhGAwqFbIEGuAjqbx/media_httpaudioboofmb_lbutH.jpg.scaled500.jpg" width="1" />
@@ -662,29 +717,6 @@ end
 
 <br /><object type="application/x-shockwave-flash" height="129" width="400"><param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="bgColor" value="#FFFFFF" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="window" /><param name="FlashVars" value="mp3Time=05.59pm+09+Jun+2011&amp;rootID=boo_embed_381068&amp;mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F381068-it-s-starting-esendexis10.mp3%3Fsource%3Dembed&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F381068-it-s-starting-esendexis10&amp;mp3Title=It%27s+starting+%23esendexis10" /><a href="http://audioboo.fm/boos/381068-it-s-starting-esendexis10.mp3?source=embed">Listen!</a></object>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Add Filters to Views Using Named Scopes in Rails]]></title>
-    <link href="http://www.adambird.com/add-filters-to-views-using-named-scopes-in-ra"/>
-    <updated>2011-05-25T00:00:00+02:00</updated>
-    <id>http://www.adambird.com/add-filters-to-views-using-named-scopes-in-ra</id>
-    <content type="html"><![CDATA[<p>This really helped me deliver a rather lovely solution to filtering records on Bunch Rides.</p>
-
-<p><a href="http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-to-views-using-named-scopes-in-rails">http://www.idolhands.com/ruby-on-rails/guides-tips-and-tutorials/add-filters-&#8230;</a></p>
-
-<p>and here&#8217;s what I did: <a href="http://rides.bunch.cc/clubs/54">http://rides.bunch.cc/clubs/54</a></p>
-
-<p>and the helper code:</p>
-
-<pre><code>def table_filter(filters, selected_scope)
-  content_tag(:div,
-    raw(filters.collect { |filter| 
-      content_tag(:a, filter[:label], :href =&amp;gt; &amp;quot;?show=#{filter[:scope]}&amp;quot;, :class =&amp;gt; ('selected' if filter[:scope] == selected_scope)) }),  
-    :class =&amp;gt; 'table-filter')
-end
-</code></pre>
 ]]></content>
   </entry>
   
