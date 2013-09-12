@@ -9,7 +9,7 @@ categories:
 ---
 Having [exited Esendex](http://www.esendex.co.uk/blog/post/behind-the-acquisition-what-new-ownership-means-for-esendexs-growth-strategy/) this summer, it's time to start all over again and have another go at changing the world.
 
-The new startup is called [One Diary](http://www.onediaryapp.com) and is delivering a felixible and collaborative diary. The antithesis of the current rigid silos we find ourselves cursed with at the moment.
+The new startup is called [One Diary](http://www.onediaryapp.com) and is delivering a flexible and collaborative diary. The antithesis of the current rigid silos we find ourselves cursed with at the moment.
 
 To change the calendars that everyone uses right now (Exchange, Google, etc) is a big, hairy audacious ambition but it really, really needs doing. It's just going to require a lot of small steps. 
 
