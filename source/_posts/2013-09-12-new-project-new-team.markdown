@@ -14,7 +14,7 @@ The new startup is called [One Diary](http://www.onediaryapp.com) and is deliver
 To change the calendars that everyone uses right now (Exchange, Google, etc) is a big, hairy audacious ambition but it really, really needs doing. It's just going to require a lot of small steps. 
 
 My focus now is on two things
-
+<!-- more -->
 1. building a prototype to demonstrate servicing what I believe to be an initial, compelling use case
 2. finding the founding team members
 
