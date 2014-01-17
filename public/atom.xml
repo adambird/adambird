@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-09-12T20:46:54+01:00</updated>
+  <updated>2014-01-17T22:27:12+00:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A £200M acquisition, in Nottingham, time to wake up]]></title>
+    <link href="http://www.adambird.com/a-ps200m-acquisition"/>
+    <updated>2014-01-17T21:39:00+00:00</updated>
+    <id>http://www.adambird.com/a-ps200m-acquisition</id>
+    <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/world_beater_ball_web.png"></p>
+
+<p>I nearly snorted out my cornflakes on Friday morning when I read that <a href="http://www.nottinghampost.com/200-million-takeover-Nottingham-technology/story-20454150-detail/story.html">TDX Group had been sold to Equifax for £200 million</a>. It is, on the face of it an eye-watering valuation, but I think it&#8217;s actually more of a reality check for Nottingham.</p>
+
+<!-- more -->
+
+
+<p>In the years I&#8217;ve been working in Nottingham there&#8217;s been an air of apology to everything we do. We&#8217;re not from London or the South East and while we try hard we can&#8217;t expect to be as successful as those lucky southerners. I&#8217;ve been guilty of it too.</p>
+
+<p>Ambitions naturally get tempered and we think it&#8217;s perfectly reasonable for friends and colleagues to go away and find their fortune elsewhere.</p>
+
+<p>The acquisition of TDX reminds us that this is a bullshit attitude.</p>
+
+<p>In our city we have world class data analysts and visionaries that have made TDX into a asset that a global company had to have for a substantial sum.</p>
+
+<p>We have world-class scientists in <a href="http://www.haemostatix.com">Haemostatix</a> revolutionary blood clotting agent that will transform surgery and trauma management as well as <a href="http://www.scancell.co.uk">Scancell</a> creating a cure for frickin&#8217; cancer.</p>
+
+<p>Then you start talking to the guys at <a href="http://www.crytek.com/career/studios/overview/nottingham">Crytek</a> about the ground breaking stuff they&#8217;re doing with gaming engines.</p>
+
+<p>We are surrounded by world class talent and organisations. And these are just companies I&#8217;ve come into contact with in the last few weeks.</p>
+
+<p>So I suggest we stop apologising and finding reasons not to be as successful as we could be. Let&#8217;s reset our ambition and do justice to ourselves, our careers, our companies and our city.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[New project New team]]></title>
@@ -704,21 +734,6 @@ end
 
 
 <br /><object type="application/x-shockwave-flash" height="129" width="400"><param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="bgColor" value="#FFFFFF" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="window" /><param name="FlashVars" value="mp3Time=03.51pm+12+Jun+2011&amp;rootID=boo_embed_383593&amp;mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league.mp3%3Fsource%3Dembed&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league&amp;mp3Title=Beeston+Centurions+U9s+sports+men+of+the+league" /><a href="http://audioboo.fm/boos/383593-beeston-centurions-u9s-sports-men-of-the-league.mp3?source=embed">Listen!</a></object>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[It's starting #esendexis10]]></title>
-    <link href="http://www.adambird.com/its-starting-esendexis10"/>
-    <updated>2011-06-09T00:00:00+01:00</updated>
-    <id>http://www.adambird.com/its-starting-esendexis10</id>
-    <content type="html"><![CDATA[<div class='p_embed p_image_embed'>
-<img alt="Media_httpaudioboofmb_lbuth" height="1" src="http://getfile1.posterous.com/getfile/files.posterous.com/adambird/pdzeBvpyHmEbBHkyfmCxmAEaaBoHzsyAoilExsaFgEiFhGAwqFbIEGuAjqbx/media_httpaudioboofmb_lbutH.jpg.scaled500.jpg" width="1" />
-</div>
-
-
-<br /><object type="application/x-shockwave-flash" height="129" width="400"><param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="bgColor" value="#FFFFFF" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="window" /><param name="FlashVars" value="mp3Time=05.59pm+09+Jun+2011&amp;rootID=boo_embed_381068&amp;mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F381068-it-s-starting-esendexis10.mp3%3Fsource%3Dembed&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F381068-it-s-starting-esendexis10&amp;mp3Title=It%27s+starting+%23esendexis10" /><a href="http://audioboo.fm/boos/381068-it-s-starting-esendexis10.mp3?source=embed">Listen!</a></object>
 
 ]]></content>
   </entry>

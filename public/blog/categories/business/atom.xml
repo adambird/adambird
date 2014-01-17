@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: business | Bird Stream]]></title>
+  <title><![CDATA[Category: Business | Bird Stream]]></title>
   <link href="http://www.adambird.com/blog/categories/business/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2013-09-12T20:46:54+01:00</updated>
+  <updated>2014-01-17T22:27:12+00:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -14,185 +14,32 @@
 
   
   <entry>
-    <title type="html"><![CDATA[New project New team]]></title>
-    <link href="http://www.adambird.com/new-project-new-team"/>
-    <updated>2013-09-12T17:23:00+01:00</updated>
-    <id>http://www.adambird.com/new-project-new-team</id>
-    <content type="html"><![CDATA[<p>Having <a href="http://www.esendex.co.uk/blog/post/behind-the-acquisition-what-new-ownership-means-for-esendexs-growth-strategy/">exited Esendex</a> this summer, it's time to start all over again and have another go at changing the world.</p>
+    <title type="html"><![CDATA[A £200M acquisition, in Nottingham, time to wake up]]></title>
+    <link href="http://www.adambird.com/a-ps200m-acquisition"/>
+    <updated>2014-01-17T21:39:00+00:00</updated>
+    <id>http://www.adambird.com/a-ps200m-acquisition</id>
+    <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/world_beater_ball_web.png"></p>
 
-<p>The new startup is called <a href="http://www.onediaryapp.com">One Diary</a> and is delivering a flexible and collaborative diary. The antithesis of the current rigid silos we find ourselves cursed with at the moment.</p>
-
-<p>To change the calendars that everyone uses right now (Exchange, Google, etc) is a big, hairy audacious ambition but it really, really needs doing. It's just going to require a lot of small steps.</p>
-
-<p>My focus now is on two things</p>
+<p>I nearly snorted out my cornflakes on Friday morning when I read that <a href="http://www.nottinghampost.com/200-million-takeover-Nottingham-technology/story-20454150-detail/story.html">TDX Group had been sold to Equifax for £200 million</a>. It is, on the face of it an eye-watering valuation, but I think it's actually more of a reality check for Nottingham.</p>
 
 <!-- more -->
 
 
-<ol>
-<li>building a prototype to demonstrate servicing what I believe to be an initial, compelling use case</li>
-<li>finding the founding team members</li>
-</ol>
+<p>In the years I've been working in Nottingham there's been an air of apology to everything we do. We're not from London or the South East and while we try hard we can't expect to be as successful as those lucky southerners. I've been guilty of it too.</p>
 
+<p>Ambitions naturally get tempered and we think it's perfectly reasonable for friends and colleagues to go away and find their fortune elsewhere.</p>
 
-<p>It's the second of these that this post is about. The founding team I'm imagining is as follows.</p>
+<p>The acquisition of TDX reminds us that this is a bullshit attitude.</p>
 
-<h3>CEO (me)</h3>
+<p>In our city we have world class data analysts and visionaries that have made TDX into a asset that a global company had to have for a substantial sum.</p>
 
-<p>Product strategy, growth and ensuring there's enough money in the bank (through timely fundraising and/or revenue generation).</p>
+<p>We have world-class scientists in <a href="http://www.haemostatix.com">Haemostatix</a> revolutionary blood clotting agent that will transform surgery and trauma management as well as <a href="http://www.scancell.co.uk">Scancell</a> creating a cure for frickin' cancer.</p>
 
-<h3>Back-end Ruby Developer</h3>
+<p>Then you start talking to the guys at <a href="http://www.crytek.com/career/studios/overview/nottingham">Crytek</a> about the ground breaking stuff they're doing with gaming engines.</p>
 
-<p>This is a platform play so the working hypothesis is that an API first approach is critical to it's ongoing success. The current implementation uses an event-sourced domain with a CQRS approach to the API. This is a real software engineering role.</p>
+<p>We are surrounded by world class talent and organisations. And these are just companies I've come into contact with in the last few weeks.</p>
 
-<h3>Front-end JavaScript Developer</h3>
-
-<p>A rock solid, rich user experience delivered to web browsers is crucial to ensure people continue to use the service. No jQuery hacking, this is building a fully featured application that is hosted in the browser of all sorts of devices.</p>
-
-<h3>Design, Branding and UX Designer</h3>
-
-<p>The kind of data we'll be holding for people is very private and thus we need to be sure that we interact with customers in way that both delights them and gives them confidence in us.</p>
-
-<hr />
-
-<p>The mode of operation will be a complete buzzword fest: agile, test-driven, continuously deployed, iterative, empircal decision making, constant learning. Anyone who knows me, or how Esendex operates, will know that these aren't just words but are fundamental to how I try and operate.</p>
-
-<p>Location is pretty open. I would love everyone to be within commuting distance of Nottingham but that just isn't realistic if I want to work with the best people (and I do) so I'm looking at anywhere in the UK right now.</p>
-
-<p>My plan/idea is to bring the team together for an intense period at the start (in Nottingham) and then we come together fortnightly for a retro on the previous iteration and to plan and start the next iteration. So being able to get to Nottingham without a crazy amount of hassle would probably be helpful.</p>
-
-<p>Salary and options (with a proper earning and vesting schedule) for these roles. I'm seed funding this personally so salaries aren't going to be crazy. You'll definitely be able to earn more money doing something else but where would be the fun in that?</p>
-
-<p>If you know someone who might fit please send them this post.</p>
-
-<p>If you are that person then get in touch adam.bird [at] gmail.com and let's see if we can make this happen.</p>
-
-<p>What have I missed?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Do You Use Calendars?]]></title>
-    <link href="http://www.adambird.com/do-you-use-calendars"/>
-    <updated>2013-03-14T14:00:00+00:00</updated>
-    <id>http://www.adambird.com/do-you-use-calendars</id>
-    <content type="html"><![CDATA[<p>I'm an eternally frustrated user of computer and phone calendars. I find all sorts of aspects of using them clumsy and ill-suited to the way I work.</p>
-
-<p>Am I the only one?</p>
-
-<p>I have some ideas about how they could be improved but I only represent one perspective. If you use calendars and are within striking distance of either Nottingham or London I'd love to come and buy you a coffee.</p>
-
-<!-- more -->
-
-
-<p>Basically I'm looking for 15-20 mins of your time in which I'd like to understand how you currently use calendars and what your current pain points are. Where do you have to work round existing solutions in order to fit them into your way of working?</p>
-
-<p>In return I can offer a warm, invigorating beverage and an empathetic ear as you unload your calendar related tales of woe. I might even throw in a muffin :)</p>
-
-<p>If that sounds like something you'd be up for please get in touch <a href="http://twitter.com/adambird">@adambird</a> or <a href="mailto:adam.bird@gmail.com">adam.bird@gmail.com</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Only Entrepreneurs Can Lead a Start-Up Community]]></title>
-    <link href="http://www.adambird.com/only-entrepreneurs-can-lead-a-start-up-community"/>
-    <updated>2013-02-05T10:50:00+00:00</updated>
-    <id>http://www.adambird.com/only-entrepreneurs-can-lead-a-start-up-community</id>
-    <content type="html"><![CDATA[<p>I'm reading <a href="http://www.feld.com">Brad Feld's</a> book <a href="http://www.amazon.co.uk/Startup-Communities-Building-Entrepreneurial-Ecosystem/dp/1118441540/ref=sr_1_1?ie=UTF8&amp;qid=1360061822&amp;sr=8-1">Startup Communities: Building an Entrepreneurial Ecosystem in Your City</a> at the moment. It shares his ideas and experience from being keenly involved in establishing the start-up community in Boulder, Colorado.</p>
-
-<p>One of his key assertions is that entrepreneurs must lead such a community:</p>
-
-<blockquote><p>The most critical principle of a startup community is that entrepreneurs must lead it. Lots of different people are involved in the startup community and many nonentrepreneurs play key roles. Unless the entrepreneurs lead, the startup community will not be sustainable over time.</p></blockquote>
-
-<!-- more -->
-
-
-<p>He goes on to say</p>
-
-<blockquote><p>I define an entrepreneur as someone who has co-founded a company. I differentiate between "high-growth entrepreneurial companies" and "small businesses". Both are important, but they are different things.</p></blockquote>
-
-<p>Later in the book he describes how half a dozen such people "ignited the entrepreneurial revolution" on Boulder. A city of 250k people. Nottingham has around 800k.</p>
-
-<p>If you follow Brad's assertion then in order for the Creative Quarter project to create sustainable economic development driven by new ambitious businesses then those of us leading high-growth businesses need to take responsibility for it.</p>
-
-<p>If you're one of those people, please get in touch.</p>
-
-<p>Whether you're an entrepreneur or not, if you want to be part of making this initative successful, I'd recommend reading the book.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Code Club, a call to arms]]></title>
-    <link href="http://www.adambird.com/code-club-a-call-to-arms"/>
-    <updated>2012-09-03T00:00:00+01:00</updated>
-    <id>http://www.adambird.com/code-club-a-call-to-arms</id>
-    <content type="html"><![CDATA[<p><img src="http://www.adambird.com/images/code-club-logo.png" alt="" width="180px"/></p>
-
-<p>Are you a developer? Are you a business owner who employs developers? Have you heard about<a href="http://codeclub.org.uk"> CodeClub</a>?&nbsp;</p>
-
-<p>Code Club is a nationwide network of volunteer-led after school coding clubs for children aged 9-11. The mission is&nbsp;to give every child in the UK the chance to learn to code. The&nbsp;aim to have a Code Club in 25% of primary schools in the UK by the end of 2014.</p>
-
-<p>What's not to like about being part of that.</p>
-
-<!-- more -->
-
-
-<p>A new term is about to start so I urge you to contact your local primary school, either local to home or work, and volunteer to run a club for a term. All the materials are made available by Code Club so it's super easy.</p>
-
-<p>If you're a developer you just have to inspire hungry young minds.</p>
-
-<p>If you employ developers then this a perfect personal development opportunity for your team and a real opportunity for you to give something to your community.</p>
-
-<p>If you're in Nottingham then get in touch with me (<a href="mailto:adam.bird@esendex.com">adam.bird@esendex.com</a>) as the City Council are very, very keen to find ways they can help local employers to make this happen.</p>
-
-<p>So, to summarise</p>
-
-<ul>
-<li>Go here&nbsp;<a href="http://codeclub.org.uk/">http://codeclub.org.uk/</a></li>
-<li>Volunteer</li>
-<li>Inspire the next generation</li>
-</ul>
-
-
-<p>&nbsp;</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Nottingham Creative Quarter - What can you do]]></title>
-    <link href="http://www.adambird.com/the-nottingham-creative-quarter-what-can-you"/>
-    <updated>2012-07-09T00:00:00+01:00</updated>
-    <id>http://www.adambird.com/the-nottingham-creative-quarter-what-can-you</id>
-    <content type="html"><![CDATA[<p>The announcement of Nottingham's City Deal last week (<a href="http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf">http://www.dpm.cabinetoffice.gov.uk/sites/default/files_dpm/resources/Nottingham-City-Deal-final.pdf</a>) is big deal for entrepreneurship in the city. The council now have the funds and powers to provide the infrastructure and support to the new, innovative businesses that will drive GDP growth in the city and provide the skilled jobs going forward.</p>
-
-<p>But, infrastructure is only one part of the jigsaw. I want to share a couple of thoughts on how we, the business community in Nottingham, can do our bit to support our city in this endeavour.</p>
-
-<!-- more -->
-
-
-<p>The incubator without walls concept is predicated on building a sense community among the businesses in the city centre. One where we all come together to share, help and learn from each other for the mutual benefit of us all.</p>
-
-<p>We already have a vibrant community with events like Nott Tuesday, Second Wednesday, GeekUp and Game City Nights bringing people together on a regular basis. All of these events could be bigger and better though. You can support them by attending, encouraging your team to attend, mining your contact book for speakers or your or your team speaking and giving the rest of the community the benefit of your experiences.&lt;/</p>
-
-<p>This isn't just altruism. This will help you be more successful.</p>
-
-<p>When you're at the coal-face of a small business growing hard or running to stand still as is the case for many, it's easy to shut out distractions. I know exactly what it is like. However, taking time out to share and reflect is invariably valuable. Not only does it ive you some mental space to reset your thought processes you may find someone with similar challenges who, if they haven't already solved them and can share their solution, can provide a valuable ally.</p>
-
-<p>If we're to build a sustainable future for the city, we need to develop the skills of our young people. This doesn't have to be the prevail of large organisations with training schemes and huge CSR budgets. If we really want to empower young people to take control of the learning and inspire them to greatness, they need the opportunity to experience working with small organisations as well.</p>
-
-<p>The challenge for small companies is that when this young, untrained, person represents 20% of your workforce that is a huge risk. The way to assuage that risk is to do what you can, and consider that it's probably more than you're doing at the moment.</p>
-
-<p>Code Club (<a href="http://codeclub.org.uk">http://codeclub.org.uk</a>) is a great initiative to start introducing children to software development at after school clubs. If you have developers encourage and support them to run a Code Club at their local school, whether they have children or not.</p>
-
-<p>Contact local colleges and explain you can host one or two students on Tuesdays (for example) or encourage your marketing exec to run workshops to show how what they're learning now is actually applied in the real world.</p>
-
-<p>My experience of recruiting over the years is seeing a widening disconnect between what is being taught to pass exams and what we as businesses actually do on a daily basis. Colleges like New College Nottingham (<a href="http://www.ncn.ac.uk/content/home.aspx">http://www.ncn.ac.uk/content/home.aspx</a>) have recognised this and are actively looking to engage with the business community to help them solve this.</p>
-
-<p>Again this isn't blind altruism. The personal development benefits to mentors are well documented. The business gets to hone a new employee at a fraction of the cost. The city benefits are just a by product.</p>
-
-<p>There will be all sorts of other ways we can all come together to support the vision of Nottingham as a rewarding and enjoyable place to live and work. If the last few years have taught us anything, it's that greed and selfishness is road to destruction.</p>
-
-<p>Let's learn from that and work together to build something sustainable.</p>
+<p>So I suggest we stop apologising and finding reasons not to be as successful as we could be. Let's reset our ambition and do justice to ourselves, our careers, our companies and our city.</p>
 ]]></content>
   </entry>
   

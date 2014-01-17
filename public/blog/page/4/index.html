@@ -9,8 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="Spent a little while tearing my hair out on this one. I followed Steve Sanderson&#8217;s post ( http://blog.stevensanderson.com/2008/07/04/options- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +76,59 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/aspnet-mvc2-wildcard-mapping-on-iis6">ASP.NET MVC2 Wildcard Mapping on IIS6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-09-22T00:00:00+01:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Spent a little while tearing my hair out on this one. I followed Steve Sanderson&#8217;s post ( <a href="http://blog.stevensanderson.com/2008/07/04/options-for-deploying-aspnet-mvc-to-iis-6/">http://blog.stevensanderson.com/2008/07/04/options-for-deploying-aspnet-mvc-t&#8230;</a> ) but I was still getting the classic IIS 404<img src="/images/aspnet-mvc2-wildcard-mapping-on-iis6/Capture_dcran_2010-09-22_10.02.png">
+Finally found the answer in the Web Service Extensions section of IIS Manager. I had to enable the ASP.NET v4 extension</p>
+
+<p><div class='p_embed p_image_embed'>
+<img alt="0capture_dcran_2010-09-22_10" height="205" src="http://getfile2.posterous.com/getfile/files.posterous.com/adambird/MDvQ69C5ItPKEoB4kuMHKPCzWXJi4I0MxhPWWTm3jjWokINR6lokcYWbDQlN/0Capture_dcran_2010-09-22_10.02.png" width="486" />
+</div>
+</p>
+
+
+<p>But just clicking Allow here didn&#8217;t work. I actually had to go to Properties > Required Files and Allow the aspnet_isapi.dll.</p>
+
+<p><div class='p_embed p_image_embed'>
+<img alt="1capture_dcran_2010-09-22_10" height="436" src="http://getfile6.posterous.com/getfile/files.posterous.com/adambird/eh52RV4z3yq4Yu0S0vgoYfCVzroU6kiczhVuZzYpp6Epkq5dcpgVI6lo2iXJ/1Capture_dcran_2010-09-22_10.02.png" width="402" />
+</div>
+</p>
+
+
+<p>Sorted</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -428,43 +480,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/do-androids-dream-of-electric-sheep">Do Androids Dream of Electric Sheep</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-08-27T00:00:00+01:00" pubdate data-updated="true">Aug 27<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Just finished reading this for the first time many, many years after first watching and loving Bladerunner, the film it inspired. <p /> It&#8217;s a wonderfully dark and deep story, far more so than the film. The vulnerability of Deckard, subsumed in the naivety and beliefs of the post-apocalyptic world he inhabits, is a far cry from the cerebral, flawed hero around which Ridley Scott&#8217;s film is centred. Philip K Dick&#8217;s androids and humans are much less binary than their cinematographic counterparts.
-They are both enthralling works in their own right and if you&#8217;ve only got round to seeing Bladerunner, you should definitely make time to read the book.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -479,9 +494,13 @@ They are both enthralling works in their own right and if you&#8217;ve only got 
   
     <section>
   <img src="/images/adam-avatar.jpg">
-  <p>A Nottingham based software developer, entrepreneur and cyclist you may know from</p>
+  <p>A Nottingham based entrepreneur and developer. Husband, father, cyclist &amp; wannabe rock guitarist as time allows.</p>
+  <p>
+    You may know me from
+  </p>
   <ul>
-    <li><a href="http://www.esendex.co.uk"><img src="/images/esendex-logo.jpg" width="40px" alt="Esendex logo" class="left"/>Esendex: international text messaging service provider</a></li>
+    <li><a href="http://www.onediary.com"><img src="/images/onediary.png" width="40px" alt="One Diary logo" class="left"/>One Diary: get everything into your calendar</a></li>
+    <li><a href="http://www.esendex.co.uk"><img src="/images/esendex-logo.jpg" width="40px" alt="Esendex logo" class="left"/>Esendex: every message matters</a></li>
   </ul>
   <ul>
     <li><a href="https://twitter.com/adambird" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @adambird</a>
@@ -565,6 +584,10 @@ They are both enthralling works in their own right and if you&#8217;ve only got 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/a-ps200m-acquisition">A £200M acquisition, in Nottingham, time to wake up</a>
+      </li>
+    
+      <li class="post">
         <a href="/new-project-new-team">New project New team</a>
       </li>
     
@@ -578,10 +601,6 @@ They are both enthralling works in their own right and if you&#8217;ve only got 
     
       <li class="post">
         <a href="/pre-cycle-commute-uk-weather-forecast-tweet">Pre cycle commute UK weather forecast tweet</a>
-      </li>
-    
-      <li class="post">
-        <a href="/pushing-info-to-pebble-watch">Pushing info to my Pebble watch</a>
       </li>
     
   </ul>
@@ -670,7 +689,7 @@ They are both enthralling works in their own right and if you&#8217;ve only got 
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Adam -
+  Copyright &copy; 2014 - Adam -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
