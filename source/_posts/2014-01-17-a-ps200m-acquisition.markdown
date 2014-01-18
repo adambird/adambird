@@ -26,3 +26,4 @@ We are surrounded by world class talent and organisations. And these are just co
 
 So I suggest we stop apologising and finding reasons not to be as successful as we could be. Let's reset our ambition and do justice to ourselves, our careers, our companies and our city.
 
+We deserve it.
