@@ -18,7 +18,7 @@ The acquisition of TDX reminds us that this is a bullshit attitude.
 
 In our city we have world class data analysts and visionaries that have made TDX into a asset that a global company had to have for a substantial sum.
 
-We have world-class scientists in [Haemostatix](http://www.haemostatix.com) revolutionary blood clotting agent that will transform surgery and trauma management as well as [Scancell](http://www.scancell.co.uk) creating a cure for frickin' cancer.
+We have world-class scientists in [Haemostatix](http://www.haemostatix.com) forming a revolutionary blood clotting agent that will transform surgery and trauma management as well as [Scancell](http://www.scancell.co.uk) creating a cure for frickin' cancer.
 
 Then you start talking to the guys at [Crytek](http://www.crytek.com/career/studios/overview/nottingham) about the ground breaking stuff they're doing with gaming engines.
 
