@@ -9,7 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="To access &nbsp;SQL Azure database, you will need SQL Server Management Studio 2008 R2 CTP. The standard SSMS version doesn&#8217;t cope with the &hellip;">
+  <meta name="description" content="So, I have myself a database in the cloud but it wasn&#8217;t plain sailing migrating from an existing database.I used SQL Server Management Studio &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,42 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/migrating-to-sql-azure">Migrating to SQL Azure</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-21T00:00:00+00:00" pubdate data-updated="true">Jan 21<span>st</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So, I have myself a database in the cloud but it wasn&#8217;t plain sailing migrating from an existing database.<p /><div>I used SQL Server Management Studio to generate the whole schema as a script and attempted to run this on the cloud DB. As expected it didn&#8217;t work.&nbsp;</div><p /><div>Here&#8217;s what I had to change:</div><p /><div><div>- Removed all Database creation and settings</div><div>- Removed all Schema and Role creations</div><div>- Stripped out the following index and table options: PAD INDEX,&nbsp;ALLOW_ROW_LOCKS,&nbsp;SORT_IN_TEMPDB, &nbsp;ALLOW_PAGE_LOCKS, TEXTIMAGE_ON</div><div>- Removed all references to the file groups, ie [PRIMARY]</div><div>- Removed all instances of [dbo] referencing. This was actually to resolve an error with some aspnet db views containing three-part column names</div><div>- Added WITH (NOLOCK) to all table references that just had (NOLOCK), again aspnet db views.</div><div>- Populated the aspnet_schemaversions table as follows:</div><p /><div><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;common&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;health monitoring&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;membership&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;personalization&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;profile&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;role manager&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div></div><p /><p /><p /></div></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -454,43 +490,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/catching-up-on-some-long-overdue-reading">Catching Up on Some Long Overdue Reading</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-14T00:00:00+00:00" pubdate data-updated="true">Jan 14<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="/images/catching-up-on-some-long-overdue-reading/2010-01-14_16.10.33.jpg">
-</p><p>Need to catch the train more often</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/12/">&larr; Older</a>
@@ -595,6 +594,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/coding-is-easy-is-a-dangerous-message">&#8216;Coding is easy&#8217; is a dangerous message</a>
+      </li>
+    
+      <li class="post">
         <a href="/a-ps200m-acquisition">A £200M acquisition, in Nottingham, time to wake up</a>
       </li>
     
@@ -608,10 +611,6 @@
     
       <li class="post">
         <a href="/col-du-tourmalet">Col du Tourmalet</a>
-      </li>
-    
-      <li class="post">
-        <a href="/pre-cycle-commute-uk-weather-forecast-tweet">Pre cycle commute UK weather forecast tweet</a>
       </li>
     
   </ul>

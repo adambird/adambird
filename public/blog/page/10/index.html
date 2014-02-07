@@ -82,6 +82,42 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/google-nexus-one-its-great-but">Google Nexus One, It&#8217;s Great But&#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-02-05T00:00:00+00:00" pubdate data-updated="true">Feb 5<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been using the Nexus One for a couple of weeks now and I really like it. <br />The first thing you notice is how reassuringly solid it feels in your hand. It reeks of a build quality not seen in previous Android devices. <p /> Next is the speed, it is very quick and responsive.Lag is the enemy of a a great touch screen experience, without physical feedback frustration soon overtakes not knowing whether the button has actually been pressed. <p /> Gmail integration is excellent, my work Exchange email sync&#8217;ed without a problem. Bit of an issue with syncing my OSX address book to Google ending up with multiple versions of some contacts. Not sure where the fault lies for this one though. <p /> Multi-tasking is ace. I love the fact Seesmic can pop a notification on the bar when someone @&#8217;s me. Being able to flick between apps and return back to where you were is a refreshing change. <p /> As a phone it seems to be far more reliable with better call quality than the iPhone, though I am comparing an iPhone on O2 and the Nexus on Vodafone. <br />This is definitely an excellent device. <p /> However, the browsing experience is where it starts to the fall down. The browser just isn&#8217;t as polished Safari. Tapping on areas to zoom is clunky and not as accurate. The font rendering seems amateur. <br />There is little pleasure in browsing which is a criminal shame with such a beautiful screen and Google&#8217;s browser aspirations. <p /> Browsing is also where the lack of multi-touch is suddenly a real problem. Who on earth thought that the little zoom-in and zoom-out buttons were acceptable in the modern age. <p /> The iPhone has shown us the power of multi-touch for consuming and interacting with web content. Like sitting forward in a plane, there &#8216;aint no going back. <p /> The real abomination though is the maps app. Pinch-zoom was made for mapping. In 2010 any mapping application that doesn&#8217;t support it is frankly useless to me. <p /> These gripes are all solvable through software updates, Google having just announce multi-touch support in the first software update for the device. <p /> What isn&#8217;t resolvable are two other key reasons I&#8217;m holding out for the next iPhone. <p /> The accuracy of the multi-touch screen is good but not as good as the iPhone. It makes typing just that bit more awkward. True, the word prompting when typing is far better than the single guess of the iPhone OS so you generally have to type less but I make mistakes which makes me less inclined to type. <br />I&#8217;m not a power text user, if so I&#8217;d probably still be using a BlackBerry, but when I use it I want it to work. <p /> The real killer, and for me what Apple have got so right, are the apps. I just can&#8217;t get the apps on Android that I can get on the iPhone. Apps that my life now depends on (not literally, though sometimes it feels like it). <br />In the Nexus One and the iPhone are comparing not phones but mobile computing appliances. Appliances need applications and Apple has got this so right compared to Google. <p /> These appliances no longer exist on their own. Their power comes from the ecosystem that surrounds and supports them. <p /> Google need to up their game if they&#8217;re serious about mobile computing.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/google-nexus-one-its-great">Google Nexus One, It&#8217;s Great&#8230;</a></h1>
     
     
@@ -501,42 +537,6 @@ Get-OperationStatus –WaitToComplete</pre></div>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/migrating-to-sql-azure">Migrating to SQL Azure</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-21T00:00:00+00:00" pubdate data-updated="true">Jan 21<span>st</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>So, I have myself a database in the cloud but it wasn&#8217;t plain sailing migrating from an existing database.<p /><div>I used SQL Server Management Studio to generate the whole schema as a script and attempted to run this on the cloud DB. As expected it didn&#8217;t work.&nbsp;</div><p /><div>Here&#8217;s what I had to change:</div><p /><div><div>- Removed all Database creation and settings</div><div>- Removed all Schema and Role creations</div><div>- Stripped out the following index and table options: PAD INDEX,&nbsp;ALLOW_ROW_LOCKS,&nbsp;SORT_IN_TEMPDB, &nbsp;ALLOW_PAGE_LOCKS, TEXTIMAGE_ON</div><div>- Removed all references to the file groups, ie [PRIMARY]</div><div>- Removed all instances of [dbo] referencing. This was actually to resolve an error with some aspnet db views containing three-part column names</div><div>- Added WITH (NOLOCK) to all table references that just had (NOLOCK), again aspnet db views.</div><div>- Populated the aspnet_schemaversions table as follows:</div><p /><div><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;common&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;health monitoring&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;membership&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;personalization&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;profile&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div><p /><div style=""><span style="color: #0000ff;">INSERT</span> aspnet_SchemaVersions<span style="color: #0000ff;"> </span><span style="color: #929292;">(</span>Feature<span style="color: #929292;">,</span> CompatibleSchemaVersion<span style="color: #929292;">,</span> IsCurrentVersion<span style="color: #929292;">)</span></div><div style=""><span style="color: #0000ff;">VALUES </span><span style="color: #929292;">(</span>&#8216;role manager&#8217;<span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">,</span><span style="color: #000000;"> 1</span><span style="color: #929292;">)</span></div></div><p /><p /><p /></div></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/11/">&larr; Older</a>
@@ -641,6 +641,10 @@ Get-OperationStatus –WaitToComplete</pre></div>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/coding-is-easy-is-a-dangerous-message">&#8216;Coding is easy&#8217; is a dangerous message</a>
+      </li>
+    
+      <li class="post">
         <a href="/a-ps200m-acquisition">A £200M acquisition, in Nottingham, time to wake up</a>
       </li>
     
@@ -654,10 +658,6 @@ Get-OperationStatus –WaitToComplete</pre></div>
     
       <li class="post">
         <a href="/col-du-tourmalet">Col du Tourmalet</a>
-      </li>
-    
-      <li class="post">
-        <a href="/pre-cycle-commute-uk-weather-forecast-tweet">Pre cycle commute UK weather forecast tweet</a>
       </li>
     
   </ul>

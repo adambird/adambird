@@ -9,7 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="Spent a little while tearing my hair out on this one. I followed Steve Sanderson&#8217;s post ( http://blog.stevensanderson.com/2008/07/04/options- &hellip;">
+  <meta name="description" content="This was to be my first foray into UI integration testing. I&#8217;ve always been a sceptic, scare by the brittleness of any kind of recorded UI test &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,92 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/ui-integration-testing-with-cassinidev-and-wa">UI Integration Testing With CassiniDev and WatiN, Not Selenium</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-09-30T00:00:00+01:00" pubdate data-updated="true">Sep 30<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This was to be my first foray into UI integration testing. I&#8217;ve always been a sceptic, scare by the brittleness of any kind of recorded UI test. Luckily Gemma and Jonathan in the dev team persisted and showed me Selenium RC and WatiN. Both these solutions allow you to write the integration tests in code, a critical requirement for me.</p>
+
+<p>Also key for me was this had to work in Hudson, my chosen Continuous Integration server, so simple deployment and management was key. I love being able to check everything I need into source control and have it &#8216;miraculously&#8217; run on the CI server with little or no config.</p>
+
+<p>The first thing I needed was a deployable web server I could, ideally, run in process. Enter <a href="http://cassinidev.codeplex.com/" title="CassiniDev" target="_blank">CassiniDev</a>&nbsp;and specifically the CassiniDev4-Lib.dll. Now this was really tricky to get going ;).</p>
+
+<ol>
+<li><p>Add reference to CassiniDev4-Lib.dll</p></li>
+<li><p>Put following code in my TestFixtureSetup</p></li>
+</ol>
+
+
+<div class="CodeRay">
+  <div class="code"><pre>_hostServer = new CassiniDevServer();
+_hostServer.StartServer(@&quot;..\..\..\mywebapp&quot;);</pre></div>
+</div>
+
+
+<p>&nbsp;</p>
+
+<p><a href="http://seleniumhq.org/" target="_blank">Selenium</a> wasn&#8217;t quite so simple.</p>
+
+<p>It failed the simple deploy requirement because you have to run the Selenium Server and then use the RC libraries to interact with it and send commands to then run on browsers.</p>
+
+<p>It also has/d a bug where it sends a HEAD before it sends a GET which breaks if your MVC Controller Action as an HttpGet attribute. It sends a 404 because HEAD isn&#8217;t acceptable.</p>
+
+<p>Sky from the CassiniDev team was &uuml;ber-helpful finding this out for me&nbsp;<a href="http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174" target="_blank">http://cassinidev.codeplex.com/Thread/View.aspx?ThreadId=227174</a>.</p>
+
+<p><a href="http://watin.sourceforge.net/" target="_self">WatiN</a> was a different story though. Very simple to use and all run in process. There were a couple of gotcha&#8217;s though.</p>
+
+<p>I had to make sure NUnit was properly running .net 4, stackoverflow helped me there&nbsp;<a href="http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available" target="_blank">http://stackoverflow.com/questions/2635794/nunit-fail-with-system-argumentexception-the-net-4-0-framework-is-not-available</a></p>
+
+<p>And I got a rather gruesome COM exception when I pushed it all up to my CI server.&nbsp;</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>NSystem.UnauthorizedAccessException: Retrieving the COM class factory for component with
+        CLSID {0002DF01-0000-0000-C000-000000000046} failed due to the following error: 
+        80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+    at WatiN.Core.IE.CreateNewIEAndGoToUri(Uri uri, IDialogHandler logonDialogHandler, 
+        Boolean createInNewProcess)
+    at WatiN.Core.IE..ctor(String url)</pre></div>
+</div>
+
+
+<p>Luckily I found this post that talks through setting the COM permissions correctly for this kind of issue. Specifically giving the correct permissions to the user account used by the Hudson server. <a href="http://www.stuffthatjustworks.com/How+To+Fix+UnauthorizedAccessException+Retrieving+The+COM+Class+Factory+For+Component+With+CLSID.aspx" target="_blank">How To Fix UnauthorizedAccessException Retrieving The COM Class Factory For Component With CLSID</a></p>
+
+<p>Early days, but I now have a green build that includes actually navigating to one of my forms and entering text within an integration test.</p>
+
+<p>Selenium seemed to be the obvious choice for UI testing. I read somewhere that Google is throwing loads of effort into developing it so it would be a good horse to back. However, when I look at my requirements I don&#8217;t need what Selenium offers.</p>
+
+<p>Multi, cross-browser testing is nice but I&#8217;m just looking to confirm stories are operational and routes through my application are valid. The simplicity of WatiN seems to satisfy that nicely.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -444,42 +530,6 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/knackered-mamil-syndrome">Knackered Mamil Syndrome</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-08-27T00:00:00+01:00" pubdate data-updated="true">Aug 27<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Competitive cycling is a demanding mistress. Couple that with a career and a family and you have a recipe for doing some serious damage to yourself. <p /> I sit here after two months of enforced cycling lay-off through being repeatedly ill and am forced to reflect on what went wrong. Blood tests show me to be in super shape but I still can&#8217;t do any exercise without developing some kind of illness. Sore throat, aching, headaches, etc, etc. The conclusion that my doctor has come to is that I&#8217;ve trained and worked myself into the ground. I&#8217;m just knackered. Unable to fight off the day to day infections we never normally notice. <p /> I have a hard and demanding job and a wonderful, but demanding family (in a good way, obviously). Training happens in the early hours before the the rest of the family stir. Sleep and rest are something that fits in around everything else and generally I try and get away with the minimum. <p /> My job also involves some long-haul travel and I have seen it as a fantastic opportunity to get some training in. Last time I was in San Francisco, I embraced the jet-lag so it was easy to get up for training at 5am, get 3 hours of hard miles in before spending the day working. Invariably catching up on emails from the UK before going to bed later than I should. Being away from the family though meant my time was my own and thus it was an opportunity to train, not to be missed. <p /> Crashing in the Alps probably didn&#8217;t help either but however much I try and rationalise it all and be pragmatic I can&#8217;t help feeling I&#8217;m sitting here watching another season drift by with nothing to show for it. And that hurts, a lot. <p /> I&#8217;m currently the right side of 40 but not by much and with coming to cycling late I&#8217;m desperate to maximise my achievements. Being driven helps me train hard but this has shown me that I need to actually act on all that advice that says rest is a key component of training. Being driven and dumb and is no use to anyone. <p /> So next year is a new approach. Train hard, absolutely, but only when I feel up for it. Move rest and recovery to number 3 in the priority list, after family and work, and see what results materialise.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -584,6 +634,10 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/coding-is-easy-is-a-dangerous-message">&#8216;Coding is easy&#8217; is a dangerous message</a>
+      </li>
+    
+      <li class="post">
         <a href="/a-ps200m-acquisition">A £200M acquisition, in Nottingham, time to wake up</a>
       </li>
     
@@ -597,10 +651,6 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
     
       <li class="post">
         <a href="/col-du-tourmalet">Col du Tourmalet</a>
-      </li>
-    
-      <li class="post">
-        <a href="/pre-cycle-commute-uk-weather-forecast-tweet">Pre cycle commute UK weather forecast tweet</a>
       </li>
     
   </ul>

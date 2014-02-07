@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2014-01-18T13:20:16+00:00</updated>
+  <updated>2014-02-07T10:15:02+00:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA['Coding is easy' is a dangerous message]]></title>
+    <link href="http://www.adambird.com/coding-is-easy-is-a-dangerous-message"/>
+    <updated>2014-02-07T09:33:00+00:00</updated>
+    <id>http://www.adambird.com/coding-is-easy-is-a-dangerous-message</id>
+    <content type="html"><![CDATA[<p>So a predictable furore gripped my twitter feed as footage of Lottie Dexter, head of the UK&#8217;s <a href="http://yearofcode.org">Year of Code</a> initiative, appearance on Newsnight emerged.</p>
+
+<iframe width="500" height="271" src="http://www.adambird.com//www.youtube.com/embed/-7x7GYItzS4" frameborder="0" allowfullscreen></iframe>
+
+
+<p>My concern is not that she doesn&#8217;t know how to code but that she was able to so comprehensively belittle the very skillset she was trying to apparently promote.</p>
+
+<!-- more -->
+
+
+<p>I&#8217;m a tech entrepreneur and developer who&#8217;s directly employed around 50 developers in my companies and thus have interviewed hundreds. As well as that I&#8217;m in my second year running <a href="https://www.codeclub.org.uk">Code Clubs</a> and am a Governor (Director now it&#8217;s an Academy) at my local secondary school.</p>
+
+<p>If you translate what Lottie was saying to other industries, it&#8217;d be like saying you just need to learn how to lay bricks in a straight line and you can build a house.</p>
+
+<p>Belittling the craft of software development, indeed any skill, can only be of detriment to the UK economy. Yes, I understand that the messaging is about breaking down the barriers but that is not going to prepare people for when it gets difficult.</p>
+
+<p>Software development, like all skills, requires hard work, motivation and endeavour to reach a level at which you can make a valuable contribution. We need to help young people to find the motivation to get through those hard times.</p>
+
+<p>The messaging of UK Coding/Lottie Dexter is in danger of just making people feel stupid because they don&#8217;t get it.</p>
+
+<p>As someone who is trying to teach children to write software, the hardset job I have is keeping them motivated. Giving them context that helps them see why the hard work is worth it. The drop-off rate when we moved from <a href="http://scratch.mit.edu">Scratch</a> to HTML and then onto <a href="http://www.python.org">Python</a> was considerable.</p>
+
+<p>The few that have stuck with it have found their own motivation and my role is to nurture and facilitate that. Hopefully turning round those that are wavering.</p>
+
+<p>As an employer, the only people I&#8217;m interested in are those that care about what they do, are always looking to better themselves and a prepared to put the work in to better themselves. Those are the people that can make a difference to an organisation and thus to the UK economy.</p>
+
+<p>If we want the build a skills based economy then we should celebrate those that have worked hard to develop those skills not belittle them.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A £200M acquisition, in Nottingham, time to wake up]]></title>
@@ -722,21 +757,6 @@ end
 <p>So I set myself an exercise. Could I build an API by putting myself in the shoes of a developer discovering the API for the first time. My tools Cucumber and Firefox.</p>
 
 <p><img alt="Screen_shot_2011-10-27_at_23" height="195" src="http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-10-27/aGwuihqfGqeaygvwAvmFstJbDglEChlCxvCjhDjrfBDtuJcgbxvhdIGnBeGa/Screen_Shot_2011-10-27_at_23.17.42.png.scaled500.png" width="351" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Beeston Centurions U9s sports men of the league]]></title>
-    <link href="http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag"/>
-    <updated>2011-06-12T00:00:00+01:00</updated>
-    <id>http://www.adambird.com/beeston-centurions-u9s-sports-men-of-the-leag</id>
-    <content type="html"><![CDATA[<div class='p_embed p_image_embed'>
-<img alt="Media_httpaudioboofmb_tject" height="1" src="http://getfile3.posterous.com/getfile/files.posterous.com/adambird/ghBhsiaDuqrIusxlHqqorabzjmeIjjymazvHseDFqvytoduwrafFDwEfqDvG/media_httpaudioboofmb_tjeCt.jpg.scaled500.jpg" width="1" />
-</div>
-
-
-<br /><object type="application/x-shockwave-flash" height="129" width="400"><param name="movie" value="http://boos.audioboo.fm/swf/fullsize_player.swf" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="bgColor" value="#FFFFFF" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="window" /><param name="FlashVars" value="mp3Time=03.51pm+12+Jun+2011&amp;rootID=boo_embed_383593&amp;mp3=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league.mp3%3Fsource%3Dembed&amp;mp3Author=adambird&amp;mp3LinkURL=http%3A%2F%2Faudioboo.fm%2Fboos%2F383593-beeston-centurions-u9s-sports-men-of-the-league&amp;mp3Title=Beeston+Centurions+U9s+sports+men+of+the+league" /><a href="http://audioboo.fm/boos/383593-beeston-centurions-u9s-sports-men-of-the-league.mp3?source=embed">Listen!</a></object>
-
 ]]></content>
   </entry>
   
