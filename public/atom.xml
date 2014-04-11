@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2014-02-07T10:15:02+00:00</updated>
+  <updated>2014-04-11T09:50:16+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[5 Unusual Ways to Internet Superstardom]]></title>
+    <link href="http://www.adambird.com/5-unusual-ways-to-internet-superstardom"/>
+    <updated>2014-04-11T09:13:00+01:00</updated>
+    <id>http://www.adambird.com/5-unusual-ways-to-internet-superstardom</id>
+    <content type="html"><![CDATA[<p>As many of you know I have a new venture called One Diary. We&#8217;ve been lucky enough to be considered one of the best 10% of entries into the Start Up competition at this year&#8217;s <a href="http://thesummit.co">The Summit</a> conference. As I&#8217;m sure you can imagine, being selected to be represented at such a prestigious and high-profile conference would be a massive boost for us.</p>
+
+<p>I need your help getting through to the next round.</p>
+
+<p>Each selected candidate has produced a 60 sec video explaining why they should be represented. In an unashamed popularity contest, the videos that get the most votes win.</p>
+
+<p>You can view the video and vote here</p>
+
+<p><a href="http://thesummit.co/kilimanjaro/nominees-alpha#entry-37">http://thesummit.co/kilimanjaro/nominees-alpha#entry-37</a></p>
+
+<p>That&#8217;s not all. Thanks to the power of the Internet and it&#8217;s unrivalled power in celebrating vacuous love. You can ask/cajole/strong-arm/threaten your friends to do the same.</p>
+
+<p>They can help you, help One Diary become more popular than all the others in a list of people you haven&#8217;t heard of and have no reference to compare; and kittens may be saved as a result.</p>
+
+<p>Here are five handy tweets to help you share the love:</p>
+
+<blockquote><p>Vote for this video, not for me but for the children</p></blockquote>
+
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://thesummit.co/kilimanjaro/nominees-alpha#entry-37" data-count="none" data-size="large" data-related="onediaryapp" data-text="Vote for this video, not for me but for the children">Vote for this video, not for me but for the children</a></p>
+
+<blockquote><p>Vote for this video or kittens may become upset</p></blockquote>
+
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://thesummit.co/kilimanjaro/nominees-alpha#entry-37" data-count="none" data-size="large" data-related="onediaryapp" data-text="Vote for this video or kittens may become upset">Vote for this video or kittens may become upset</a></p>
+
+<blockquote><p>Help create another vacuous Internet celebrity and vote for this video</p></blockquote>
+
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://thesummit.co/kilimanjaro/nominees-alpha#entry-37" data-count="none" data-size="large" data-related="onediaryapp" data-text="Help create another vacuous Internet celebrity and vote for this video">Help create another vacuous Internet celebrity and vote for this video</a></p>
+
+<blockquote><p>If you were a real friend you&#8217;d vote for this video</p></blockquote>
+
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://thesummit.co/kilimanjaro/nominees-alpha#entry-37" data-count="none" data-size="large" data-related="onediaryapp" data-text="If you were a real friend you'd vote for this video">If you were a real friend you&#8217;d vote for this video</a></p>
+
+<blockquote><p>This is rubbish, don&#8217;t watch it and definitely don&#8217;t vote for it</p></blockquote>
+
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://thesummit.co/kilimanjaro/nominees-alpha#entry-37" data-count="none" data-size="large" data-related="onediaryapp" data-text="This is rubbish, don't watch it and definitely don't vote for it">This is rubbish, don&#8217;t watch it and definitely don&#8217;t vote for it</a></p>
+
+<p>So don&#8217;t do it for me, do it for the Internet.</p>
+
+<p>Yours in reckless careerism,</p>
+
+<p>PS I didn&#8217;t say whose Internet superstardom did I ;)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA['Coding is easy' is a dangerous message]]></title>
@@ -735,28 +784,6 @@ end
 <p>and development is back to full speed.</p>
 
 <p>More info here&nbsp;<a href="http://Spork not reloading classes">http://www.avenue80.com/tiny-tip-spork-not-reloading-classes/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[API Divining With Cucumber and Firefox]]></title>
-    <link href="http://www.adambird.com/api-divining-with-cucumber-and-firefox"/>
-    <updated>2011-10-27T00:00:00+01:00</updated>
-    <id>http://www.adambird.com/api-divining-with-cucumber-and-firefox</id>
-    <content type="html"><![CDATA[<p>I&#8217;ve been discovering the wonders of <a href="https://www.relishapp.com/rspec">RSpec</a> and <a href="http://cukes.info/">Cucumber</a> recently (I know, I know, I&#8217;m horribly late to that particular party) and revelling in how the BDD &gt; TDD cycle helps keep one focused on the feature being delivered.</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Representational_state_transfer">Rest APIs</a> are a common topic of conversation among the <a href="http://www.esendex.com">Esendex</a> dev team and it was a conversation with @jbjon and @samwessel this week that inspired an experiment.</p>
-
-<!-- more -->
-
-
-<p>We were discussing <a href="http://en.wikipedia.org/wiki/HATEOAS">HATEOAS</a> whereby a REST client needs no prior knowledge about how to interact with any particular application or server beyond a generic understanding of hypermedia. Your API shouldn&#8217;t be fixed but should be discoverable. Clients shouldn&#8217;t be locked into a tight coupling with your API but should be able to adapt has it changes.</p>
-
-<p>What also came up was the notion that the mark of a well tested system was that you could through away all of your code and be confident that you could rebuild it completely based on the tests.</p>
-
-<p>So I set myself an exercise. Could I build an API by putting myself in the shoes of a developer discovering the API for the first time. My tools Cucumber and Firefox.</p>
-
-<p><img alt="Screen_shot_2011-10-27_at_23" height="195" src="http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-10-27/aGwuihqfGqeaygvwAvmFstJbDglEChlCxvCjhDjrfBDtuJcgbxvhdIGnBeGa/Screen_Shot_2011-10-27_at_23.17.42.png.scaled500.png" width="351" /></p>
 ]]></content>
   </entry>
   

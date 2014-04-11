@@ -9,7 +9,7 @@
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="This was to be my first foray into UI integration testing. I&#8217;ve always been a sceptic, scare by the brittleness of any kind of recorded UI test &hellip;">
+  <meta name="description" content="I needed to reference some user context variables from within my site master page that had some logic behind their retrieval. In this example I need &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,87 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/base-view-model-in-aspnet-mvc">Base View Model in ASP.NET MVC</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-11-08T00:00:00+00:00" pubdate data-updated="true">Nov 8<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I needed to reference some user context variables from within my site master page that had some logic behind their retrieval.</p>
+
+<p>In this example I need to choose the display language for a user.</p>
+
+<ol>
+<li>Check cookie present indicating user&#8217;s language preference</li>
+<li>if not use HTTP language header</li>
+<li>if not use the application default language</li>
+</ol>
+
+
+<p>The pattern I&#8217;ve ended up using is to implement a base view model from which all my specific view models inherit as follows:<span style=""> </span></p>
+
+<p><code></code></p>
+
+<p><code></code></p>
+
+<p><code></code></p>
+
+<p><code>
+<div class="CodeRay">
+  <div class="code"><pre>public class BaseViewModel {     
+    public string UserLanguage     
+    {      
+       get      
+       {          
+           return HttpContext.Current.Request.Cookies[&quot;language&quot;] != null        
+               ? HttpContext.Current.Request.Cookies[&quot;language&quot;].Value           
+               : CultureInfo.CurrentCulture.TwoLetterISOLanguageName;     
+        }
+    } 
+}</pre></div>
+</div>
+
+</code></p>
+
+
+<p>&nbsp;</p>
+
+<p>I then use the generic class for the master page</p>
+
+<p><code>&amp;lt;%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage&amp;lt;BaseViewModel&amp;gt;" %&amp;gt;</code></p>
+
+<p>Which then allows me to reference the model in the master page and keep the logic for deciding the language to display centralised.</p>
+
+<p>Not sure I&#8217;m wholly happy with the inheritance as it adds a level of dependencies which smells a bit off but in the small application I&#8217;m working in it was easy to implement and does what I need.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -494,42 +575,6 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/mamil-and-proud">Mamil and Proud</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-08-27T00:00:00+01:00" pubdate data-updated="true">Aug 27<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I read with some amusement the recent BBC article about Middle Aged Men In Lycra, Mamils (<a href="http://www.bbc.co.uk/news/magazine-10965608)">http://www.bbc.co.uk/news/magazine-10965608)</a>. Yes much of it rang true but I can&#8217;t help feeling that there is an element of cynicism and sneering that drives that sort of moniker. <p /> It&#8217;s the same in most sports-cum-leisure activities. The hard-core of &#8216;real&#8217; participants look down their noses at these johnny-cum-latelys as some how not worthy of participating in &#8216;their&#8217; sport. Turn-up on something expensive with which to participate in the sport like a carbon race frame or high-end clothing and this just fuels their derision. <p /> As an owner of much high-quality kit and no points to my racing name I am truly a Mamil to be derided. It&#8217;s all about the legs apparently. If you haven&#8217;t got the legs you should know your place and let the real-men show you how it&#8217;s done. <p /> And they&#8217;ve done it the hard way. <p /> Balls to the hard-way. I was never very sporty and spent my twenties abusing my body with booze and fags. So no school of hard knocks apprenticeship for me but I have reached middle-age with kids and a decent career. So now I&#8217;m short on time and have a bit of disposable income. <p /> Being able to afford decent kit is brilliant. <p /> Beating other people is great too but bike races only have one winner out of anything up to 100 entrants so chances are high it&#8217;s not going to be me. With that in mind I intend to enjoy myself riding in the bunch, putting myself in the mix and seeing which way the dice fall. <p /> Doing that in the best kit I&#8217;m prepared to afford just adds to the fun.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -634,6 +679,10 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/5-unusual-ways-to-internet-superstardom">5 Unusual Ways to Internet Superstardom</a>
+      </li>
+    
+      <li class="post">
         <a href="/coding-is-easy-is-a-dangerous-message">&#8216;Coding is easy&#8217; is a dangerous message</a>
       </li>
     
@@ -647,10 +696,6 @@ Finally found the answer in the Web Service Extensions section of IIS Manager. I
     
       <li class="post">
         <a href="/hautacam">Hautacam</a>
-      </li>
-    
-      <li class="post">
-        <a href="/col-du-tourmalet">Col du Tourmalet</a>
       </li>
     
   </ul>
