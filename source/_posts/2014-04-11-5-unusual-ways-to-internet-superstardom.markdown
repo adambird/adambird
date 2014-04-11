@@ -9,10 +9,10 @@ categories: Fun
 As many of you know I have a new venture called One Diary. We've been lucky enough to be considered one of the best 10% of entries into the Start Up competition at this year's [The Summit](http://thesummit.co) conference. As I'm sure you can imagine, being selected to be represented at such a prestigious and high-profile conference would be a massive boost for us.
 
 I need your help getting through to the next round.
-
+<!-- more -->
 Each selected candidate has produced a 60 sec video explaining why they should be represented. In an unashamed popularity contest, the videos that get the most votes win.
 
-You can view the video and vote here
+You can view our video and vote for us here
 
 [http://thesummit.co/kilimanjaro/nominees-alpha#entry-37](http://thesummit.co/kilimanjaro/nominees-alpha#entry-37)
 
