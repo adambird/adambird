@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2014-04-11T09:58:06+01:00</updated>
+  <updated>2014-05-01T09:12:50+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to specify a software project]]></title>
+    <link href="http://www.adambird.com/how-to-specify-a-software-project"/>
+    <updated>2014-05-01T09:09:00+01:00</updated>
+    <id>http://www.adambird.com/how-to-specify-a-software-project</id>
+    <content type="html"><![CDATA[<p>There are three variables in software projects Time, Scope, Quality. You can only choose to control two of them. The approach I would take to project specification is</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Build up list of requirements</li>
+<li>Put those requirements in priority order</li>
+<li>Review that list and decide the key value points along that list</li>
+</ol>
+
+
+<p>Have a discussion with developer(s) around how much time/money they estimate it would take to get to various points on the list. Agree to work together to deliver the first value point</p>
+
+<p>Building software is not a repeatable process. It is a complex interaction of varying inputs and demands. Accept that</p>
+
+<p>a) you don’t actually know what you want until you actually try and deliver it</p>
+
+<p>b) the developers won’t actually know how long it will take until they actually try and deliver it</p>
+
+<p>Worth a read</p>
+
+<p><a href="http://www.quora.com/Engineering-Management/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3">http://www.quora.com/Engineering-Management/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[5 Unusual Ways to Internet Superstardom]]></title>
@@ -764,29 +795,6 @@ end
 <p>Esendex and it&#8217;s team members are probably broadly better off as a result of this budget. Whether the country is, remains to be seen.</p>
 
 <p>This leaves us with an important responsibility. We must continuing growing, exporting and investing so that we can further contribute to our local economy and community.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spork not reloading classes]]></title>
-    <link href="http://www.adambird.com/spork-not-reloading-classes"/>
-    <updated>2012-03-21T00:00:00+00:00</updated>
-    <id>http://www.adambird.com/spork-not-reloading-classes</id>
-    <content type="html"><![CDATA[<p>Have been caught out by this for a while with a Rails app that suddenly stopped seeing code changes to classes as I was redeveloping.. Not being able to test with spork running really slowed down my development cycle. Thankfully someone found a fix.</p>
-
-<p>Replace this line in test.rb</p>
-
-<pre><code>config.cache_classes = true
-</code></pre>
-
-<p>with this</p>
-
-<pre><code>config.cache_classes = !(ENV['DRB'] == 'true')
-</code></pre>
-
-<p>and development is back to full speed.</p>
-
-<p>More info here&nbsp;<a href="http://Spork not reloading classes">http://www.avenue80.com/tiny-tip-spork-not-reloading-classes/</a></p>
 ]]></content>
   </entry>
   

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>A DVCS working process - Bird Stream</title>
+  <title>How to specify a software project - Bird Stream</title>
   <meta name="author" content="Adam">
 
   
-  <meta name="description" content="I've started working with Git using GitHub as a remote repository. This introduces into my life branching as a cheap operation and makes for a &hellip;">
+  <meta name="description" content="There are three variables in software projects Time, Scope, Quality. You can only choose to control two of them. The approach I would take to project &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.adambird.com/a-dvcs-working-process">
+  <link rel="canonical" href="http://www.adambird.com/how-to-specify-a-software-project">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,7 +79,7 @@
   
   <header>
     
-      <h1 class="entry-title">A DVCS Working Process</h1>
+      <h1 class="entry-title">How to Specify a Software Project</h1>
     
     
       <p class="meta">
@@ -95,40 +95,36 @@
   
 
 
-<time datetime="2010-09-04T00:00:00+01:00" pubdate data-updated="true">Sep 4<span>th</span>, 2010</time>
+<time datetime="2014-05-01T09:09:00+01:00" pubdate data-updated="true">May 1<span>st</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I&#8217;ve started working with Git using <a href="http://github.com">GitHub</a> as a remote repository. This introduces into my life branching as a cheap operation and makes for a potentially different way of working.</p>
+<div class="entry-content"><p>There are three variables in software projects Time, Scope, Quality. You can only choose to control two of them. The approach I would take to project specification is</p>
 
-<p>After a discussion with the guys at work on Friday afternoon, here&#8217;s what I&#8217;ve come up with:</p>
+<!-- more -->
 
-<p>Start a new feature =&gt; start a new branch.</p>
 
-<p><code>git branch master [feature branch name]</code></p>
+<ol>
+<li>Build up list of requirements</li>
+<li>Put those requirements in priority order</li>
+<li>Review that list and decide the key value points along that list</li>
+</ol>
 
-<p>The master branch is preserved for the current release code. My <a href="http://www.hudson-ci.org">Hudson</a> instance is only monitoring that branch for changes and ignoring all other branches.</p>
 
-<p>I then push the branch to my remote repository so I get the benefits of a back-up as well being able to share the branch if I need to collaborate with someone else on it in the future.</p>
+<p>Have a discussion with developer(s) around how much time/money they estimate it would take to get to various points on the list. Agree to work together to deliver the first value point</p>
 
-<p><code>git push [remote repository address] [feature branch name]</code></p>
+<p>Building software is not a repeatable process. It is a complex interaction of varying inputs and demands. Accept that</p>
 
-<p>The code rythym then becomes add files, commit to the branch and then push to the remote repo branch.</p>
+<p>a) you don’t actually know what you want until you actually try and deliver it</p>
 
-<p>Once the feature is finished then it&#8217;s a case of squashing the commits on my local master branch and then pushing them to the remote copy.</p>
+<p>b) the developers won’t actually know how long it will take until they actually try and deliver it</p>
 
-<p><code>git checkout master</code></p>
+<p>Worth a read</p>
 
-<p><code>git merge --squash [feature branch name]</code></p>
-
-<p><code>git push</code></p>
-
-<p>Then it&#8217;s just a case of deleting the feature branch when I&#8217;m happy it&#8217;s complete</p>
-
-<p>Would appreciate any thoughts on this, does it sound sensible?</p>
+<p><a href="http://www.quora.com/Engineering-Management/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3">http://www.quora.com/Engineering-Management/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3</a></p>
 </div>
 
 
@@ -151,12 +147,12 @@
   
 
 
-<time datetime="2010-09-04T00:00:00+01:00" pubdate data-updated="true">Sep 4<span>th</span>, 2010</time>
+<time datetime="2014-05-01T09:09:00+01:00" pubdate data-updated="true">May 1<span>st</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/dev/'>dev</a>
+    <a class='category' href='/blog/categories/business/'>business</a>, <a class='category' href='/blog/categories/dev-/'>dev,</a>
   
 </span>
 
@@ -165,7 +161,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambird.com/a-dvcs-working-process" data-via="adambird" data-counturl="http://www.adambird.com/a-dvcs-working-process" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambird.com/how-to-specify-a-software-project" data-via="adambird" data-counturl="http://www.adambird.com/how-to-specify-a-software-project" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -178,10 +174,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/test-teams-are-pointless-and-counter-producti" title="Previous Post: Test teams are pointless and counter-productive">&laquo; Test teams are pointless and counter-productive</a>
+        <a class="basic-alignment left" href="/5-unusual-ways-to-internet-superstardom" title="Previous Post: 5 Unusual Ways to Internet Superstardom">&laquo; 5 Unusual Ways to Internet Superstardom</a>
       
-      
-        <a class="basic-alignment right" href="/how-we-laughed" title="Next Post: How we laughed!!!">How we laughed!!! &raquo;</a>
       
     </p>
   </footer>
@@ -407,8 +401,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://www.adambird.com/a-dvcs-working-process';
-        var disqus_url = 'http://www.adambird.com/a-dvcs-working-process';
+        var disqus_identifier = 'http://www.adambird.com/how-to-specify-a-software-project';
+        var disqus_url = 'http://www.adambird.com/how-to-specify-a-software-project';
         var disqus_script = 'embed.js';
       
     (function () {
