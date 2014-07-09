@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2014-05-01T09:12:50+01:00</updated>
+  <updated>2014-07-09T13:25:55+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Excellent 3 minute pitch]]></title>
+    <link href="http://www.adambird.com/excellent-3-minute-pitch"/>
+    <updated>2014-07-09T13:04:00+01:00</updated>
+    <id>http://www.adambird.com/excellent-3-minute-pitch</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been researching 3 minute pitches recently as we&#8217;re starting to share the <a href="http://www.onediary.com">One Diary</a> vision with investors and other interested parties.</p>
+
+<p>Came across this from Ryan Spraetz of <a href="http://keen.io">Keen.io</a>. It must be up there as a great example of the a 3 minute story pitch.</p>
+
+<!-- more -->
+
+
+<iframe width="640" height="360" src="http://www.adambird.com//www.youtube.com/embed/GD22EsvRJvk" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to specify a software project]]></title>
@@ -773,28 +790,6 @@ end
 <p><strong>Models</strong> to model the domain irrespective of how it&#8217;s being interacted with.</p>
 
 <p>What do you think?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My two-penneth on the 2012 Budget]]></title>
-    <link href="http://www.adambird.com/my-two-penneth-on-the-2012-budget"/>
-    <updated>2012-03-22T00:00:00+00:00</updated>
-    <id>http://www.adambird.com/my-two-penneth-on-the-2012-budget</id>
-    <content type="html"><![CDATA[<p>The most disappointing announcement for me was that Nottingham has missed out on it&#8217;s bid for the Super Connected Cities fund. It&#8217;s a real shame for the city. There was an additional, smaller, fund announced so hopefully the bid team can dust themselves off and we can go again.</p>
-
-<p>Much was made the day before the budget about discounted lending for small businesses, ie those with less than &pound;50m turnover. This is an amendment to the existing Enterprise Finance Guarantee Scheme where the government underwrites this lending, protecting the banks.</p>
-
-<!-- more -->
-
-
-<p>What hasn&#8217;t changed are the rules around lending. So it will only be beneficial if the problem is the cost of credit rather than access to credit for small companies. Unfortunately what am seeing is a problem with the latter rather than the former. I would have liked to have seen more focus on making finance and mentorship available to first time entrepreneurs.</p>
-
-<p>I believe that the Chancellor has taken a fairly big gamble with taxation. He&#8217;s reducing the taxes of the wealthiest in our society, both personal and corporate, with the hypothesis that this will stimulate investment and spending. It will be very hard to judge whether this has had a directly attributable effect whatever the outcome.</p>
-
-<p>Esendex and it&#8217;s team members are probably broadly better off as a result of this budget. Whether the country is, remains to be seen.</p>
-
-<p>This leaves us with an important responsibility. We must continuing growing, exporting and investing so that we can further contribute to our local economy and community.</p>
 ]]></content>
   </entry>
   
