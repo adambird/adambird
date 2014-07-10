@@ -49,7 +49,7 @@ This hit me as we left Betws-y-Coed for Capel Curig, a steep climb out of town. 
 
 This was a strange and dark time that finally ended when I spied the others at the [Pinnacle Cafe](http://www.pinnaclepursuits.co.uk/cafe.htm). Two cans of coke, a bacon and egg bap, coffee and cake restored me somewhat but I left first, determined to get this over with.
 
-We were still 60 miles from out destination and we hadn't got over Pen-y-Pass (Snowden) yet. I needn't have worried this towering precipice I was imagining was a small rise and we still hurtling down to Llanberis.
+I may have been a little grumpy at this point. We were still 60 miles from our destination and we hadn't got over Pen-y-Pass (Snowden) yet. I needn't have worried. The towering precipice of my imagination was a relatively small rise and we soon hurtling down the valley to Llanberis.
 
 Bizarrely I bumped into a college mate I hadn't seen for 17 years on the ascent.
 
