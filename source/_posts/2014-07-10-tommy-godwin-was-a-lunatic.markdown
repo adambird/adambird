@@ -82,4 +82,6 @@ Rarely has beer tasted finer than those first few in The Albion. Made all the mo
 
 Legend!
 
+<img src="/images/the-albion.jpg" width="600px">
+
 A double century is an epic cycling challenge and one that I could only recommend before doing it or towards the end of the evening after having done it. My answer wouldn't have been quite so positive while actuall engaged in it.
