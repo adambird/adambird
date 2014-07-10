@@ -33,9 +33,11 @@ I invented a new dish at our food stop, the rather splendid [Festival Drayton Ce
 
 <img src="/images/cowboy-jacket.jpg" width="600px">
 
-Leaving Market Drayton, the home of gingerbread as we discovered, things turned distinctly darker. Literally.
+Leaving Market Drayton, the home of gingerbread as we discovered, things turned distinctly darker.
 
-The promised rain started and persisted for several hours. Route finding became difficult as we tried to avoid the major roads as much as possible. Spirits definitely were on the slide even though we'd been joined by another couple of friends for he last 125 miles.
+Literally.
+
+The promised rain started and persisted for several hours. Route finding became difficult as we tried to avoid the major roads as much as possible. Spirits definitely were on the slide even though we'd been joined by another couple of friends for the last 125 miles.
 
 <img src="/images/raining.jpg" width="600px">
 
@@ -57,11 +59,13 @@ So the worst was over, one more hill and then it was the flat run round the coas
 
 Errmm no.
 
-The 'one more hill' was a 20% gradient monster that was just laughably hard. Laughably in that make it stop kind of way reserved for the bit in films when the protagonist know's that he's finally been broken.
+The 'one more hill' was a 20+% gradient monster that was just laughably hard. Laughably in that make it stop kind of way reserved for the bit in films when the protagonist know's that he's finally been broken.
 
 <img src="/images/the-last-climb.jpg" width="600px">
 
 The 'flat run' was lots of steep short inclines and then Adrian and I lost the cycle lane and were forced to use the A55 dual carriageway picking up a puncture for our trouble.
+
+As the person responsible for the route I was perhaps the least popular person on the road by that point. The fact that I was sharing the suffering didn't really engender much sympathy from my companions.
 
 I also bonked again near Caernarfon.
 
@@ -78,4 +82,4 @@ Rarely has beer tasted finer than those first few in The Albion. Made all the mo
 
 Legend!
 
-A double century is an epic cycling challenge and one that I could only recommend before doing it or towards the end of the evening after having done it. My answer wouldn't have been quite so positive while doing it.
+A double century is an epic cycling challenge and one that I could only recommend before doing it or towards the end of the evening after having done it. My answer wouldn't have been quite so positive while actuall engaged in it.
