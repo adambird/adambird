@@ -4,7 +4,7 @@
   <title><![CDATA[Bird Stream]]></title>
   <link href="http://www.adambird.com/atom.xml" rel="self"/>
   <link href="http://www.adambird.com/"/>
-  <updated>2014-07-10T23:21:56+01:00</updated>
+  <updated>2015-07-24T15:43:34+01:00</updated>
   <id>http://www.adambird.com/</id>
   <author>
     <name><![CDATA[Adam]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Agile is a state of mind]]></title>
+    <link href="http://www.adambird.com/agile-is-a-state-of-mind"/>
+    <updated>2014-08-08T08:24:00+01:00</updated>
+    <id>http://www.adambird.com/agile-is-a-state-of-mind</id>
+    <content type="html"><![CDATA[<p>My Agile journey has been one of intoxication, dogma and disillusionment. Enlightenment only came when we started to look beyond development and see how we could make the entire business agile.</p>
+
+<p>Like many of my comtemporaries, I was introduced to Agile Development through reading <a href="">Extreme Programming Explained</a> by <a href="">Kent Beck</a>.</p>
+
+<p>I was instantly convinvced.</p>
+
+<p>After years of struggling with building reliable systems and the accompanying late night debugging sessions here was the</p>
+
+<p>Intoxicated I</p>
+
+<p>Dogma as I understood the what but not truly the why.</p>
+
+<p>Disillusionment so slow, so hard,</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tommy Godwin was a lunatic]]></title>
@@ -110,7 +131,7 @@
     <link href="http://www.adambird.com/excellent-3-minute-pitch"/>
     <updated>2014-07-09T13:04:00+01:00</updated>
     <id>http://www.adambird.com/excellent-3-minute-pitch</id>
-    <content type="html"><![CDATA[<p>I&#8217;ve been researching 3 minute pitches recently as we&#8217;re starting to share the <a href="http://www.onediary.com">One Diary</a> vision with investors and other interested parties.</p>
+    <content type="html"><![CDATA[<p>I&#8217;ve been researching 3 minute pitches recently as we&#8217;re starting to share the <a href="https://www.cronofy.com">Cronofy</a> vision with investors and other interested parties.</p>
 
 <p>Came across this from Ryan Spraetz of <a href="http://keen.io">Keen.io</a>. It must be up there as a great example of the a 3 minute story pitch.</p>
 
@@ -760,17 +781,6 @@ Rain 84%
 
 <pre><code>Delayed::Job.all.each do |job| job.invoke_job ; job.destroy end
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Remain friends with your Git collaborators by auto removing whitespace in Textmate]]></title>
-    <link href="http://www.adambird.com/remain-friends-with-your-git-collaborators-by"/>
-    <updated>2012-05-18T00:00:00+01:00</updated>
-    <id>http://www.adambird.com/remain-friends-with-your-git-collaborators-by</id>
-    <content type="html"><![CDATA[<p>Handy article that shows you how to do just that</p>
-
-<p><a href="http://blogobaggins.com/2009/03/31/waging-war-on-whitespace.html">http://blogobaggins.com/2009/03/31/waging-war-on-whitespace.html</a></p>
 ]]></content>
   </entry>
   

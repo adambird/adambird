@@ -6,7 +6,7 @@ comments: true
 categories: business
 ---
 
-I've been researching 3 minute pitches recently as we're starting to share the [One Diary](http://www.onediary.com) vision with investors and other interested parties.
+I've been researching 3 minute pitches recently as we're starting to share the [Cronofy](https://www.cronofy.com) vision with investors and other interested parties.
 
 Came across this from Ryan Spraetz of [Keen.io](http://keen.io). It must be up there as a great example of the a 3 minute story pitch.
 
